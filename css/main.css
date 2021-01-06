@@ -1,7 +1,7 @@
 body {
     font-size: 20px;
     line-height: 1.5;
-    font-family: Sans-Serif;
+    font-family: Sans-serif;
 }
 
 .title {
@@ -15,14 +15,16 @@ main,
 footer {
     margin: 1.25rem auto;
     max-width: 750px;
+    border-radius: 15px;
 }
 
 header,
 footer {
-    background-color: #E6E6FA;
+    background-color: #f08080;
     color: black;
     text-align: center;
     padding: 1.25rem;
+     
 }
 
 header img {
@@ -31,8 +33,10 @@ header img {
     width: 200px;
     margin: 15px;
     margin-top: -130px;
+    box-shadow: 5px 5px 5px #999;
+    border-top-right-radius: 8px; 
 }
 
 .under {
-    text-decoration: underline;    
+    text-decoration: underline;
 }
