@@ -10,7 +10,7 @@
   <link href="css/main.css" rel="stylesheet" type="text/css">
 </head>
 
-<body>
+<body onload="lastUpdated()">
   <header>
     <h1 class="title">Alejandra C. Black</h1>
     <img src="image/20210104_235644.jpg" alt="Alejandra Black's profile image" />
@@ -31,17 +31,7 @@
     &copy; 2021 | Alejandra C. Black | Arizona | <a href="https://www.byui.edu/online">BYU Online Learning</a>
     <div>Last Updated <span id="date"></span></div>
   </footer>
-  <script>
-    /* I'm using the example from the lesson to see I figure out the issue with my Javascript. It will be removed once I get mine running. 
-    const options = {weekdays:'numeric', day:'numeric', month:'numeric',year:'numeric'};
-    ducument.getElementById("date").textContent = new Date().toLocaleDateString('en-US',options);
-    */
-    //I found the lastModified Property in W3schools.This is the one I created with guidance from W3schools.I will place my function in it's proper folder once is running. 
-    function lastUpdated() {
-      let a = document.lastModified;
-      document.getElementById("date").innerHTML = a;
-    }
-  </script>
+  <script src="Javascript/date.js"></script>
 </body>
 
 
