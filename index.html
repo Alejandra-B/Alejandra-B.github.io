@@ -32,11 +32,12 @@
     <div>Last Updated <span id="date"></span></div>
   </footer>
   <script>
-    /*
+    /* I'm using the example from the lesson to see I figure out the issue with my Javascript. It will be removed once I get mine running. 
     const options = {weekdays:'numeric', day:'numeric', month:'numeric',year:'numeric'};
     ducument.getElementById("date").textContent = new Date().toLocaleDateString('en-US',options);
     */
-    function lastUpdated() { //I found the lastModified Property in W3schools.This is the one I created with guidance from W3schools.
+    //I found the lastModified Property in W3schools.This is the one I created with guidance from W3schools.I will place my function in it's proper folder once is running. 
+    function lastUpdated() {
       let a = document.lastModified;
       document.getElementById("date").innerHTML = a;
     }
