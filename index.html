@@ -1,9 +1,46 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-us">
+
 <head>
-  <title>Alejandra Black</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=devise-width, initial-scale=1.0">
+  <title>CIT 230 Assigment Portal</title>
+  <meta name="description" content="Web Development portal where all my
+    assignements will be post for others to view" />
+  <link href="css/main.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
- <h1>Alejandra Black</h1>
+  <header>
+    <h1 class="title">Alejandra C. Black</h1>
+    <img src="image/20210104_235644.jpg" alt="Alejandra Black's profile image" />
+  </header>
+
+  <main>
+    <section>
+      <h2 class="under">CIT 230: Assignment Portal</h2>
+    </section>
+    <ul>
+      <li>Lesson 2: <a href="#">Assignment Link</a></li>
+      <li>Lesson 3: <a href="#">Assignment Link</a></li>
+      <li>Lesson 4: <a href="#">Link</a>|<a href="#">Link</a></li>
+    </ul>
+  </main>
+  <footer>
+    &copy; 2021 | Alejandra C. Black | Arizona | <a href="https://www.byui.edu/online">BYU Online Learning</a>
+    <div>Last Updated <span id="date"></span></div>
+  </footer>
+  <script>
+    /*const options = {weekdays:'numeric', day:'numeric', month:'numeric',year:'numeric'};
+    ducument.getElementById("date").textContent = new Date().toLocaleDateString('en-US',options);
+    */
+ function lastUpdated(){ //I found the lastModified Property in W3schools.
+  let a = document.lastModified; 
+  document.getElementById("date").innerHTML=a; 
+}
+
+  </script>
 </body>
-</html>  
+
+
+</html>
