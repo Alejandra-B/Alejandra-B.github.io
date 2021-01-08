@@ -9,7 +9,7 @@ body {
 
 .title {
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
     padding-right: 150px;
     font-family: 'Roboto', sans-serif;
 
@@ -33,11 +33,15 @@ footer {
     color: black;
     text-align: center;
     padding: 1rem;
+    border-radius: 15px;
 }
 
 header img {
+    float: right;
     height: 200px;
     width: 200px;
     margin: 15px;
     margin-top: -80px;
+    box-shadow: 5px 5px 5px #999;
+    border-top-right-radius: 8px;
 }
