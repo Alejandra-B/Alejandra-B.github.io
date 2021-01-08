@@ -9,7 +9,7 @@ body {
 
 .title {
     text-align: center;
-    font-size: 45px;
+    font-size: 40px;
     padding-right: 150px;
     font-family: 'Roboto', sans-serif;
 
@@ -37,6 +37,7 @@ footer {
 }
 
 header img {
+
     float: right;
     height: 200px;
     width: 200px;
