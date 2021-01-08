@@ -1,13 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Roboto&display=swap');
+
 body {
     font-size: 20px;
     line-height: 1.5;
-    font-family: Sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 
 .title {
     text-align: center;
     font-size: 45px;
     padding-right: 150px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 50px;
 }
 
 header,
@@ -24,7 +29,7 @@ footer {
     color: black;
     text-align: center;
     padding: 1rem;
-     
+
 }
 
 header img {
@@ -34,6 +39,5 @@ header img {
     margin: 15px;
     margin-top: -130px;
     box-shadow: 5px 5px 5px #999;
-    border-top-right-radius: 8px; 
+    border-top-right-radius: 8px;
 }
-
