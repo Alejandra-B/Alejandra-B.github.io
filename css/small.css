@@ -25,7 +25,7 @@ main,
 footer {
     margin: 1.25rem auto;
     max-width: 750px;
-    border-radius: 15px;
+   
 }
 
 header,
@@ -34,6 +34,7 @@ footer {
     color: black;
     text-align: center;
     padding: 1rem;
+    border-radius: 15px;
 
 }
 
@@ -42,7 +43,7 @@ header img {
     height: 200px;
     width: 200px;
     margin: 15px;
-    margin-top: -130px;
+    margin-top: -80px;
     box-shadow: 5px 5px 5px #999;
     border-top-right-radius: 8px;
 }
