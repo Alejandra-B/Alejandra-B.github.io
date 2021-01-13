@@ -15,7 +15,8 @@
   <link href="css/medium.css" rel="stylesheet">
 </head>
 
-<body onload="lastUpdated()">
+<body onload="lastUpdated()"  onload="year()">
+   
   <header>
     <img class src="images/picture.png" alt="Profile image of the student Alejandra Black facing forward">
     <h1>Alejandra C. Black</h1>
@@ -36,11 +37,19 @@
 
   </main>
   <footer>
-    &copy; 2021 | Alejandra C. Black | Arizona | <a href="https://www.byui.edu/online">BYU Online Learning</a>
-    <div>Last Updated: <span id="date"></span></div>
+    <p>&copy;<span id="currentyear"></span> | Alejandra C. Black | Arizona | <a href="https://www.byui.edu/online">BYU-Idaho Online Learning</a>
+    </p>
+      <div>Last Updated: <span id="lastmodified"></span></div>
   </footer>
-  <script src="js/date.js"></script>
+  <script
+    src="js/currentyear.js"></script>
+  
+  <script src="js/lastmodified.js"></script>
+  
 </body>
 
 
 </html>
+
+
+  
