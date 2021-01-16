@@ -26,15 +26,19 @@ h2 {
     font-size: 25px;
     margin-bottom: 0.5rem;
 }
-
+  
 body,
 header,
 main,
 footer {
     margin: 1.25rem auto;
     max-width: 750px;
-}
 
+}
+header {
+max-width:100%; 
+
+}
 header,
 footer {
     background-color: #ffcccc;
