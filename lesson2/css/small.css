@@ -2,18 +2,18 @@
 
 
 main {
-	max-width: 767px;
-	margin: 0 auto;
-	display: grid;
-	grid-template-columns: 1fr;
-     
+    max-width: 767px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+
 }
 
 body {
     font-size: 20px;
     line-height: 1.5;
     font-family: 'PT Sans Narrow', sans-serif;
-    
+
 }
 
 h1 {
@@ -25,10 +25,9 @@ h1 {
 h2 {
     font-size: 25px;
     margin-bottom: 0.5rem;
-  
 }
 
-body, 
+body,
 header,
 main,
 footer {
@@ -42,13 +41,12 @@ footer {
     color: black;
     text-align: center;
     padding: 1.25rem;
-
 }
 
 .one {
     background-color: #E8E8E8;
     border-radius: 10px;
-    padding: 2em;
+    padding: .5em;
     margin: 1.25rem auto;
     border: 1px solid black;
 }
@@ -56,7 +54,7 @@ footer {
 .two {
     background-color: #E8E8E8;
     border-radius: 10px;
-    padding: 2em;
+    padding: .5em;
     margin: 1.25rem auto;
     border: 1px solid black;
 }
@@ -64,10 +62,12 @@ footer {
 .three {
     background-color: #E8E8E8;
     border-radius: 10px;
-    padding: 2em;
+    padding: .5em;
     margin: 1.25rem auto;
     border: 1px solid black;
+
 }
+
 main section img {
     border: 1px solid black;
 }
