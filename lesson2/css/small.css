@@ -2,7 +2,7 @@
 
 
 main {
-    max-width: 767px;
+    
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr;
@@ -27,18 +27,21 @@ h2 {
     margin-bottom: 0.5rem;
 }
   
+
 body,
 header,
 main,
 footer {
     margin: 1.25rem auto;
-    max-width: 750px;
+    
 
 }
-header {
-max-width:100%; 
 
+body {
+    margin-right: 100px;
+    margin-left: 100px;
 }
+
 header,
 footer {
     background-color: #ffcccc;
@@ -59,7 +62,7 @@ footer {
     background-color: #E8E8E8;
     border-radius: 10px;
     padding: .5em;
-    margin: 1.25rem auto;
+    margin: 1.25rem 50px;
     border: 1px solid black;
 }
 

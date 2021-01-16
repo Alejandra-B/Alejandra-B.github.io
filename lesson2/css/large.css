@@ -11,4 +11,7 @@
     .three {
         grid-column: span 1;
     }
+    .two {
+        margin: 1.25rem 50px;
+    }
 }
