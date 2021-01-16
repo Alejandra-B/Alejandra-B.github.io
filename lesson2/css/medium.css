@@ -1,0 +1,24 @@
+/*Lesson 2 CSS-tablet view*/
+
+@media only screen and (min-width: 37.5em) {
+	main {
+		grid-template-columns: 1fr 1fr;
+	}
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    header,
+    footer {
+        border-radius: 15px;
+    }
+
+    .three {
+        grid-column: span 2;
+    }
+}

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>W02 Design Principles Document</title>
+    <meta name="description" content="This will be my first document where I will be plan and develop a design principles web page">
+    
+    
+    <link href="font" rel="stylesheet"> <!--add my font here-->
+    <link rel="stylesheet" href="css/normalize.css"><!--add the normalize.css here ask if I need to add it to this html as well-->
+    
+    <!--add my small css here-->  <link href="css/small.css" rel="stylesheet">
+    <!--add my medium css here--><link href="" rel="stylesheet">
+    <!--add my large css here--><link href="" rel="stylesheet">
+</head>
+
+<body onload="">
+    <script src="">
+</script>
+
+
+
+<header>
+<h1> </h1>
+
+
+</header>
+<main></main>
+<footer></footer>
+<script src=""></script>
+
+
+</body>
+
+
+
+</html>
