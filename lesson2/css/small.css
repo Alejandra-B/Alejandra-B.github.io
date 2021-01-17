@@ -61,6 +61,7 @@ footer {
     padding: 1em;
     text-align: center;
     column-gap: 50px;
+    margin-right: 5px;
 
 }
 
@@ -70,6 +71,7 @@ footer {
     padding: 1em;
     text-align: center;
     column-gap: 50px;
+    margin-right: 5px;
 }
 
 .three {
@@ -78,6 +80,7 @@ footer {
     padding: 1em;
     text-align: center;
     column-gap: 50px;
+    
 }
 
 main article img {
