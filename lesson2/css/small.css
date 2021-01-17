@@ -7,10 +7,8 @@ main {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr;
-    width: 750px;
+    width: 750px ;
     column-gap: 15px;
-
-
 
 }
 
@@ -70,7 +68,7 @@ footer {
     border-radius: 5px;
     padding: 1em;
     text-align: center;
-   ;
+   
 }
 
 .three {
