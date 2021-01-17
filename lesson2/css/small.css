@@ -35,7 +35,7 @@ header,
 main,
 footer {
     margin: 1.25rem auto;
-    width: 760px;
+    width: 750px;
 }
 
 body {
@@ -59,7 +59,7 @@ footer {
     padding: .5em;
     margin: 1.25rem auto;
     text-align: center;
-    border: .5px solid black;
+    
 }
 
 .two {
@@ -68,7 +68,7 @@ footer {
     padding: .5em;
     margin: 1.25rem auto;
     text-align: center;
-    border: .5px solid black;
+    
 
 }
 
@@ -78,7 +78,7 @@ footer {
     padding: .5em;
     margin: 1.25rem auto;
     text-align: center;
-    border: .5px solid black;
+    
 
 
 }
