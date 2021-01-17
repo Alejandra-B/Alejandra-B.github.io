@@ -14,4 +14,7 @@
     .two {
         margin: 1.25rem 50px;
     }
+    .one, .two, .three {
+         max-width: 750px;
+    }
 }

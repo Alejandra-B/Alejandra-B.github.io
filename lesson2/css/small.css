@@ -1,5 +1,6 @@
 /* Lesson 2 CSS-phone view */
 
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 
 main {
 
@@ -7,18 +8,20 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     max-width: 750px;
+    padding: auto;
 }
 
 body {
     font-size: 20px;
     line-height: 1.5;
     font-family: 'PT Sans Narrow', sans-serif;
+    background-color: ;
 }
 
 h1 {
     text-align: center;
     font-size: 30px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Kalam', cursive;
 }
 
 h2 {
@@ -32,7 +35,7 @@ header,
 main,
 footer {
     margin: 1.25rem auto;
-    /*max-width: 750px;*/
+    width: 750px;
 }
 
 body {
@@ -53,7 +56,7 @@ footer {
     border-radius: 10px;
     padding: .5em;
     margin: 1.25rem auto;
-    border: 1px solid black;
+   text-align: center;
 }
 
 .two {
@@ -61,7 +64,8 @@ footer {
     border-radius: 10px;
     padding: .5em;
     margin: 1.25rem auto;
-    border: 1px solid black;
+    text-align: center;
+   
 }
 
 .three {
@@ -69,10 +73,20 @@ footer {
     border-radius: 10px;
     padding: .5em;
     margin: 1.25rem auto;
-    border: 1px solid black;
+    text-align: center;
+    
 
 }
 
 main article img {
-    border: 1px solid black;
+    border: 2px solid white;
+    box-shadow: 5px 5px #afa8a8;
+    max-width: 280px;
+}
+
+h3 {
+    font-size: 25px;
+    color:black; 
+    background-size: cover;
+    font-family: 'Kalam', cursive;;
 }
