@@ -1,11 +1,12 @@
 /*Lesson 2 CSS-tablet view*/
 
 @media only screen and (min-width: 37.5em) {
-	main {
-        
+    main {
+
         grid-template-columns: 1fr 1fr;
-        
+
     }
+
     .three {
         grid-column: span 2;
 
@@ -20,7 +21,7 @@
     }
 
 
-    .imagethree{
+    .imagethree {
         display: block;
         margin-left: auto;
         margin-right: auto;
