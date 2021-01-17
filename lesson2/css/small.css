@@ -21,12 +21,12 @@ body {
 
 h1 {
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
     font-family: 'Kalam', cursive;
 }
 
 h2 {
-    font-size: 25px;
+    font-size: 40px;
     margin-bottom: 0.5rem;
 }
 
@@ -42,6 +42,7 @@ footer {
 body {
     margin-right: 100px;
     margin-left: 100px;
+    font-size: 30px;
 }
 
 header,
@@ -66,12 +67,12 @@ footer {
 
 main article img {
     border: 2px solid white;
-    box-shadow: 9px 9px #787878;
+    box-shadow: 6px 6px 10px #484848;
     width: 100%;
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 35px;
     color: black;
     background-size: cover;
     font-family: 'Kalam', cursive;
