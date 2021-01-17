@@ -4,17 +4,12 @@
     main{
         grid-template-columns: 1fr 1fr 1fr;
     }
-    header,
-    footer {
-        border-radius: 15px;
-    }
+   
     .three {
         grid-column: span 1;
     }
     .two {
-        margin: 1.25rem 50px;
+        margin: 1rem 10px;
     }
-    .one, .two, .three {
-         max-width: 750px;
-    }
+    
 }

@@ -7,7 +7,7 @@ main {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr;
-    max-width: 750px;
+    width: 750px;
     padding: auto;
 }
 
@@ -35,7 +35,7 @@ header,
 main,
 footer {
     margin: 1.25rem auto;
-    width: 750px;
+    width: 760px;
 }
 
 body {
@@ -49,32 +49,37 @@ footer {
     color: black;
     text-align: center;
     padding: 1.25rem;
+    border-radius: 10px;
+    width: 760px;
 }
 
 .one {
     background-color: #E8E8E8;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: .5em;
     margin: 1.25rem auto;
-   text-align: center;
+    text-align: center;
+    border: .5px solid black;
 }
 
 .two {
     background-color: #E8E8E8;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: .5em;
     margin: 1.25rem auto;
     text-align: center;
-   
+    border: .5px solid black;
+
 }
 
 .three {
     background-color: #E8E8E8;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: .5em;
     margin: 1.25rem auto;
     text-align: center;
-    
+    border: .5px solid black;
+
 
 }
 
@@ -86,7 +91,11 @@ main article img {
 
 h3 {
     font-size: 25px;
-    color:black; 
+    color: black;
     background-size: cover;
-    font-family: 'Kalam', cursive;;
+    font-family: 'Kalam', cursive;
+    
+}
+.dillards, .underarmour, .pbs {
+    text-align: left;
 }
