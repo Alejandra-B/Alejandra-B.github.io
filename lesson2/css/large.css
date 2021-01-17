@@ -8,8 +8,4 @@
     .three {
         grid-column: span 1;
     }
-    .two {
-        margin: 1rem 10px;
-    }
-    
 }
