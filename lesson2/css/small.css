@@ -8,6 +8,7 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     width: 750px;
+    column-gap: 15px;
 
 
 
@@ -60,8 +61,7 @@ footer {
     border-radius: 5px;
     padding: 1em;
     text-align: center;
-    column-gap: 50px;
-    margin-right: 5px;
+    
 
 }
 
@@ -70,8 +70,7 @@ footer {
     border-radius: 5px;
     padding: 1em;
     text-align: center;
-    column-gap: 50px;
-    margin-right: 5px;
+   ;
 }
 
 .three {
@@ -79,7 +78,7 @@ footer {
     border-radius: 5px;
     padding: 1em;
     text-align: center;
-    column-gap: 50px;
+    
     
 }
 
