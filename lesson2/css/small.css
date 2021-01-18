@@ -42,6 +42,7 @@ footer {
 body {
     margin-right: 100px;
     margin-left: 100px;
+    background-color: rgb(250, 245, 245);
 }
 
 header,
@@ -57,7 +58,7 @@ footer {
 .one,
 .two,
 .three {
-    background-color: #d8bfd8;
+    background-color: white;
     border-radius: 5px;
     padding: 1em;
     text-align: center;
