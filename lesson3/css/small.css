@@ -20,7 +20,7 @@ p {
 }
 
 header {
-    
+
     color: white;
     background-color: #001524;
     text-align: center;
@@ -36,10 +36,13 @@ nav {
 .headingpage3,
 .headingpage4 {
     font-size: 25px;
+    color: #156160;
 }
-h1{
+
+h1 {
     font-size: 30px;
 }
+
 h3 {
     font-size: 23px;
 }
@@ -50,7 +53,7 @@ p {
 }
 
 ul,
-ul,
+li,
 ol {
     font-size: 18px;
 }
@@ -111,16 +114,65 @@ nav a:hover {
     color: black;
 }
 
-.active {
-    color: yellow;
-}
-
-
-
-
 
 .byu {
     color: white;
     background-color: transparent;
 
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+}
+
+table {
+    width: 100%,
+
+}
+
+th {
+    text-align: left;
+}
+
+.sample1 {
+    font-family: 'Yusei Magic', sans-serif;
+    background-color: #001524;
+    color: white;
+    font-size: 30px;
+}
+
+.sample2 {
+    font-family: 'Lato', sans-serif;
+    background-color: #156160;
+    color: white;
+    font-size: 25px;
+
+}
+
+.sample3 {
+    font-family: 'Yusei Magic', sans-serif;
+    color: black;
+    font-size: 25px;
+}
+
+.sample4 {
+    font-family: 'Yusei Magic', sans-serif;
+    color: black;
+    font-size: 22px;
+}
+
+.sample5 {
+    font-family: 'Yusei Magic', sans-serif;
+    color: #156160;
+    font-size: 20px;
+}
+
+.sample6 {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-size: 18px;
 }
