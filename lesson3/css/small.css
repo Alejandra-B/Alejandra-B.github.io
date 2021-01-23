@@ -1,0 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+ 
+header,h1,h2,h3,h4,footer,ul,il,ol {
+    font-family: 'Yusei Magic', sans-serif;   
+}
+
+ nav,p {
+    font-family: 'Lato', sans-serif;
+ }
+
+ header {
+     font-size: 28px;
+     color:white;
+     background-color: #001524;
+     text-align: center;
+     padding:1rem; 
+ }
+ nav {
+     font-size:25px;
+ }
+  h3 {
+      font-size: 20px;
+  }
+  h4 {
+      font-size: 20px;
+  }
+  p {
+      font-size: 18px;
+  }
+footer {
+    color:white;
+    background-color: #001524;
+    padding: 1rem; 
+    text-align: center;
+}
