@@ -38,6 +38,13 @@ nav {
     font-size: 25px;
     color: #156160;
 }
+ 
+main{
+    margin:15px;
+}
+
+
+
 
 h1 {
     font-size: 30px;
@@ -126,7 +133,7 @@ th,
 td {
     border: 2px solid black;
     border-collapse: collapse;
-    padding: 15px;
+    padding: 10px;
 }
 
 th {
@@ -170,4 +177,7 @@ th {
     font-family: 'Lato', sans-serif;
     color: black;
     font-size: 18px;
+}
+.colors{
+    width: 100%;
 }
