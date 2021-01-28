@@ -28,21 +28,16 @@ footer {
 header {
     display: flex;
     flex-direction: row;
+    /*the row value stacks the flex items horinzontally (from left to right)*/
+    align-items: center;
+    /* Perfect centering: Set both the justify-content and align-items properties to center, and the flex items will be perfectly centered*/
+    justify-content: center;
 
 }
 
-.logo {
-    flex: 1 0 0%;
-
-}
-
-.motto,
 h1 {
-    flex: auto;
-    display: flex;
     font-size: 30px;
-    margin:10px;
-    
+    margin: 10px;
 }
 
 .motto {
@@ -50,32 +45,25 @@ h1 {
     font-style: italic;
     font-weight: normal;
     margin: 5px;
+    color: white;
 }
-
-
-
 
 nav {
     font-size: 20px;
     width: 100%;
 }
 
-
-
 h2 {
     font-size: 25px;
     text-align: center;
     text-decoration: none;
-    color:black;
+    color: black;
 }
 
 ul,
-li
-    {
+li {
     font-size: 18px;
 }
-
-
 
 
 footer {
@@ -86,10 +74,8 @@ footer {
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    
+
 }
-
-
 
 header,
 nav,
@@ -145,6 +131,4 @@ nav a:hover {
     color: black;
     font-family: 'Yusei Magic', sans-serif;
     font-size: 20px;
-    
-
 }
