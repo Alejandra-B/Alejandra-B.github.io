@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+header,
+h1,
+h2,
+footer,
+ul,
+il {
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+
+nav {
+    font-family: 'Lato', sans-serif;
+}
+
+header,
+footer {
+
+    color: white;
+    background-color: #001524;
+    text-align: center;
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.logo {
+    flex: 1 0 0%;
+
+}
+
+.motto,
+h1 {
+    flex: auto;
+    display: flex;
+    font-size: 30px;
+    margin:10px;
+    
+}
+
+.motto {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: normal;
+    margin: 5px;
+}
+
+
+
+
+nav {
+    font-size: 20px;
+    width: 100%;
+}
+
+
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+ul,
+li,
+    {
+    font-size: 18px;
+}
+
+
+
+
+footer {
+    color: white;
+    background-color: #001524;
+    padding: 1rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+header,
+nav,
+main,
+footer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 5px;
+
+}
+
+main {
+    padding: 10px;
+}
+
+
+nav {
+    background-color: #156160;
+    text-align: center;
+    box-shadow: 0 5px 15px gray;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0.70rem;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+
+nav a:hover {
+    background-color: #ff7d00;
+
+    color: black;
+}
+
+.contentbox {
+    display: block;
+    margin: 10px auto;
+    border: .5px solid black;
+    padding: 15px;
+    background-color: #FFECD1;
+    color: black;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 20px;
+    
+
+}

@@ -1,4 +1,4 @@
- @media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
 
     nav ul {
         display: flex;
@@ -7,4 +7,5 @@
     nav ul li {
         flex: 1 1 100%;
     }
+
  }
