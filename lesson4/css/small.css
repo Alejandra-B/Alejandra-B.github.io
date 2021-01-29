@@ -27,10 +27,8 @@ footer {
 
 header {
     display: flex;
-    flex-direction: row;
-    /*the row value stacks the flex items horinzontally (from left to right)*/
-    align-items: center;
-    /* Perfect centering: Set both the justify-content and align-items properties to center, and the flex items will be perfectly centered*/
+    flex-direction: row; /*the row value stacks the flex items horinzontally (from left to right)*/
+    align-items: center; /* Perfect centering: Set both the justify-content and align-items properties to center, and the flex items will be perfectly centered*/
     justify-content: center;
 
 }
@@ -129,8 +127,7 @@ nav {
 }
 
 nav ul {
-    list-style-type: none;
-    /*this removes the bullet points on the side of each list item*/
+    list-style-type: none; /*this removes the bullet points on the side of each list item*/
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -138,16 +135,12 @@ nav ul {
 }
 
 nav ul li a {
-    display: block;
-    /*this places the nav in a block for the small screen view*/
+    display: block; /*this places the nav in a block for the small screen view*/
     color: white;
     text-align: center;
     padding: 9px;
-    text-decoration: none;
-    /* this removes the underline from every list item*/
+    text-decoration: none;/* this removes the underline from every list item*/
     font-size: 1rem;
-    /*border-top: 1px solid gray;this is the border in between each item on the list when on cell phone view*/
-
 }
 
 nav ul li.active a {
