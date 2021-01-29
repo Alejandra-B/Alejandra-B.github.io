@@ -34,15 +34,18 @@ header {
     justify-content: center;
 
 }
+
 .heading {
     display: flex;
     flex-direction: column;
 }
-header img{
-    width:80px;
-    height:auto;
+
+header img {
+    width: 80px;
+    height: auto;
 }
- .heading h1 {
+
+.heading h1 {
     font-size: 25px;
     margin: 10px;
 
@@ -60,10 +63,13 @@ nav {
     font-size: 20px;
     width: 100%;
 }
+
 nav button {
-    background-color: #FFECD1; 
-    border:none; 
-    font-size: 35px;
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+    color: white;
+
 }
 
 
@@ -88,6 +94,7 @@ footer {
     flex-flow: column;
     align-items: center;
     justify-content: center;
+    font-size: 15px;
 
 }
 
@@ -113,7 +120,8 @@ nav {
 }
 
 nav ul {
-    list-style-type: none; /*this removes the bullet points on the side of each list item*/
+    list-style-type: none;
+    /*this removes the bullet points on the side of each list item*/
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -121,24 +129,34 @@ nav ul {
 }
 
 nav ul li a {
-    display: block; /*this places the nav in a block for the small screen view*/
+    display: block;
+    /*this places the nav in a block for the small screen view*/
     color: white;
     text-align: center;
     padding: 9px;
-    text-decoration: none;/* this removes the underline from every list item*/
+    text-decoration: none;
+    /* this removes the underline from every list item*/
     font-size: 1rem;
     /*border-top: 1px solid gray;this is the border in between each item on the list when on cell phone view*/
 
 }
 
+nav ul li.active a {
+    background-color: #001524;
+    color: white;
 
-/*.active goes here*/
+}
+
+/*always place .active before "hover" so it can work properly*/
+
+
 nav a:hover {
     background-color: #ff7d00;
     color: black;
 }
+
 nav ul.hide {
-    display:none;
+    display: none;
 }
 
 .contentbox {
