@@ -7,3 +7,27 @@
         flex: 1 1 100%;
     }
 }
+header img {
+    width:100%; 
+}
+.heading h1 {
+    font-size:30px; 
+}
+.motto {
+    font-size:15px;
+}
+h2{
+    font-size:25px;
+}
+ul,
+li {
+    font-size: 20px;
+}
+ /*nav button {
+     display:none; 
+ }*/
+
+ /*nav ul li a {
+     
+     border-right: 1px solid gray;*/
+ }
