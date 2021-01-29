@@ -7,10 +7,11 @@
     nav ul li {
         flex: 1 1 100%;
     }
- }
- /*nav button {
+ 
+ nav button {
     display:none; */
 }
 nav ul.hide {
     display: flex;
+}
 }

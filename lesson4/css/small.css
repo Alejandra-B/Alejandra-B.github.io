@@ -107,6 +107,11 @@ footer {
     padding-top: 5px;
 
 }
+  
+picture{
+    padding:5px; 
+}
+
 
 main {
     padding: 10px;
@@ -168,4 +173,8 @@ nav ul.hide {
     color: black;
     font-family: 'Yusei Magic', sans-serif;
     font-size: 20px;
+}
+#copy {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
