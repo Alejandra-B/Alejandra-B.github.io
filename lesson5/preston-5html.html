@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Weather Site Planning Home Page</title>
+    <meta name="description" content="This page will contain my weather site planning document Home Page.">
+
+    <link rel="shortcut icon" href="favicon.ico/icon_32f88267bfc9b9b9540121e0394fdd15.ico">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+</head>
+
+<body onload="currentDate()">
+    <script src="js/currentdate.js"></script>
+
+    <header>
+        <picture>
+            <img src="images/myicon.png"
+                alt="Drawing of a colorful rainbow behind a cloud.">
+        </picture>
+        <section class="heading">
+            <h1>Always Ready</h1>
+            <div class="motto">Relax...we got you covered!</div>
+        </section>
+
+
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="">
+            <li class="active"><a href="preston-4.html">Home</a></li>
+            <li><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Heaven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+
+
+        </ul>
+    </nav>
+    <main>
+        <h2>Preston Idaho</h2>
+
+        <div class="contentbox">Hero/Weather Summary for All Seasons</div>
+        <div class="contentbox">Activities and Places to Visit</div>
+        <div class="contentbox">Forecast</div>
+        <div class="contentbox">Weather Tips</div>
+        <div class="contentbox">Contact Information</div>
+
+
+
+
+    </main>
+
+    <footer>
+        <p><span id="copy">&copy;</span> Always Ready | Atributions | Alejandra Black
+        </p>
+        <div><span id="currentdate"></span></div>
+    </footer>
+
+    <script src="js/currentdate.js"></script>
+
+    <script src="js/toggle.js"></script>
+
+</body>
+
+</html>
