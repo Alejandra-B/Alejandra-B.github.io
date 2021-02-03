@@ -77,6 +77,14 @@ h2 {
     text-decoration: none;
     color: black;
 }
+.banner-box {             /*This is for my banner Image (Idaho Farm) on my Preston page*/
+    display: block;
+
+}
+.banner-image {           /*This is to display my banner image with the right dimensions*/
+    width: 100%;
+    height: auto;
+}
 
 ul,
 li {
