@@ -196,16 +196,28 @@ nav ul.hide {
     display: none;
 }
 
-.contentbox {
+.contentbox, .contentbox4 {
     display: block;
     margin: 10px auto;
-    border: .5px solid black;
+
     padding: 15px;
     background-color: #FFECD1;
     color: black;
     font-family: 'Yusei Magic', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
 }
+
+.social {
+    text-align: left;
+  }
+  
+  .social img {
+    width: 45px;
+  }
+
+
+
+
 
 .map {
     width: 100%;
