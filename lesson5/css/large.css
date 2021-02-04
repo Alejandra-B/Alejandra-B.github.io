@@ -27,5 +27,19 @@
     li {
         font-size: 20px;
     }
+    
+    .weathersummary{
+        position:absolute;
+        font-size: 15px; 
+    }
+
+
+
+
+
+
+
+
+
 
 }
