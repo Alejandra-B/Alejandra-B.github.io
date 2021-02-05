@@ -90,6 +90,7 @@ h2 {
     /*This is to display my banner image with the right dimensions*/
     width: 100%;
     height: auto;
+
 }
 
 .weathersummary {
@@ -196,7 +197,46 @@ nav ul.hide {
     display: none;
 }
 
-.contentbox, .contentbox4 {
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 2px;
+
+
+}
+
+th,
+td {
+    text-align: center;
+}
+
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.balloon {
+    float: right;
+    box-shadow: 0 0 20px #111;
+
+}
+
+.contentbox {
+    display: block;
+    margin: 10px auto;
+    padding: 15px;
+
+    color: black;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 15px;
+}
+
+.contentbox4 {
     display: block;
     margin: 10px auto;
     padding: 15px;
@@ -205,29 +245,29 @@ nav ul.hide {
     font-family: 'Yusei Magic', sans-serif;
     font-size: 15px;
 }
-.contentbox4{
+
+.contentbox4 {
     display: grid;
-  grid-template-rows: 1fr;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 10px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+
 }
+
 .social {
     text-align: left;
-  }
-  
-  .social img {
+}
+
+.social img {
     width: 35px;
-  }
-
-
-
-
+}
 
 .map {
     width: 100%;
-    /*This is my Google Map*/
     height: auto;
 }
+
+/*This is my Google Map*/
 
 
 #copy {
