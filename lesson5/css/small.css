@@ -211,11 +211,11 @@ nav ul.hide {
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
 }
-#social {
+.social {
     text-align: left;
   }
   
-  #social img {
+  .social img {
     width: 35px;
   }
 
