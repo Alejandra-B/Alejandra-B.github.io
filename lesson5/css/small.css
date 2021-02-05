@@ -25,6 +25,18 @@ footer {
 
 }
 
+.cakes {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 5px;
+    text-align: center;
+    background-color: #ff7d00;
+    color: black;
+    font-family: 'Source Code Pro', monospace;
+}
+
+
+
 header {
     display: flex;
     flex-direction: row;
@@ -223,7 +235,7 @@ td {
 .balloon {
     float: right;
     box-shadow: 0 0 20px #111;
-    margin: 5px; 
+    margin: 5px;
 
 }
 
