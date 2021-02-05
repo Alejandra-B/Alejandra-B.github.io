@@ -246,14 +246,6 @@ td {
     font-size: 15px;
 }
 
-.contentbox4 {
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 30px;
-
-}
-
 .social {
     text-align: left;
 }
