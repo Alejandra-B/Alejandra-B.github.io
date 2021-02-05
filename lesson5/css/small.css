@@ -199,20 +199,24 @@ nav ul.hide {
 .contentbox, .contentbox4 {
     display: block;
     margin: 10px auto;
-
     padding: 15px;
     background-color: #FFECD1;
     color: black;
     font-family: 'Yusei Magic', sans-serif;
     font-size: 15px;
 }
-
-.social {
+.contentbox4{
+    display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+#social {
     text-align: left;
   }
   
-  .social img {
-    width: 45px;
+  #social img {
+    width: 35px;
   }
 
 
