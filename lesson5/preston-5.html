@@ -16,8 +16,11 @@
     <link href="css/large.css" rel="stylesheet">
 </head>
 
-<body onload="currentDate()">
+<body onload="currentDate(); pancakes()">
     <script src="js/currentdate.js"></script>
+    <script src="js/pancakes.js"></script>
+    <div id="pan" class="cakes">"Saturday = Preston Pancakes in the Park! 9:00. Saturday at the city park pavillion."
+    </div>
 
     <header>
         <picture>
@@ -30,10 +33,8 @@
     </header>
     <nav>
         <button onclick="toggleMenu()">&#9776;</button>
-        <ul id="primaryNav" class="">
-            <li>
-                <a href="lesson4/preston-4.html">Home</a>
-            </li>
+        <ul>
+            <li><a href="lesson4/preston-4.html">Home</a></li>
             <li class="active"><a href="preston-5.html">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
@@ -45,9 +46,11 @@
         <h2>Preston Idaho</h2>
 
         <div class="banner-box">
-            <img class="banner-image" src="images/bannerimage.jpg" alt="Banner image of Idaho Farm"><!--This is my my hero image-->
+            <img class="banner-image" src="images/bannerimage.jpg" alt="Banner image of Idaho Farm">
+            <!--This is my my hero image-->
 
-            <section class="weathersummary"><!--This is my weather box that is placed on my hero image-->
+            <section class="weathersummary">
+                <!--This is my weather box that is placed on my hero image-->
                 <h3>Weather Summary</h3>
                 <p>Current: Sunny</p>
                 <p>Temperature: 70°F</p>
@@ -56,10 +59,12 @@
                 <p>Wind Speed: 17mph</p>
             </section>
         </div>
-        <div class="contentbox"> <!--This is my table-->
+        <div class="contentbox">
+            <!--This is my table-->
 
             <table class="center">
-                <tr><!--This is the first row of my table with my headings. Each th tag shows how many columns I will have-->
+                <tr>
+                    <!--This is the first row of my table with my headings. Each th tag shows how many columns I will have-->
                     <th>Monday</th>
                     <th>Tuesday</th>
                     <th>Wednesday</th>
@@ -68,7 +73,8 @@
 
                 </tr>
 
-                <tr><!--These are my two rows-->
+                <tr>
+                    <!--These are my two rows-->
                     <td><img src="https://img.icons8.com/plasticine/50/000000/sun--v1.png" alt="sun icon"></td>
                     <td><img src="https://img.icons8.com/plasticine/50/000000/windy-weather.png" alt="wind icon"></td>
                     <td><img src="https://img.icons8.com/plasticine/50/000000/sun--v1.png" alt="sun icon"></td>
@@ -95,9 +101,11 @@
 
         </div>
         <div class="contentbox">
-            <h3>Looking Forward!</h3><!--This is my article-->
+            <h3>Looking Forward!</h3>
+            <!--This is my article-->
 
-            <img class="balloon" src="images/ballons.jpg" alt="Hot Air Ballon Festival."><!--This is the image for my article-->
+            <img class="balloon" src="images/ballons.jpg" alt="Hot Air Ballon Festival.">
+            <!--This is the image for my article-->
             <p>We are proud to announce one of our most colorful and exciting events here in our beloved Preston City.
                 On April 24 2021, from noon until 4 pm, we will celebrate our reach
                 traditions with our yearly Hot Balloon Festival. Come ready to be amazed by the variety of colors and
@@ -112,7 +120,8 @@
                 save the date!</p>
         </div>
 
-        <section class="contentbox4"><!--This is my map and my Contact information, and my social icons in 2 different divisions inside a section-->
+        <section class="contentbox4">
+            <!--This is my map and my Contact information, and my social icons in 2 different divisions inside a section-->
 
             <iframe class="map"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.77385344583!2d-111.9153444655827!3d42.09974162638001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1612380696220!5m2!1sen!2sus"
@@ -149,7 +158,7 @@
         <p><span id="copy">&copy;</span> Always Ready | Alejandra Black</p>
         <div><span id="currentdate"></span></div>
     </footer>
-
+    <script src="js/pancakes.js"></script>
     <script src="js/currentdate.js"></script>
 
     <script src="js/toggle.js"></script>
