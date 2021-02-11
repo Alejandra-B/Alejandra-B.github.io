@@ -23,7 +23,7 @@
     </div>
 
     <header>
-        <picture>
+        <picture class="logo">
             <img src="images/my icon.png" alt="Drawing of a colorful rainbow behind a cloud.">
         </picture>
         <section class="heading">
@@ -48,20 +48,29 @@
     <main>
         <h2>Preston Idaho</h2>
 
-        <div class="banner-box">
-            <img class="banner-image" src="images/bannerimage.jpg" alt="Banner image of Idaho Farm">
-            <!--This is my my hero image-->
+         <!--This is my my hero image-->
+<picture class="myimage"> 
+    <source media="(max-width: 200px)" srcset="images/200.jpg">
+        <source media="(max-width: 500px)" srcset="images/500.jpg">
+            <source media="(max-width: 800px)" srcset="images/800.jpg">
+                <img class="main-image"src="images\wdd230_image_franklinOriginal (23).jpg" alt="image of Preston farm scene">
 
-            <section class="weathersummary">
-                <!--This is my weather box that is placed on my hero image-->
-                <h3>Weather Summary</h3>
-                <p>Current: Sunny</p>
-                <p>Temperature: 70°F</p>
-                <p>Humidity: 71%</p>
-                <p>Precipation: 4%</p>
-                <p>Wind Speed: 17mph</p>
-            </section>
-        </div>
+
+               <!--This is my weather box that is placed on my hero image-->  
+
+        <section class="weathersummary">
+           
+            <h3>Weather Summary</h3>
+            <p>Current: Sunny</p>
+            <p>Temperature: 70°F</p>
+            <p>Humidity: 71%</p>
+            <p>Precipation: 4%</p>
+            <p>Wind Speed: 17mph</p>
+        </section>
+</picture>
+
+       
+        
         <div class="contentbox">
             <!--This is my table-->
 
@@ -161,10 +170,12 @@
         <p><span id="copy">&copy;</span> Always Ready | Alejandra Black</p>
         <div><span id="currentdate"></span></div>
     </footer>
-    <script src="js/pancakes.js"></script><!--This is the function that creates the banner on top of my header every Friday-->
+    <script src="js/pancakes.js"></script>
+    <!--This is the function that creates the banner on top of my header every Friday-->
     <script src="js/currentdate.js"></script>
 
-    <script src="js/toggle.js"></script> <!--This is the function that helps my hamburger menu open and close-->
+    <script src="js/toggle.js"></script>
+    <!--This is the function that helps my hamburger menu open and close-->
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <!--This is the new way I will reference Google Fonts, always add this code-->
     <script src="js/webfontload.js"></script>

@@ -236,7 +236,7 @@ td {
 .balloon {
     float: right;
     box-shadow: 0 0 20px #111;
-    margin: 5px;
+    margin: 0 0 0 2%;
 
 }
 

@@ -56,7 +56,9 @@ header {
 header img {
     width: 80px;
     height: auto;
+    
 }
+
 
 .heading h1 {
     font-size: 25px;
@@ -93,17 +95,13 @@ h2 {
     color: black;
 }
 
-.banner-box {
-    /*This is for my banner Image (Idaho Farm) on my Preston page*/
-    display: block;
-    position: relative;
+ .myimage {
+     display:block; 
+    width:96%; 
 }
-
-.banner-image {
-    /*This is to display my banner image with the right dimensions*/
+.main-image{
+    display: block; 
     width: 100%;
-    height: auto;
-
 }
 
 .weathersummary {
