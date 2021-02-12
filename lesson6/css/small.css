@@ -105,6 +105,15 @@ h2 {
     margin: 0 2%; 
 }
 
+
+.banner-box {
+    /*This is for my banner Image (Idaho Farm) on my Preston page*/
+    display: block;
+    position: relative;
+    
+}
+
+
 .weathersummary {
 
     font-family: 'Yusei Magic', sans-serif;

@@ -47,25 +47,29 @@
 
     <main>
         <h2>Preston Idaho</h2>
+<div class="banner-box">
+    <picture class="myimage">
+        <source media="(max-width: 500px)" srcset="images/small500.jpg">
+        <source media="(max-width: 800px)" srcset="images/medium800.jpg">
+        <source media="(max-width: 1100px)" srcset="images/large1100.jpg">
+        <img class="main-image" src="images/wdd230_image_franklinOriginal.jpg"
+            alt="image of Preston farm scene">
+    </picture>
+    <!--This is my weather box that is placed on my hero image-->
+    <section class="weathersummary">
 
+        <h3>Weather Summary</h3>
+        <p>Current: Sunny</p>
+        <p>Temperature: <span>70</span>°F</p>
+        <p>Humidity: 71%</p>
+        <p>Precipation: 4%</p>
+        <p>Wind Speed: <span>17</span>mph</p>
+        <p>Wind Chill: <span id="windchill"></span></p>
+    </section>
+
+</div>
         <!--This is my my hero image-->
-        <picture class="myimage">
-            <source media="(max-width: 500px)" srcset="images/small500.jpg">
-            <source media="(max-width: 800px)" srcset="images/medium800.jpg">
-            <source media="(max-width: 1100px)" srcset="images/large1100.jpg">
-            <img class="main-image" src="images/wdd230_image_franklinOriginal.jpg"
-                alt="image of Preston farm scene">
-        </picture>
-        <!--This is my weather box that is placed on my hero image-->
-        <section class="weathersummary">
-
-            <h3>Weather Summary</h3>
-            <p>Current: Sunny</p>
-            <p>Temperature: 70°F</p>
-            <p>Humidity: 71%</p>
-            <p>Precipation: 4%</p>
-            <p>Wind Speed: 17mph</p>
-        </section>
+        
 
         <!--This is my table-->
         <div class="contentbox">
@@ -177,6 +181,7 @@
     <script src="js/webfontload.js"></script>
     <!--This is the link to the new web font load page I have to use from now on. 
         Every time I add a new font I have to added or take it out od my function and then reference it on my css where I need it-->
+        <script src="js/windchill.js"></script>
 </body>
 
 </html>
