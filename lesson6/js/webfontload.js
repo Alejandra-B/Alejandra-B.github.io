@@ -1,3 +1,3 @@
 WebFont.load({
     google: {
-        families: ['Yusei Magic', 'Lato', 'Source Code Pro']}});
+        families: ['Yusei Magic', 'Lato', 'Source Code Pro',]}});

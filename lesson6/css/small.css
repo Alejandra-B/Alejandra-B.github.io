@@ -1,7 +1,3 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Architects+Daughter&family=Roboto+Mono:wght@500&family=Source+Code+Pro:ital@1&display=swap');*/
-
 header,
 h1,
 h2,
@@ -55,7 +51,7 @@ header {
 header img {
     width: 80px;
     height: auto;
-    
+
 }
 
 
@@ -95,14 +91,15 @@ h2 {
 }
 
 .myimage {
-    display:block; 
-    width:96%; 
-     
+    display: block;
+    width: 96%;
+
 }
-.main-image{
-    display: block; 
+
+.main-image {
+    display: block;
     width: 100%;
-    margin: 0 2%; 
+    margin: 0 2%;
 }
 
 
@@ -110,7 +107,7 @@ h2 {
     /*This is for my banner Image (Idaho Farm) on my Preston page*/
     display: block;
     position: relative;
-    
+
 }
 
 
