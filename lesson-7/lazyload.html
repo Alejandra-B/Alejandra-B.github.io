@@ -7,33 +7,60 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Lazy Loading</title>
     <meta name="description" content="lazy loading of images">
-    
-    
-    <link href="font" rel="stylesheet"> <!--add my font here-->
-    
+
+
+    <link href="font" rel="stylesheet">
+    <!--add my font here-->
+
     <link href="css/small.css" rel="stylesheet">
-    
-    <!--add my medium css here--><link href="" rel="stylesheet">
-    <!--add my large css here--><link href="" rel="stylesheet">
+
 </head>
 
 <body onload="webfontload()">
     <script src="">
-</script>
+    </script>
 
 
 
-<header>
-<h1>Progressive Loading</h1>
+    <header>
+        <h1>Progressive Loading</h1>
 
 
-</header>
-<main></main>
-<footer></footer>
-<script src="js/webfontload.js"></script>
-<!--This is the link to the new web font load page I have to use from now on. 
+    </header>
+    <main>
+        <picture><img class="placeholder" src='data/img/placeholder.png' data-src='data/img/SLUG.jpg' alt='placeholder'></picture>
+        <picture>
+            <img src='images/1-flower300x400.jpg' data-src="https://www.freeimages.com/photo/flower-with-raindrops-1455418" alt="white flower">
+        </picture>
+
+        <picture>
+            <img src='images/2-flowers300x400.jpg' data-src="https://www.freeimages.com/photo/flowers-1525322" alt="pink flowers">
+        </picture>
+
+        <picture>
+            <img src='images/orange300x400.jpg' data-src="https://pixabay.com/photos/wild-flowers-meadow-nature-summer-3592934/" alt="orange wild flower">
+        </picture>
+
+        <picture><img src='images/pink300x400.jpg' data-src="https://pixabay.com/photos/wild-flowers-meadow-nature-summer-3592934/" alt="pink wild flower">
+        </picture>
+
+        <picture>
+            <img src='images/white300x400.jpg' data-src="https://pixabay.com/photos/wild-flowers-meadow-nature-summer-3592934/" alt="white wild flower">
+        </picture>
+
+
+
+
+
+
+    </main>
+    <footer></footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <!--This is the new way I will reference Google Fonts, always add this code-->
+    <script src="js/webfontload.js"></script>
+    <!--This is the link to the new web font load page I have to use from now on. 
     Every time I add a new font I have to added or take it out of my function and then reference it on my css where I need it-->
-
+<script src="js/imagehandling.js"></script>
 
 </body>
 
