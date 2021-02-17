@@ -19,10 +19,7 @@ grid-row-gap: 20px;
 padding: 10px; 
     
 }
-.placeholder{
 
-    background-color: yellow; 
-}
 
 article img[data-src] {
     filter: blur(0.2em);
