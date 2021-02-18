@@ -18,7 +18,7 @@ const imgOptions = { //this code is telling the system when to load the images.T
 };
 
 
-if ("IntersectionObserver" in window) { //if observer is supported in window the following code will be executed
+if ("IntersectionalObserver" in window) { //if observer is supported in window the following code will be executed
     const imgObserver = new intersectionalObserver((items) => {
         items.forEach((item) => {
             if (item.isIntersecting) { //this is a loop
