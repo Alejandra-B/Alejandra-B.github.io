@@ -12,7 +12,7 @@ main {
 }
 
 
-picture {
+main {
 
     display: grid;
     grid-auto-rows: 400px;
@@ -21,13 +21,12 @@ picture {
     padding: 10px;
 
 }
-
-
-img[data-src] {
-    filter: blur(0.2em);
-}
-
 img {
-    filter: blur(0em);
+    filter: blur(0px);
     transition: filter 2s;
 }
+
+img[data-src] { /*it goes from bluring to not bluring above after 2 seconds. By specificity order this code takes priority over the img above. */ 
+    filter: blur(3px);
+}
+
