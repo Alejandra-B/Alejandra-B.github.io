@@ -1,31 +1,32 @@
 h1 {
-    font-family:'Yusei Magic', 'Lato', 'Source Code Pro';
+    font-family: 'Yusei Magic', 'Lato', 'Source Code Pro';
     text-align: center;
 }
+
 header,
-main
- {
+main {
     max-width: 800px;
     margin: 0 auto;
     padding-top: 5px;
 
 }
-picture{
 
-display: grid;
-grid-auto-rows: 400px;
-justify-content: center;
-grid-row-gap: 20px;
-padding: 10px; 
-    
+picture {
+
+    display: grid;
+    grid-auto-rows: 400px;
+    justify-content: center;
+    grid-row-gap: 20px;
+    padding: 10px;
+
 }
 
 
-article img[data-src] {
+/*img[data-src] {
     filter: blur(0.2em);
-  }
-  
-  article img {
+}
+
+img {
     filter: blur(0em);
     transition: filter 0.5s;
-  }
+}*/
