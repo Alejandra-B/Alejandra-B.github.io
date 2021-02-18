@@ -4,8 +4,8 @@ const imagesToLoad = document.querySelectorAll('img[data-src]'); //This line of 
 //intersectionObserver let you know when an observed element enters or exits the browser's viewport(tracks elements scrolling into view.)
 
 const imgOptions = { //this code is telling the system when to load the images.This two properties are part of the Observer.
-    threshold: 0, // is a pass/fail criteria used to specify the performance expectations of the system under test. 
-    rootMargin: "0px 0px 80px 0px" //top, right, bottom, left
+    threshold: 1, // is a pass/fail criteria used to specify the performance expectations of the system under test. 
+    rootMargin: "0px 0px 100px 0px" //top, right, bottom, left
 
 };
 
