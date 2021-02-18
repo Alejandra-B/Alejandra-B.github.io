@@ -5,7 +5,7 @@ const imagesToLoad = document.querySelectorAll('img[data-src]'); //This line of 
 
 const imgOptions = { //this code is telling the system when to load the images.This two properties are part of the Observer.
     threshold: 1, // is a pass/fail criteria used to specify the performance expectations of the system under test. 
-    rootMargin: "0px 0px 100px 0px" //top, right, bottom, left
+    rootMargin: "0px 0px 50px 0px" //top, right, bottom, left
 
 };
 
@@ -18,8 +18,8 @@ const loadImages = (image) => { //this is a function
     };
 };
 
-if ('intersectionObserver' in window) { //if observer is supported in window the following code will be executed
-    const imgObserver = new intersectionObserver((items) => {
+if ('IntersectionObserver' in window) { //if observer is supported in window the following code will be executed
+    const imgObserver = new IntersectionObserver((items) => {
         items.forEach((item) => {
             if (item.isIntersecting) {
                 loadImages(item.target);

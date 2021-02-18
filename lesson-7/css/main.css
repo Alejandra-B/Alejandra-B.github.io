@@ -21,13 +21,12 @@ main {
     padding: 10px;
 
 }
-
+img[data-src] {
+    /*it goes from bluring to not bluring above after 2 seconds. By specificity order this code takes priority over the img above. */
+    filter: blur(3px);
+}
 img {
     filter: blur(0px);
     transition: filter 2s;
 }
 
-img[data-src] {
-    /*it goes from bluring to not bluring above after 2 seconds. By specificity order this code takes priority over the img above. */
-    filter: blur(4px);
-}
