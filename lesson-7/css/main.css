@@ -28,6 +28,6 @@ img[data-src] {
 
 img {
     filter: blur(0px);
-    transition: filter 2s;
+    transition: filter 0.6s;
 }
 
