@@ -152,8 +152,6 @@ nav ul li a {
 nav ul li.active a {
     background-color: #001524;
     color: white;
-
-
 }
 
 /*always place .active before "hover" so it can work properly*/
