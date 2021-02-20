@@ -25,6 +25,7 @@
 
     h2 {
         font-size: 25px
+      
     }
 
     ul,
@@ -33,7 +34,6 @@
     }
 
     main {
-
         display: grid;
         grid-template-columns:300px 300px 300px;
         grid-gap:20px;
@@ -41,7 +41,6 @@
         justify-content: center;
         margin-right: auto;
         
-
     }
     .shadow:hover {
         box-shadow: 0 0 50px #333;
