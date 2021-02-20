@@ -1,4 +1,8 @@
 @media only screen and (min-width: 992px) {
+    header,main,footer,nav{
+        max-width: 920px;
+    }
+    
     nav ul {
         display: flex;
     }
@@ -28,23 +32,24 @@
         font-size: 20px;
     }
 
-  
-
     main {
 
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        width: 100%;
+        grid-template-columns:300px 300px 300px;
+        grid-gap:20px;
         margin-bottom: 50px;
+        justify-content: center;
 
     }
     .shadow:hover {
         box-shadow: 0 0 50px #333;
     }
-    
     .caption {
         background-color: #FFECD1;
         padding: 10px;
         text-align: center;
     }
+    
+    
+
 }
