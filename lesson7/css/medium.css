@@ -1,0 +1,26 @@
+@media only screen and (min-width: 768px) {
+
+    nav ul {
+        display: flex;
+    }
+    
+    nav ul li {
+        flex: 1 1 100%;
+    }
+ 
+ nav button {
+    display:none; 
+}
+nav ul.hide {
+    display: flex;
+}
+
+ main {
+     display:grid;
+     grid-template-columns: 1fr 1fr; 
+ }
+
+ .caption {
+    display: none;
+}
+}
