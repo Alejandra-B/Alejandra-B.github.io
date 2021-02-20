@@ -1,26 +1,27 @@
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width:991px) {
 
     nav ul {
         display: flex;
     }
-    
+
     nav ul li {
         flex: 1 1 100%;
     }
- 
- nav button {
-    display:none; 
-}
-nav ul.hide {
-    display: flex;
-}
 
- main {
-     display:grid;
-     grid-template-columns: 1fr 1fr; 
- }
+    nav button {
+        display: none;
+    }
 
- .caption {
-    display: none;
-}
+    nav ul.hide {
+        display: flex;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .caption {
+        display: none;
+    }
 }
