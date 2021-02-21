@@ -39,16 +39,14 @@
         grid-gap:20px;
         margin-bottom: 40px;
         justify-content: center;
-        margin-right: auto;
-        
+        margin-right: auto;  
     }
 
-
-    
     .shadow:hover {
         box-shadow: 0 0 50px #333;
     }
-    .caption {
+
+    figcaption {
         background-color: #FFECD1;
         padding: 10px;
         text-align: center;
