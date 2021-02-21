@@ -193,7 +193,7 @@ img {
     transition: filter 0.6s;
 }
 
-.caption {
+figcaption {
     display: none;
 }
 

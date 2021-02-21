@@ -18,11 +18,11 @@
 
     main {
         display: grid;
-        grid-template-columns: 400px 400px;
+        grid-template-columns: 350px 350px;
         justify-content: center;
     }
 
-    .caption {
+    figcaption {
         display: none;
     }
 }
