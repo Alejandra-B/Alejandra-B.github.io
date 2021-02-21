@@ -179,6 +179,10 @@ main {
     margin-bottom: 20px;
 }
 
+figure{
+    margin: 0 auto;
+}
+
 img[data-src] {
     /*it goes from bluring to not bluring above after 2 seconds. By specificity order this code takes priority over the img above. */
     filter: blur(3px);
