@@ -68,9 +68,11 @@ tfoot {
     color: black;
 }
 
-/*tr {
-    background-color:#e7f0ed;  
-}*/
+table {
+    width: 100%;
+}
+
+
 
 
 tr:nth-child(even) {
