@@ -10,8 +10,6 @@ footer {
     margin: 0 auto;
 }
 
-
-
 h1 {
     text-align: center;
 }
@@ -22,7 +20,6 @@ td {
     border-collapse: collapse;
     max-width: 500px;
 }
-
 
 thead {
     background-color: #7fb9c2;
