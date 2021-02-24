@@ -37,101 +37,83 @@
         <ul id="primaryNav" class="hide">
             <li><a href="../lesson4/preston-4.html">Home</a></li>
             <!--<li class="active"><a href="preston-5.html">Preston</a></li>-->
-            <li class="active"><a href="preston-6.html">Preston</a></li>
+            <li class="active"><a href="../lesson6/preston-6.html">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
-            <li><a href="../lesson8/stormcenter.html">Storm Center</a></li>
+            <li class="active"><a href="stormcenter.html">Storm Center</a></li>
             <li><a href="../lesson7/gallery-7.html">Gallery</a></li>
         </ul>
     </nav>
 
     <main>
-        <h2>Preston Idaho</h2>
-        <div class="banner-box">
-            <!--This is my my hero image-->
-            <picture class="myimage">
-                <source media="(min-width: 300px) and (max-width:699px)" srcset="images/small300.jpg">
-                <source media="(min-width: 700px) and (max-width:1099px)" srcset="images/medium700.jpg">
-                <source media="(min-width: 1100px)" srcset="images/large1100.jpg">
-                <img class="main-image" src="images/wdd230_image_franklinOriginal.jpg"
-                    alt="image of Preston farm scene">
-            </picture>
-            <!--This is my weather box that is placed on my hero image-->
-            <section class="weathersummary">
+        <h2>Storm Center Page</h2>
+        <h3>Contact Form</h3>
 
-                <h3>Weather Summary</h3>
-                <p>Current: Sunny</p>
-                <p>Temperature: <span id="temp">30</span>°F</p>
-                <p>Humidity: 71%</p>
-                <p>Precipation: 4%</p>
-                <p>Wind Speed: <span id="speed">17</span>mph</p>
-                <p>Wind Chill: <span id="windchill"></span>°F</p>
-            </section>
+        <!--CONTACT FORM-->
+        <div class="form-style">
+            <form action="/my-handling-form-page" method="post">
+                <ul>
+                    <li class="name">
+                        <!--full name-->
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="user_name" required>
+                        <!--I need to add more here, see the requirement page-->
+                    </li>
 
+                    <li>
+                        <!--email-->
+                        <label for="mail">E-mail Address</label>
+                        <input type="email" id="mail" name="user_email" placeholder="name@email.com">
+                    </li>
+
+                    <li>
+                        <!--phone number-->
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="user_phone" required>
+                    </li>
+
+                    <li>
+                        <!--zip code-->
+                        <label>ZIP Code</label>
+                        <input type="number" pattern="[0-9]{5}" title="Five digit zip code" required>
+                    </li>
+
+                    <li>
+                        <!--storm date-->
+                        <label>Storm Date</label>
+                        <input type="date" id="storm_date" name="storm_date" required>
+                    </li>
+
+                    <li>
+                        <!--storm type-->
+                        <label for="storm-type-choice">Choose a Storm Type</label>
+                        <input list="storm-types" id="storm-type-choice" name="storm-type-choice" />
+                        <datalist id="storm-types">
+                            <option value="flash flood">
+                            <option value="hail">
+                            <option value="thunderstorm">
+                            <option value="tornado">
+                        </datalist>
+                    </li>
+<!--Continue here-->
+                    <li>
+                        <label for="msg">Your Message:</label>
+                        <textarea id="msg" name="user_message"></textarea>
+                    </li>
+                    <li class="button">
+                        <button type="submit">Send me your request</button>
+                    </li>
+                </ul>
+            </form>
         </div>
 
-
-
-        <!--This is my table-->
-        <div class="contentbox">
-
-            <table class="center">
-                <tr>
-                    <!--This is the first row of my table with my headings. Each th tag shows how many columns I will have-->
-                    <th>Monday</th>
-                    <th>Tuesday</th>
-                    <th>Wednesday</th>
-                    <th>Thursday</th>
-                    <th>Friday</th>
-
-                </tr>
-
-                <tr>
-                    <!--These are my two rows-->
-                    <td><img src="https://img.icons8.com/plasticine/50/000000/sun--v1.png" alt="sun icon"></td>
-                    <td><img src="https://img.icons8.com/plasticine/50/000000/windy-weather.png" alt="wind icon"></td>
-                    <td><img src="https://img.icons8.com/plasticine/50/000000/sun--v1.png" alt="sun icon"></td>
-                    <td><img src="https://img.icons8.com/plasticine/50/000000/sun--v1.png" alt="sun icon"></td>
-                    <td><img src="https://img.icons8.com/plasticine/50/000000/windy-weather.png" alt="wind icon"></td>
-                </tr>
-
-                <tr>
-                    <td>60°/79°</td>
-                    <td>55°/70°</td>
-                    <td>62°/78°</td>
-                    <td>65°/80°</td>
-                    <td>50°/75°</td>
-                </tr>
-
-
-
-            </table>
+        <!--contact form-->
 
 
 
 
 
 
-        </div>
-        <div class="contentbox">
-            <h3>Looking Forward!</h3>
-            <!--This is my article-->
-
-            <img class="balloon" src="images/ballons.jpg" alt="Hot Air Ballon Festival.">
-            <!--This is the image for my article-->
-            <p>We are proud to announce one of our most colorful and exciting events here in our beloved Preston City.
-                On April 24 2021, from noon until 4 pm, we will celebrate our reach
-                traditions with our yearly Hot Balloon Festival. Come ready to be amazed by the variety of colors and
-                designs that will fill the skies. This activity will be a free event sponsored by our City Council
-                members; come ready to enjoy a day at the park with friends and family and to make memories that will
-                last for years to come. </p>
-            <p>Families, friends, and visitors from out of town gather year after year to spend an afternoon filled with
-                entertainment and live music provided by some of our talented local musicians. We will also have vendors
-                with delicious foods for purchase at low prices! </p>
-            <p>Don't miss this wonderful opportunity to strengthen bonds and friendship here in Preston City.The
-                weather will be fantastic to spend it outdoors, start spreading the news and
-                save the date!</p>
-        </div>
 
         <section class="contentbox4">
             <!--This is my map and my Contact information, and my social icons in 2 different divisions inside a section-->
