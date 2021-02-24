@@ -18,7 +18,7 @@ table,
 th,
 td {
     border-collapse: collapse;
-    max-width: 500px;
+    max-width: 450px;
 }
 
 thead {
@@ -71,8 +71,6 @@ tfoot {
 table {
     width: 100%;
 }
-
-
 
 
 tr:nth-child(even) {
