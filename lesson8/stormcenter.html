@@ -46,126 +46,125 @@
     </nav>
 
     <main>
-        <h2>Storm Center Page</h2>
-        <h3>Contact Form</h3>
+        <h2>Contact Form</h2>
 
         <!--CONTACT FORM-->
-        <div class="form-style">
-            <form action="/my-handling-form-page" method="post">
-                <ul>
-                    <li class="name">
-                        <!--full name-->
-                        <label for="name">Full Name</label>
-                        <input type="text" id="name" name="user_name" required>
-                        <!--I need to add more here, see the requirement page-->
-                    </li>
 
-                    <li>
-                        <!--email-->
-                        <label for="mail">E-mail Address</label>
-                        <input type="email" id="mail" name="user_email" placeholder="user@email.com">
-                    </li>
+        <form method="get" action="thanks.html">
 
-                    <li>
-                        <!--phone number-->
-                        <label for="phone">Phone Number</label>
-                        <input type="tel" id="phone" name="user_phone" required>
-                    </li>
+            <fieldset>
 
-                    <li>
-                        <!--zip code-->
-                        <label>ZIP Code</label>
-                        <input type="number" pattern="[0-9]{5}" title="Five digit zip code" required>
-                    </li>
+                <legend>Applicant Information</legend>
+                <!--full name-->
+                <label class="top" for="name">Full Name*</label>
+                <input class="box" type="text" id="name" name="user_name" pattern="[A-Z a-z]{5}" required>
+                <!--I need to add more here, see the requirement page-->
 
-                    <li>
-                        <!--storm date-->
-                        <label>Storm Date</label>
-                        <input type="date" id="storm_date" name="storm_date" required>
-                    </li>
 
-                    <li>
-                        <!--storm type-->
-                        <label for="storm-type-choice">Choose a Storm Type</label>
-                        <input list="storm-types" id="storm-type-choice" name="storm-type-choice" />
-                        <datalist id="storm-types">
-                            <option value="flash flood">
-                            <option value="hail">
-                            <option value="thunderstorm">
-                            <option value="tornado">
-                        </datalist>
-                    </li>
-                    <!--storm severity-->
-                    <li>
-                        <fieldset>
-                            <fieldset class="nestedfieldset">
-                                <legend>Storm Severity<em>(Choose one)</em></legend>
-                                <div class="selection">
-                                    <input type="radio" id="storm1" name="storm" value="1" checked>
-                                    <label for="storm1">1</label>
-                                </div>
-                                <div class="selection">
-                                    <input type="radio" id="storm1" name="storm" value="2">
-                                    <label for="storm3">2</label>
-                                </div>
-                                <div class="selection">
-                                    <input type="radio" id="storm3" name="storm" value="3">
-                                    <label for="storm3">3</label>
-                                </div>
-                                <div class="selection">
-                                    <input type="radio" id="storm4" name="storm" value="4">
-                                    <label for="storm4">4</label>
-                                </div>
-                                <div class="selection">
-                                    <input type="radio" id="storm5" name="storm" value="5">
-                                    <label for="storm5">5</label>
-                                </div>
-                                <div class="selection">
-                                    <input type="radio" id="storm6" name="storm" value="6">
-                                    <label for="storm6">6</label>
-                                </div>
-                                <div class="selection">
-                                    <input type="radio" id="storm7" name="storm" value="7">
-                                    <label for="storm7">7</label>
-                                </div>
-                                <div class="selection">
-                                    <input type="radio" id="storm8" name="storm" value="8">
-                                    <label for="storm8">8</label>
-                                </div>
-                                <div class="selection">
-                                    <input type="radio" id="storm9" name="storm" value="9">
-                                    <label for="storm9">9</label>
-                                </div>
-                                <div class="selection">
-                                    <input type="radio" id="storm10" name="storm" value="10">
-                                    <label for="storm10">10</label>
-                                </div>
-                            </fieldset>
-                    </li>
+                <!--email-->
+                <label class="top" for="mail">E-mail Address</label>
+                <input class="box" type="email" id="mail" name="user_email" placeholder="user@email.com">
+
+
+                <!--phone number-->
+                <label class="top" for="phone">Phone Number*</label>
+                <input class="box" type="tel" id="phone" name="user_phone" placeholder="###-###-####" required>
+
+
+                <!--zip code-->
+                <label class="top">ZIP Code*</label>
+                <input class="box" type="text" pattern="[0-9]{5}" title="Five digit zip code" required>
+
+
+            </fieldset>
 
 
 
+            <!--storm -->
+            <fieldset>
+                <legend>Storm Information</legend>
+                <!--strom date-->
+                <label class="middle">Storm Date</label>
+                <input class="smallbox" type="date" id="storm_date" name="storm_date" required>
+
+
+                <!--storm type-->
+                <label class="middle" for="storm-type-choice">Storm Type</label>
+                <input class="box" list="storm-types" id="storm-type-choice" name="storm-type-choice" />
+                <datalist id="storm-types">
+                    <option value="flash flood">
+                    <option value="hail">
+                    <option value="thunderstorm">
+                    <option value="tornado">
+                </datalist>
+
+
+                <!--storm severity-->
+                <!--RANGE-->
+                <label class="middle" class="flexly" for="rating">Storm Severity (1 minimal risk/10 high risk)
+                    &nbsp;&nbsp;&nbsp;
+                    <input class="smallbox" type="range" id="rating" value="1" min="1" max="10" step="1"
+                        list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                    <span id="ratingvalue">1</span>
+                </label>
+
+                <datalist id="tickmarks">
+                    <option value="1">
+                    <option value="2">
+                    <option value="3">
+                    <option value="4">
+                    <option value="5">
+                    <option value="6">
+                    <option value="7">
+                    <option value="8">
+                    <option value="9">
+                    <option value="10">
+                </datalist>
+
+
+                <!--select region-->
+                <label class="middle">Storm Region </label>
+                <select class="smallbox" name="region" onchange="selectResponse()">
+                    <option value="select" disabled selected>Select Region</option>
+                    <option value="Preston">Preston</option>
+                    <option value="Soda Springs">Soda Springs</option>
+                    <option value="Fish Haven">Fish Haven</option>
+                </select>
 
 
 
+                <!--User in danger-->
+                <!--RADIO-->
+                <label class="middle">User in-Danger Level</label>
+                <div>
+                    <input type="radio" id="danger1" name="danger" value="1">
+                    <label for="danger1">Yes</label>
+                </div>
+                <div class="selection">
+                    <input type="radio" id="danger2" name="danger" value="2">
+                    <label for="danger2">Maybe</label>
+                </div>
+                <div class="selection">
+                    <input type="radio" id="danger3" name="danger" value="3">
+                    <label for="danger3">No</label>
+                </div>
 
-                    <li>
-                        <label for="msg">Your Message:</label>
-                        <textarea id="msg" name="user_message"></textarea>
-                    </li>
-                    <li class="button">
-                        <button type="submit">Send me your request</button>
-                    </li>
-                </ul>
-            </form>
-        </div>
-
-        <!--contact form-->
+            </fieldset>
 
 
+            <!--Additional information or comments-->
+            <fieldset>
+                <legend>Additional Information</legend>
+                <label class="submitButton" for="msg">Comments</label>
+                <textarea class="commentsBox" id="msg" name="user_message"></textarea>
+            </fieldset>
+
+            <!--form submission button-->
+            <input class="button" type="submit" value="Send Storm Report">
 
 
-
+        </form>
+        <!--end contact form-->
 
 
         <section class="contentbox4">
@@ -196,7 +195,6 @@
         </section>
 
 
-
     </main>
 
     <footer>
@@ -212,9 +210,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <!--This is the new way I will reference Google Fonts, always add this code-->
     <script src="js/webfontload.js"></script>
-    <!--This is the link to the new web font load page I have to use from now on. 
-        Every time I add a new font I have to added or take it out of my function and then reference it on my css where I need it-->
-    <script src="js/windchill.js"></script>
+    <script src="js/adjustrating.js"></script>
+    <script src="js/selectresponse.js"></script>
 </body>
 
 </html>
