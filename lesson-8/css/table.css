@@ -75,3 +75,12 @@ table {
 tr:nth-child(even) {
     background-color: #e7ffed;
 }
+tr:nth-of-type(3) {
+    background-color: #e7f0ed;
+}
+tr:nth-of-type(5) {
+    background-color: #e7f0ed;
+}
+tr:nth-of-type(7) {
+    background-color: #e7f0ed;
+}

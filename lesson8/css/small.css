@@ -194,7 +194,9 @@ nav ul.hide {
 
 
 /*-----------------------FORM-------------------*/
-main, footer, {
+main,
+footer,
+    {
     max-width: 100%;
     width: 800px;
     margin: 0 auto;
@@ -212,12 +214,12 @@ form legend {
     padding: 10px;
 }
 
-form fieldset{
+form fieldset {
     margin: 20px 0;
     border: 2px solid silver;
     padding: 10px;
     background-color: #FFECD1;
-    max-width: 100%; 
+    max-width: 100%;
 }
 
 legend {
@@ -271,12 +273,11 @@ label.submitButton {
     color: white;
     border-radius: 10px;
     padding: .75rem 1.5rem;
-    margin:auto; 
-    margin-bottom:10px;
+    margin: auto;
+    margin-bottom: 10px;
     max-width: 80%;
     font-family: 'Yusei Magic', sans-serif;
     font-size: 20px;
     max-width: 20rem;
     text-align: center;
 }
-
