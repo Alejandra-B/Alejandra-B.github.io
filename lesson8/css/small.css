@@ -174,31 +174,6 @@ nav ul.hide {
 }
 
 
-.contentbox4 {
-    display: block;
-    margin: 10px auto;
-    padding: 15px;
-    background-color: #FFECD1;
-    color: black;
-    font-family: 'Yusei Magic', sans-serif;
-    font-size: 15px;
-}
-
-.social {
-    text-align: left;
-}
-
-.social img {
-    width: 35px;
-}
-
-.map {
-    width: 100%;
-    height: auto;
-}
-
-/*This is my Google Map*/
-
 
 #copy {
     font-size: 20px;
