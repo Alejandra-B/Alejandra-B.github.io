@@ -194,7 +194,7 @@ nav ul.hide {
 
 
 /*-----------------------FORM-------------------*/
-main, footer {
+main, footer, {
     max-width: 100%;
     width: 800px;
     margin: 0 auto;
@@ -212,11 +212,12 @@ form legend {
     padding: 10px;
 }
 
-form fieldset {
+form fieldset{
     margin: 20px 0;
     border: 2px solid silver;
     padding: 10px;
     background-color: #FFECD1;
+    max-width: 100%; 
 }
 
 legend {
