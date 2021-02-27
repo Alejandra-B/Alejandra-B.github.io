@@ -268,7 +268,8 @@ label.submitButton {
     color: white;
     border-radius: 10px;
     padding: .75rem 1.5rem;
-    margin: auto;
+    margin:auto; 
+    margin-bottom:10px;
     max-width: 80%;
     font-family: 'Yusei Magic', sans-serif;
     font-size: 20px;
