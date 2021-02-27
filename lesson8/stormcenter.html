@@ -73,7 +73,15 @@
 
                 <!--zip code-->
                 <label class="top">ZIP Code*</label>
-                <input class="box" type="text" pattern="[0-9]{5}" title="Five digit zip code" required>
+                <input class="box" type="text" id="zip" name="zip" pattern="(\d{5}([\-]\d{4})?)" title="zip code" required></label>
+
+
+                <!--<label for="zip">Zip Code:
+                    <input type="text" id="zip" name="zip" pattern="(\d{5}([\-]\d{4})?)" autocomplete="shipping postal-codep"></label><br>
+
+                    pattern="[0-9]{5}"-->
+
+
 
 
             </fieldset>
