@@ -90,29 +90,6 @@ h2 {
     color: black;
 }
 
-.myimage {
-    display: block;
-    width: 96%;
-
-}
-
-.main-image {
-    display: block;
-    width: 100%;
-    margin: 0 2%;
-}
-
-
-.banner-box {
-    /*This is for my banner Image (Idaho Farm) on my Preston page*/
-    display: block;
-    position: relative;
-
-}
-
-
-
-
 ul,
 li {
     font-size: 18px;
@@ -148,12 +125,6 @@ nav {
 picture {
     padding: 5px;
 }
-
-
-main {
-    padding: 10px;
-}
-
 
 nav {
     background-color: #156160;
@@ -259,9 +230,10 @@ nav ul.hide {
 
 
 /*-----------------------FORM-------------------*/
-main {
+main, footer {
     max-width: 100%;
     width: 800px;
+    margin: 0 auto;
 }
 
 h3 {
