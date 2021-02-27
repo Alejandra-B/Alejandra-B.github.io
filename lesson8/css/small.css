@@ -277,7 +277,6 @@ form legend {
 form fieldset {
     margin: 20px 0;
     border: 2px solid silver;
-    border-radius: 10px;
     padding: 10px;
     background-color: #FFECD1;
 }
