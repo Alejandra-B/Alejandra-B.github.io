@@ -225,6 +225,7 @@ legend {
     font-size: 20px;
 }
 
+
 label.top,
 label.middle,
 label.submitButton {
@@ -246,6 +247,7 @@ label.submitButton {
     max-width: 100%;
     width: 350px;
 }
+
 
 .commentsBox {
     display: block;
