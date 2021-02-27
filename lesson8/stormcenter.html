@@ -72,7 +72,7 @@
 
 
                 <!--zip code-->
-                <label class="top">ZIP Code*</label>
+                <label class="top" for="zip">ZIP Code*</label>
                 <input class="box" type="text" pattern="[0-9]{5}" title="Five digit zip code" required>
 
 
@@ -84,13 +84,13 @@
             <fieldset>
                 <legend>Storm Information</legend>
                 <!--strom date-->
-                <label class="middle">Storm Date</label>
+                <label class="middle" for="date">Storm Date</label>
                 <input class="smallbox" type="date" id="storm_date" name="storm_date" required>
 
 
                 <!--storm type-->
                 <label class="middle" for="storm-type-choice">Storm Type</label>
-                <input class="box" list="storm-types" id="storm-type-choice" name="storm">
+                <input class="box" list="storm-types" id="storm-type-choice" name="storm-type-choice">
                 <datalist id="storm-types">
                     <option value="flash flood">
                     <option value="hail">
@@ -101,7 +101,7 @@
 
                 <!--storm severity-->
                 <!--RANGE-->
-                <label class="middle"  for="rating">Storm Severity (1 minimal risk/10 high risk)
+                <label class="middle" for="rating">Storm Severity (1 minimal risk/10 high risk)
                     &nbsp;&nbsp;&nbsp;
                     <input class="smallbox" type="range" id="rating" value="1" min="1" max="10" step="1"
                         list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
@@ -123,14 +123,13 @@
 
 
                 <!--select region-->
-                <label class="middle">Storm Region </label>
-                <select class="smallbox" name="region" onchange="selectResponse()">
-                    <option value="select" disabled selected>Select Region</option>
-                    <option value="Preston">Preston</option>
-                    <option value="Soda Springs">Soda Springs</option>
-                    <option value="Fish Haven">Fish Haven</option>
-                </select>
-
+                <label class="middle">Storm Region
+                    <select class="smallbox" name="region" onchange="selectResponse()">
+                        <option value="select" disabled selected>Select Region</option>
+                        <option value="Preston">Preston</option>
+                        <option value="Soda Springs">Soda Springs</option>
+                        <option value="Fish Haven">Fish Haven</option>
+                    </select></label>
 
 
                 <!--User in danger-->
@@ -194,7 +193,7 @@
 
         </section>
 
-        
+
     </main>
 
     <footer>
