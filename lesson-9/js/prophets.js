@@ -27,9 +27,6 @@ fetch(requestURL)
             birthPlace.textContent = "Place of Birth: " + prophets[i].birthplace;
             
             
-
-
-
             //this is how to append the element to the card
             card.appendChild(h2);
             card.appendChild(p);
