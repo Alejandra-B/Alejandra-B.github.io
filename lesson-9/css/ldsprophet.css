@@ -10,7 +10,6 @@ header h1 {
 
 h2 {
     font-size: 30px;
-    /*color:#7093DB; */
     color: #436EEE;
     font-weight: bold;
     padding-top: 15px;
@@ -39,7 +38,7 @@ section {
 
 p {
     display: grid;
-    grid-column: 1fr;
+    grid-template-columns: 1fr;
     font-family: 'Merriweather', 'serif';
     font-size: 15px;
 }
