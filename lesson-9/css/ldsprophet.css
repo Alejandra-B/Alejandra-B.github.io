@@ -32,15 +32,13 @@ main div{
 section {
     background-color: #a2a2d0;
     outline-style: solid;
-    /*box-shadow: 0 0 50px gray;*/
-    /*save this for the image*/
 }
 
 p {
     display: grid;
     grid-template-columns: 1fr;
-    font-family: 'Merriweather', 'serif';
-    font-size: 15px;
+    font-family: 'serif';
+    font-size: 18px;
 }
 
 date,
@@ -48,6 +46,23 @@ place,
 children {
     padding: 5px;
 }
+
+img{
+    height:auto; 
+    width:50%; 
+    margin-right: auto; 
+    margin-left: auto;
+    box-shadow: 0 0 50px black;
+}
+
+footer{
+    text-align: center;
+}
+
+
+
+
+
 
 /*medium view*/
 
