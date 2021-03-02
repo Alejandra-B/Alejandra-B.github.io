@@ -17,7 +17,7 @@ fetch(requestURL)
             let image = document.createElement('img'); //images
             let birthDate = document.createElement('date'); //birth date
             let birthPlace = document.createElement('place'); //birth place
-            let nChildren = document.createElement('children'); //number of children
+           
 
 
             // this is how to fill each one of the elements, this is what it will show on top on my image on the page.
@@ -25,7 +25,8 @@ fetch(requestURL)
             h2.textContent = prophets[i].name + ' ' + prophets[i].lastname; //this is the example text
             birthDate.textContent = "Date of Birth: " + prophets[i].birthdate; // I created the following ones
             birthPlace.textContent = "Place of Birth: " + prophets[i].birthplace;
-            nChildren.textContent = "Number of Children: " + prophets[i].numofchildren;
+            
+            
 
 
 
@@ -36,7 +37,6 @@ fetch(requestURL)
             //this how to append card information to the paragraphs
             p.appendChild(birthDate);
             p.appendChild(birthPlace);
-            p.appendChild(nChildren);
             p.appendChild(image);
 
             //images
