@@ -41,7 +41,7 @@ fetch(requestURL)
 
             //images
             image.setAttribute('src', prophets[i].imageurl);
-            image.setAttribute('alt', prophets[i].name + prophets[i].lastname + ' ' + prophets[i].order); //see if i can get this work the other way
+            image.setAttribute('alt', prophets[i].name + prophets[i].lastname + ' ' + prophets[i].order); 
 
             document.querySelector('div.cards').appendChild(card);
         }
