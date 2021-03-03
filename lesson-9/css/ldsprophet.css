@@ -1,11 +1,12 @@
 /*small view*/
-
+  
 header h1 {
     font-size: 40px;
-    color: #3A5FCD;
+    color: #4d4d96;
     font-weight: bold;
     text-align: center;
     font-family: 'Merriweather', 'serif';
+   
 }
 
 h2 {
@@ -23,7 +24,7 @@ main div {
     grid-gap: 9px;
     justify-content: center;
     text-align: center;
-    background-color: #e0e0e0;
+    background-color: #dddddd;
     box-shadow: 0 0 50px black;
     padding: 10px;
     margin: 10px;
