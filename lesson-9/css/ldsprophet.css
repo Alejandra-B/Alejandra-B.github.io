@@ -28,6 +28,7 @@ main div {
     box-shadow: 0 0 50px black;
     padding: 10px;
     margin: 10px;
+    margin-bottom: 25px;
 }
 
 section {
@@ -40,11 +41,8 @@ p {
     grid-template-columns: 1fr;
     font-family: 'serif';
     font-size: 18px;
-}
-
-date,
-place {
-    padding: 5px;
+    padding: 10px;
+    line-height: 25px;
 }
 
 img {
@@ -53,14 +51,13 @@ img {
     margin-right: auto;
     margin-left: auto;
     box-shadow: 0 0 50px black;
+    margin-top:15px; 
 }
 
 footer {
     text-align: center;
+    font-size: larger;
 }
-
-
-
 
 
 
