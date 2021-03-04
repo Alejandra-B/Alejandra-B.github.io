@@ -21,7 +21,7 @@ h2 {
 .cards {
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 9px;
+    
 }
 
 main {
@@ -37,6 +37,8 @@ main {
 section {
     background-color: #cec8ef;
     border: solid black 1px;
+    margin: 5px;
+    padding: 10px;
 }
 
 p {
@@ -51,10 +53,8 @@ p {
 img {
     height: auto;
     width: 50%;
-    margin-right: auto;
-    margin-left: auto;
-    box-shadow: 0 0 50px black;
-    margin-top: 15px;
+    margin: 5px auto 10px auto;
+    box-shadow: 0 0 50px black; 
 }
 
 footer {
@@ -81,3 +81,4 @@ footer {
     }
 
 }
+

@@ -32,7 +32,7 @@ fetch(requestURL)
             card.appendChild(p);
             p.appendChild(birthDate);//here these ones are connected to the paragraph instead of being conected to the card, another option would be to connect them directly to the card. 
             p.appendChild(birthPlace);
-            p.appendChild(image);
+            card.appendChild(image);
 
             //images
             image.setAttribute('src', prophets[i].imageurl);
