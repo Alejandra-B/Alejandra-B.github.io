@@ -18,7 +18,7 @@ h2 {
     font-family: 'Merriweather', 'serif';
 }
 
-main div {
+ div{ /*here I tried writing .cards but everytime I did it, it messed up my page so I left it as div*/
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 9px;
