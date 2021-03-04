@@ -32,8 +32,8 @@ main div {
 }
 
 section {
-    background-color: #a2a2d0;
-    outline-style: solid;
+    background-color: #cec8ef;
+    border: solid black 1px;
 }
 
 p {
