@@ -30,7 +30,7 @@ fetch(requestURL)
             //this is how to append the element to the card and paragraph
             card.appendChild(h2);
             card.appendChild(p);
-            p.appendChild(birthDate);//here these ones are connected to the paragraph instead of being conected to the card, another option would be to connect them directly to the card. 
+            p.appendChild(birthDate);//here these ones are connected to the paragraphs instead than to the card. 
             p.appendChild(birthPlace);
             card.appendChild(image);
 

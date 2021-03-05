@@ -217,46 +217,6 @@ nav ul.hide {
     display: none;
 }
 
-
-table,
-th,
-td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 2px;
-
-
-}
-
-th,
-td {
-    text-align: center;
-}
-
-
-.center {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-.balloon {
-    float: right;
-    box-shadow: 0 0 20px #111;
-    margin: 5px;
-
-}
-
-.contentbox {
-    display: block;
-    margin: 10px auto;
-    padding: 15px;
-
-    color: black;
-    font-family: 'Yusei Magic', sans-serif;
-    font-size: 15px;
-}
-
 .contentbox4 {
     display: block;
     margin: 10px auto;
