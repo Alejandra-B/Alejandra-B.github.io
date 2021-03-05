@@ -90,17 +90,9 @@ h2 {
     color: black;
 }
 
-.myimage {
-    display: block;
-    width: 96%;
 
-}
 
-.main-image {
-    display: block;
-    width: 100%;
-    margin: 0 2%;
-}
+
 
 
 .banner-box {
@@ -111,22 +103,7 @@ h2 {
 }
 
 
-.weathersummary {
 
-    font-family: 'Yusei Magic', sans-serif;
-    /*By removing position:absolute; from my small.css I was able to let my summary show under my hero image on my small view screen*/
-    top: 10px;
-    left: 10px;
-    background: radial-gradient(#eee, #bbc4d8);
-    /*border: 1px solid #000;*/
-    padding: 9px;
-    padding-top: 5px;
-    box-shadow: 0 0 20px #111;
-    opacity: .8;
-    font-size: 12px;
-    text-align: center;
-    margin-left: 20px;
-}
 
 ul,
 li {
@@ -160,9 +137,7 @@ nav {
     margin: 0 auto;
 }
 
-picture {
-    padding: 5px;
-}
+
 
 
 main {
@@ -217,14 +192,30 @@ nav ul.hide {
     display: none;
 }
 
-.contentbox4 {
+.banner-box {
+    /*This is for my banner Image (Idaho Farm) on my Preston page*/
     display: block;
+    position: relative;
+    max-width: 100%; 
+    margin:0%; 
+    box-shadow: black; 
+}
+
+img{
+    max-width: 100%;
+    
+}
+
+
+.contentbox4 {
+   
     margin: 10px auto;
     padding: 15px;
     background-color: #FFECD1;
     color: black;
     font-family: 'Yusei Magic', sans-serif;
-    font-size: 15px;
+    font-size: 10px;
+    
 }
 
 .social {
