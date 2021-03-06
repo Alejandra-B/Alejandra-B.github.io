@@ -36,7 +36,7 @@ fetch(requestURL)
                     card.appendChild(p);
                     p.appendChild(yearFounded);
                     p.appendChild(currentPopulation);
-                    p.appendChild(averageRainFall);
+                    p.appendChild(averageRainfall);
                     p.appendChild(photo); 
                     card.appendChild(motto);
                     
