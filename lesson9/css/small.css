@@ -197,7 +197,7 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 50px;
-    color: white;
+    color:yellow; 
     font-family: 'Yusei Magic', sans-serif;
 }
 
@@ -210,8 +210,7 @@ h3 {
     display: grid;
     grid-template-columns: 1fr;
     background-color: whitesmoke;
-    padding: 10px;
-    margin: 10px;
+    margin: 8px;
     text-align: center;
     display: block;
     font-family: 'Yusei Magic', sans-serif;
@@ -231,7 +230,7 @@ h3 {
 
 .cards h2 {
     margin-top: 10px;
-    margin-bottom: 3px;
+    margin-bottom: 0px;
 }
 
 .cards p {
