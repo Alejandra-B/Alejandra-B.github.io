@@ -8,14 +8,16 @@ fetch(requestURL)
     .then(function (jsonObject) {
 
             const towns = jsonObject['towns'];
-            for (let i = 0; i < prophets.length; i++) {
-                if (towns[i].name === "Preston" || towns[i].name === "Fish Haven" || towns[i].name === "Soda Springs") {
+            
+            for (let i = 0; i < towns.length; i++) {
+                if (towns[i].name == "Preston" || towns[i].name == "Fish Haven" || towns[i].name == "Soda Springs") {
 
                     //variables
                     let card = document.createElement('section');
-                    let h2 = document.createElement('h2');
+                    let motto = document.createElement('h2');
                     let p = document.createElement('p');
-                    let photo = document.createElement('img');
+                    let name = document.createElement('h1')
+                    let photo = document.createElement('image');
                     let yearFounded = document.createElement('year');
                     let currentPopulation = document.createElement('population');
                     let averageRainfall = document.createElement('rain');
@@ -23,29 +25,29 @@ fetch(requestURL)
 
                     // this is how to fill each one of the elements, this is what it will show on top on my image on the page.
                     // It also shows the order in which everything appears.
-                    h2.textContent = towns[i].name + '' + towns[i].motto;
+                    name.textContent = towns[i].name + '' + towns[i].motto;
                     yearFounded.textContent = "Year Founded: " + '' + towns[i].yearFounded;
                     currentPopulation.textContent = "Population: " + '' + towns[i].currentPopulation;
                     averageRainfall.textContent = "Average Rain Fall: " + '' + towns[i].averageRainfall;
 
 
                     //this is how to append the element to the card and paragraph
-                    card.appendChild(h2);
+                    card.appendChild(name);
                     card.appendChild(p);
                     p.appendChild(yearFounded);
                     p.appendChild(currentPopulation);
-                    p.appendChild(averageRainfall);
+                    p.appendChild(averageRainFall);
+                    p.appendChild(photo); 
                     card.appendChild(motto);
+                    
 
                     //images
-                    photo.setAttribute('src', towns[i].photo);
+                    photo.setAttribute('src', 'images/'+ towns[i].photo);
                     photo.setAttribute('alt', towns[i].name + ' ' + towns[i].order);
 
                     document.querySelector('div.cards').appendChild(card);
-                } else {
-
-                    document.querySelector('div.cards').appendChild(card).display = none;
+                
                 }
-
+            }
 
             });
