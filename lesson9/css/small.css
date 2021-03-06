@@ -90,20 +90,11 @@ h2 {
     color: black;
 }
 
-
-
-
-
-
 .banner-box {
     /*This is for my banner Image (Idaho Farm) on my Preston page*/
     display: block;
     position: relative;
-
 }
-
-
-
 
 ul,
 li {
@@ -136,8 +127,6 @@ nav {
     max-width: 800px;
     margin: 0 auto;
 }
-
-
 
 
 main {
@@ -185,6 +174,7 @@ nav a:hover {
     background-color: #ff7d00;
     color: black;
     font-family: 'Source Code Pro', monospace;
+    transition: all 0.3s ease;
 
 }
 
@@ -196,26 +186,48 @@ nav ul.hide {
     /*This is for my banner Image (Idaho Farm) on my Preston page*/
     display: block;
     position: relative;
-    max-width: 100%; 
-    margin:0%; 
-    box-shadow: black; 
+    max-width: 100%;
+    margin: 0%;
+    box-shadow: black;
 }
 
-img{
+img {
     max-width: 100%;
-    
+}
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: white;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+
+}
+
+.news{
+    background-color:whitesmoke; 
+    padding:10px; 
+    box-shadow: 0 0 50px black; 
+
 }
 
 
 .contentbox4 {
-   
+
     margin: 10px auto;
     padding: 15px;
     background-color: #FFECD1;
     color: black;
     font-family: 'Yusei Magic', sans-serif;
-    font-size: 10px;
-    
+    font-size: 12px;
+
 }
 
 .social {
@@ -237,4 +249,7 @@ img{
 #copy {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+
 }
