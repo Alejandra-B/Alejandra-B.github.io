@@ -17,7 +17,7 @@ fetch(requestURL)
                     let motto = document.createElement('h3');
                     let p = document.createElement('p');
                     let name = document.createElement('h2')
-                    let photo = document.createElement('image');
+                    let photo = document.createElement('img');
                     let yearFounded = document.createElement('year');
                     let currentPopulation = document.createElement('population');
                     let averageRainfall = document.createElement('rain');
@@ -39,7 +39,7 @@ fetch(requestURL)
                     p.appendChild(yearFounded);
                     p.appendChild(currentPopulation);
                     p.appendChild(averageRainfall);
-                    p.appendChild(photo); 
+                    card.appendChild(photo); 
                     
                     
 

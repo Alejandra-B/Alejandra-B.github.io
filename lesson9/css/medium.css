@@ -3,20 +3,31 @@
     nav ul {
         display: flex;
     }
-    
+
     nav ul li {
         flex: 1 1 100%;
     }
- 
- nav button {
-    display:none; 
-}
-nav ul.hide {
-    display: flex;
-}
-.cards{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-}
+
+    nav button {
+        display: none;
+    }
+
+    nav ul.hide {
+        display: flex;
+    }
+
+    .divcards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .divcards:nth-child(odd) img {
+        grid-column: 2;
+    }
+
+    .divcards:nth-child(odd) p{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
 
 }

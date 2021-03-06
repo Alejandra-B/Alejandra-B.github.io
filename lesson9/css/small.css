@@ -210,13 +210,14 @@ h3 {
     display: grid;
     grid-template-columns: 1fr;
     background-color: whitesmoke;
-    padding: 15px;
+    padding: 10px;
     margin: 10px;
     text-align: center;
     display: block;
     font-family: 'Yusei Magic', sans-serif;
     box-shadow: 0 0 50px gray;
     grid-gap: 10px;
+
 }
 
 .cards h2 h3 {
@@ -224,11 +225,13 @@ h3 {
 }
 
 .cards h3 {
-    font-size: 15px;
+    font-size: 10px;
+    
 }
 
 .cards h2 {
     margin-top: 10px;
+    margin-bottom: 3px;
 }
 
 .cards p {
@@ -243,13 +246,20 @@ h3 {
 .cards section {
     background-color: lightgrey;
     padding: 10px;
+    border: 1px solid black; 
+    box-shadow: 0 0 50px lightgray;
+    margin: 5px;
+}
+.cards img{
+    margin: 10px auto 10px auto;
+    border-radius: 50%;
 }
 
 
 .news {
     background-color: whitesmoke;
     padding: 10px;
-    box-shadow: 0 0 50px gray;
+   
 
 }
 /***********************end of lesson 9***************************/
@@ -277,9 +287,6 @@ h3 {
     width: 100%;
     height: auto;
 }
-
-/*This is my Google Map*/
-
 
 #copy {
     font-size: 20px;
