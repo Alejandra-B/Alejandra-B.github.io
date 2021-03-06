@@ -90,11 +90,6 @@ h2 {
     color: black;
 }
 
-.banner-box {
-    /*This is for my banner Image (Idaho Farm) on my Preston page*/
-    display: block;
-    position: relative;
-}
 
 ul,
 li {
@@ -181,7 +176,7 @@ nav a:hover {
 nav ul.hide {
     display: none;
 }
-
+/******************************lesson 9****************************/
 .banner-box {
     /*This is for my banner Image (Idaho Farm) on my Preston page*/
     display: block;
@@ -211,13 +206,53 @@ h3 {
 
 }
 
-.news{
-    background-color:whitesmoke; 
-    padding:10px; 
-    box-shadow: 0 0 50px gray; 
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: whitesmoke;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    display: block;
+    font-family: 'Yusei Magic', sans-serif;
+    box-shadow: 0 0 50px gray;
+    grid-gap: 10px;
+}
+
+.cards h2 h3 {
+    display: block;
+}
+
+.cards h3 {
+    font-size: 15px;
+}
+
+.cards h2 {
+    margin-top: 10px;
+}
+
+.cards p {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
 
 }
 
+.cards section {
+    background-color: lightgrey;
+    padding: 10px;
+}
+
+
+.news {
+    background-color: whitesmoke;
+    padding: 10px;
+    box-shadow: 0 0 50px gray;
+
+}
+/***********************end of lesson 9***************************/
 
 .contentbox4 {
 

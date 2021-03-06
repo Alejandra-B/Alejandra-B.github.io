@@ -25,7 +25,8 @@ fetch(requestURL)
 
                     // this is how to fill each one of the elements, this is what it will show on top on my image on the page.
                     // It also shows the order in which everything appears.
-                    name.textContent = towns[i].name + ' ' + towns[i].motto;
+                    name.textContent = towns[i].name;
+                    motto.textContent = towns[i].motto; 
                     yearFounded.textContent = "Year Founded: " + '' + towns[i].yearFounded;
                     currentPopulation.textContent = "Population: " + '' + towns[i].currentPopulation;
                     averageRainfall.textContent = "Average Rain Fall: " + '' + towns[i].averageRainfall;
@@ -33,12 +34,13 @@ fetch(requestURL)
 
                     //this is how to append the element to the card and paragraph
                     card.appendChild(name);
+                    card.appendChild(motto);
                     card.appendChild(p);
                     p.appendChild(yearFounded);
                     p.appendChild(currentPopulation);
                     p.appendChild(averageRainfall);
                     p.appendChild(photo); 
-                    p.appendChild(motto);
+                    
                     
 
                     //images
