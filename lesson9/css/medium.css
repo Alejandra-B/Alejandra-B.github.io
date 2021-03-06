@@ -22,12 +22,19 @@
     }
 
     .divcards:nth-child(odd) img {
+        /*all these code is making no changes!*/
         grid-column: 2;
     }
 
-    .divcards:nth-child(odd) p{
+
+    .divcards:nth-child(odd) {
         grid-column: 1/2;
         grid-row: 1/2;
+    }
+
+    .divcards:nth-child(even) img {
+        grid-column: 1/2;
+
     }
 
 }
