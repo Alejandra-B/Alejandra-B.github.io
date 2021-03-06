@@ -14,9 +14,9 @@ fetch(requestURL)
 
                     //variables
                     let card = document.createElement('section');
-                    let motto = document.createElement('h2');
+                    let motto = document.createElement('h3');
                     let p = document.createElement('p');
-                    let name = document.createElement('h1')
+                    let name = document.createElement('h2')
                     let photo = document.createElement('image');
                     let yearFounded = document.createElement('year');
                     let currentPopulation = document.createElement('population');
@@ -25,7 +25,7 @@ fetch(requestURL)
 
                     // this is how to fill each one of the elements, this is what it will show on top on my image on the page.
                     // It also shows the order in which everything appears.
-                    name.textContent = towns[i].name + '' + towns[i].motto;
+                    name.textContent = towns[i].name + ' ' + towns[i].motto;
                     yearFounded.textContent = "Year Founded: " + '' + towns[i].yearFounded;
                     currentPopulation.textContent = "Population: " + '' + towns[i].currentPopulation;
                     averageRainfall.textContent = "Average Rain Fall: " + '' + towns[i].averageRainfall;
@@ -38,7 +38,7 @@ fetch(requestURL)
                     p.appendChild(currentPopulation);
                     p.appendChild(averageRainfall);
                     p.appendChild(photo); 
-                    card.appendChild(motto);
+                    p.appendChild(motto);
                     
 
                     //images
