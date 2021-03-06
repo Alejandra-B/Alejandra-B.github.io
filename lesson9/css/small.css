@@ -191,16 +191,6 @@ img {
 }
 
 
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 50px;
-    color:yellow; 
-    font-family: 'Yusei Magic', sans-serif;
-}
-
 h3 {
     font-family: 'Lato', sans-serif;
 
