@@ -29,11 +29,11 @@ align-items: center;
 .cards section:nth-child(even) img{
     grid-column: 1;
 }
-.cards section:nth-child(even) h2 h3 p{
+.cards section:nth-child(even) h2 h4 p{
     grid-column: 2;
 }
 
-.cards section:nth-child(odd) h3{
+.cards section:nth-child(odd) h4{
     grid-column:1; 
 }*/
 }
