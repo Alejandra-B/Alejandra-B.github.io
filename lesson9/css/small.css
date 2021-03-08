@@ -198,21 +198,6 @@ h3 {
     grid-gap: 5px;
 
 }
- 
-.cards h2 h3 {
-    display: block;
-}
-
-.cards h3 {
-    font-size: 13px;
-    margin:5px; 
-
-}
-
-.cards h2 {
-    margin-top: 10px;
-    margin-bottom: 2px;
-}
 
 .cards p {
     display: grid;
@@ -220,7 +205,6 @@ h3 {
     margin: 10px;
     padding: 10px;
     font-family: 'Lato', sans-serif;
-
 }
 
 
