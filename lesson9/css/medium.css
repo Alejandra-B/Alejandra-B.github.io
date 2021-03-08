@@ -36,4 +36,19 @@ align-items: center;
 .cards section:nth-child(odd) h4{
     grid-column:1; 
 }*/
+
+.contentbox4{
+    display:grid;
+    grid-column: 1fr 1fr;
+    grid-template-rows: 1;
+    align-items:center;
+  
+} .map{
+    grid-column: 1;  
+
+}
+ .contact{
+    grid-column:2; 
+
+}
 }
