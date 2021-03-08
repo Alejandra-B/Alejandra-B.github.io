@@ -14,7 +14,7 @@ fetch(requestURL)
 
                     //variables
                     let card = document.createElement('section');
-                    let motto = document.createElement('h3');
+                    let motto = document.createElement('h4');
                     let p = document.createElement('p');
                     let name = document.createElement('h2')
                     let photo = document.createElement('img');
