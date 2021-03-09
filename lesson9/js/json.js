@@ -11,7 +11,7 @@ fetch(requestURL)
             
             for (let i = 0; i < towns.length; i++) {
                 if (towns[i].name === "Preston" || towns[i].name === "Fish Haven" || towns[i].name === "Soda Springs") {
-
+//Sierra helped me with this part of the code (line 13) but I added the extra = because === is considered faster than ==
                     //variables
                     let card = document.createElement('section');
                     let motto = document.createElement('h4');
