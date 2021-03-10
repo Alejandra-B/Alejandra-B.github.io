@@ -7,7 +7,7 @@ temperature units in Fahrenheit (imperial), and
 your own APPID.
 The city ID variable at OpenWeatherMap for Preston Idaho is 5604473.*/
 
-const apiURL = "http://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=96658d9a7e75c72252f06d47773c60d7";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=96658d9a7e75c72252f06d47773c60d7";
 
 /* Use fetch() to request the given apiURL.
  It is OK to not use a lot of error checking in this activity with fetch().
