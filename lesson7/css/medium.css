@@ -18,8 +18,9 @@
 
     .mygallery {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 200px 200px;
         justify-content: center;
+        grid-gap: 10px;
     }
     .mygallery figcaption {
         background-color: #FFECD1;
