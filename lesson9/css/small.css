@@ -185,7 +185,15 @@ h3 {
     font-family: 'Lato', sans-serif;
 
 }
+ h4 {
+     margin:7px auto 10px auto;
 
+ }
+
+  h2{
+margin:13px ; 
+
+ }
 .cards {
     display: grid;
     grid-template-columns: 1fr;
@@ -201,7 +209,7 @@ h3 {
 
 .cards p {
     display: grid;
-    grid-template-columns: 1fr;
+
     margin: 10px;
     padding: 10px;
     font-family: 'Lato', sans-serif;
@@ -220,6 +228,7 @@ h3 {
 .cards img {
     margin: 10px auto 10px auto;
     border-radius: 50%;
+    border: 3px solid white;
 }
 
 .news {

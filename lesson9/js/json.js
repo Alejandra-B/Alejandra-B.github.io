@@ -37,8 +37,8 @@ fetch(requestURL)
 
 
                 //this is how to append the element to the card and paragraph
-                card.appendChild(name);
-                card.appendChild(motto);
+                p.appendChild(name);
+                p.appendChild(motto);
                 card.appendChild(p);
                 p.appendChild(yearFounded);
                 p.appendChild(currentPopulation);
