@@ -34,7 +34,13 @@
         grid-template-rows: 1fr;
 
 
+
     }
+
+    .cards section {
+        display: block;
+    }
+
 
     .contentbox4 {
         display: grid;
