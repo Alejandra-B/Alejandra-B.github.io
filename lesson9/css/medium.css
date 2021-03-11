@@ -16,26 +16,18 @@
         display: flex;
     }
 
-   
 
-  /* .cards section{
+.cards section{
 display:grid; 
 grid-template-columns: 1fr 1fr;
 grid-template-rows: 1fr;
 align-items: center;
    }
     
-
-.cards section:nth-child(even) img{
-    grid-column: 1;
-}
-.cards section:nth-child(even) h2 h4 p{
+.cards section:nth-child(even) p{
     grid-column: 2;
+    grid-row: 1;
 }
-
-.cards section:nth-child(odd) h4{
-    grid-column:1; 
-}*/
 
 .contentbox4{
     display:grid;
