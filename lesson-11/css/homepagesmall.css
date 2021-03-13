@@ -1,0 +1,267 @@
+header,
+h1,
+h2,
+footer,
+ul,
+il {
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+
+nav {
+    font-family: 'Lato', sans-serif;
+}
+
+header,
+footer {
+    color: white;
+    background-color: #001524;
+    text-align: center;
+}
+
+.cakes {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 5px;
+    text-align: center;
+    background-color: #ff7d00;
+    color: black;
+    font-family: 'Source Code Pro', monospace;
+}
+
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    /*the row value stacks the flex items horinzontally (from left to right)*/
+    align-items: center;
+    /* Perfect centering: Set both the justify-content and align-items properties to center, and the flex items will be perfectly centered*/
+    justify-content: center;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+}
+
+header img {
+    width: 80px;
+    height: auto;
+}
+
+
+.heading h1 {
+    font-size: 25px;
+    margin: 10px;
+}
+
+.motto {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: normal;
+    margin: 5px;
+    color: white;
+}
+
+nav {
+    font-size: 20px;
+    width: 100%;
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    color: white;
+}
+
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+
+ul,
+li {
+    font-size: 18px;
+}
+
+
+footer {
+    color: white;
+    background-color: #001524;
+    padding: 1rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+header,
+main,
+footer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+
+nav {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+main {
+    padding: 10px;
+}
+
+
+nav {
+    background-color: #156160;
+    text-align: center;
+    box-shadow: 0 5px 15px gray;
+}
+
+nav ul {
+    list-style-type: none;
+    /*this removes the bullet points on the side of each list item*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li a {
+    display: block;
+    /*this places the nav in a block for the small screen view*/
+    color: white;
+    text-align: center;
+    padding: 9px;
+    text-decoration: none;
+    /* this removes the underline from every list item*/
+    font-size: 1rem;
+}
+
+nav ul li.active a {
+    background-color: #001524;
+    color: white;
+}
+
+/*always place .active before "hover" so it can work properly*/
+
+
+nav a:hover {
+    background-color: #ff7d00;
+    color: black;
+    font-family: 'Source Code Pro', monospace;
+    transition: all 0.3s ease;
+
+}
+
+nav ul.hide {
+    display: none;
+}
+
+/******************************lesson 9****************************/
+.banner-box {
+    /*This is for my banner Image (Idaho Farm) on my Preston page*/
+    display: block;
+    position: relative;
+    max-width: 100%;
+    margin: 0%;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+
+h3 {
+    font-family: 'Lato', sans-serif;
+
+}
+ h4 {
+     margin:7px auto 10px auto;
+
+ }
+
+  h2{
+margin:13px ; 
+
+ }
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: whitesmoke;
+    margin: 8px;
+    text-align: center;
+    display: block;
+    font-family: 'Yusei Magic', sans-serif;
+    box-shadow: 0 0 50px gray;
+    grid-gap: 5px;
+
+}
+
+.cards p {
+    display: grid;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.cards section {
+    background-color: lightgray;
+    padding: 5px;
+    border: 1px solid black;
+    box-shadow: 0 0 50px lightgray;
+    margin: 5px;
+}
+
+
+.cards img {
+    margin: 10px auto 10px auto;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.news {
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+/***********************end of lesson 9***************************/
+
+.contentbox4 {
+
+    margin: 10px auto;
+    padding: 15px;
+    background-color: #FFECD1;
+    color: black;
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 12px;
+
+}
+
+.social {
+    text-align: left;
+}
+
+.social img {
+    width: 35px;
+}
+
+.map {
+    width: 100%;
+    height: auto;
+}
+
+#copy {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}

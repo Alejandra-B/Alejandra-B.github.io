@@ -24,10 +24,10 @@ fetch(five_dayapiURL)
 
 
             const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon +'.png'; //  concatenation
-            const desc = jsObject.weather[0].description; //  reference the weather array image source
+            const description = jsObject.weather[0].description; //  reference the weather array image source
             document.getElementById('imagesrc'+ (this_day + 1)).textContent = imagesrc;
             document.getElementById('icon' + (this_day + 1)).setAttribute('src', imagesrc);
-            document.getElementById('icon' + (this_day + 1)).setAttribute('alt', desc);
+            document.getElementById('icon' + (this_day + 1)).setAttribute('alt', description);
 
 
 

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Weather Site Planning Home Page</title>
+    <meta name="description" content="This page will contain my weather site planning document Home Page.">
+
+    <link rel="shortcut icon" href="favicon/icon_32f88267bfc9b9b9540121e0394fdd15.ico">
+    <!--<a href="https://icons8.com/icon/67607/sun">Sun icon by Icons8</a>
+    <a href="https://icons8.com/icon/KXHiLGrszdFI/wind">Wind icon by Icons8</a>-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="css/homepagesmall.css" rel="stylesheet">
+    <link href="css/homepagemedium.css" rel="stylesheet">
+    <link href="css/homepagelarge.css" rel="stylesheet">
+</head>
+
+<body onload="currentDate(); pancakes()">
+    <script src="js/currentdate.js"></script>
+    <script src="js/pancakes.js"></script>
+    <div id="pan" class="cakes">"Saturday = Preston Pancakes in the Park! 9:00. Saturday at the city park pavillion."
+    </div>
+
+    <header>
+        <picture class="logo">
+            <img src="images/myicon11.png" alt="Drawing of a colorful rainbow behind a cloud.">
+        </picture>
+        <section class="heading">
+            <h1>Always Ready</h1>
+            <div class="motto">Relax...we got you covered!</div>
+        </section>
+
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li class="active"><a href="index.html">Home</a></li>
+            <!--<li class="active"><a href="preston-5.html">Preston</a></li>-->
+            <li><a href="../lesson-10/preston-10.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="../lesson8/stormcenter.html">Storm Center</a></li>
+            <li><a href="../lesson7/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="banner-box">
+            <!--This is my my hero image-->
+
+            <hr>
+            <picture>
+                <source class="hero" media="(min-width: 300px) and (max-width:699px)" srcset="images/nature300min.jpg">
+                <source media="(min-width: 700px) and (max-width:1099px)" srcset="images/nature700minlesson9.jpg">
+                <source media="(min-width: 1100px)" srcset="images/largeview.jpg">
+                <img src="images/largeview.jpg" alt="image of farm scene">
+            </picture>
+            <hr>
+        </div>
+
+        <section>
+            <h2>Come and Explore our Beautiful Towns!</h2>
+            <hr>
+            <div class="cards"></div>
+        </section>
+        <section class="news">
+            <h2>Upcoming events</h2>
+            <hr>
+            <h3>Preston</h3>
+            <p>This coming month we will be having our annual Spring Community Picnic at Ranch St. Luke. We have 
+                many
+                activities planned for the whole family to enjoy! Come ready to spend quality time with family and friends.
+                Bring a blanket or lawn chairs. Food will be provided. Saturday, April 4th from 11:00am- 4:00pm. </p>
+            <h3>Soda Springs</h3>
+            <p>The weather this month will be perfect for celebrating the coming of Spring with many oportunities for
+                community service, like cleaning our roadsides, volunteering at our local farms, potato picking and so
+                much more. Remember that service is a wonderful opportunity to make new friends and spend time outdoors
+                in our amazing Soda Spring. For more information plase contact us and we will be happy to assist you!
+            </p>
+            <h3>Fish Haven</h3>
+            <p>Ready to find activities to enjoy with family and friends? Stay tune...we will be posting more info about
+                it in the upcoming days!</p>
+
+
+
+        </section>
+
+        <section class="contentbox4">
+            <!--This is my map and my Contact information, and my social icons in 2 different divisions inside a section-->
+
+            <div class="map">
+                <img src="images/map200.jpg" alt="Preston, Idaho map"></div>
+
+            <div class="contact">
+                <h3>Contact Information</h3>
+                <p><span>&#x1F4CC;</span>34 S St, Preston, ID 83263</p>
+                <p><span>&#x1F4DE;</span>(208) 844-1273</p>
+                <p><span>&#x1F4E7;</span>weather@alwaysready.info</p>
+
+                <a class="social" href="https://www.facebook.com/" target="_blank"><img src="images/facebook11.png"
+                        alt="Facebook logo"></a>
+
+                <a class="social" href="https://twitter.com/?lang=en" target="_blank"><img src="images/twiter11.png"
+                        alt="Twiter logo"></a>
+                <a class="social" href="https://www.youtube.com/" target="_blank"><img src="images/youtube11.png"
+                        alt="YouTube logo"></a>
+                    
+            </div>
+                
+
+
+        </section>
+
+
+
+    </main>
+
+    <footer>
+        <p><span id="copy">&copy;</span> Always Ready | Alejandra Black </p>
+        <div><span id="currentdate"></span></div>
+    </footer>
+    <script src="js/pancakes.js"></script>
+    <!--This is the function that creates the banner on top of my header every Friday-->
+    <script src="js/currentdate.js"></script>
+    <script src="js/toggle.js"></script>
+    <!--This is the function that helps my hamburger menu open and close-->
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <!--This is the new way I will reference Google Fonts, always add this code-->
+    <script src="js/webfontload.js"></script>
+    <!--This is the link to the new web font load page I have to use from now on. 
+        Every time I add a new font I have to added or take it out of my function and then reference it on my css where I need it-->
+    <script src="js/json.js"></script>
+</body>
+
+</html>
