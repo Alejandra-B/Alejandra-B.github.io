@@ -7,7 +7,7 @@ fetch(five_dayapiURL)
         console.log(jsObject);
 
         //variables:
-        const w = ['Sunday', 'Monday', 'Tuesday', 'Wednsday', 'Thursday', 'Friday', 'Saturday'];
+        const w = ['Sun', 'Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat'];
         let this_day = 0;
 
         //this is how to find the specific information I need 
