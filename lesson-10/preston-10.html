@@ -48,25 +48,28 @@
     <main>
         <h2>Preston Idaho</h2>
         <hr>
+        <hr>
         <div class="banner-box">
             <!--This is my my hero image-->
             <picture class="myimage">
                 <source media="(min-width: 300px) and (max-width:699px)" srcset="images/smallview400px.jpg">
                 <source media="(min-width: 700px) and (max-width:1099px)" srcset="images/mediumview600px.jpg">
                 <source media="(min-width: 1100px)" srcset="images/largeview800px.jpg">
-                <img class="main-image" src="images/largeview800px.jpg"
-                    alt="image of Preston farm scene">
+                <img class="main-image" src="images/largeview800px.jpg" alt="image of Preston farm scene">
             </picture>
             <hr>
             <!--This is my weather box that is placed on my hero image-->
             <section class="weathersummary">
 
-                <h3>Weather Summary</h3>
+                <h3>Our Weather Today</h3>
+                <hr>
                 <p>Current Conditions: <span id="weather"></span></p>
-                <p>Current Temperature: <span id="temp"></span>°F</p>
-                <p>Humidity: <span id="humidity"></span>
-                <p>Wind Speed: <span id="speed"></span>mph</p>
-                <p>Wind Chill: <span id="windchill"></span>°F</p>
+                <p>Current Temperature: <span id="temp"></span> °F</p>
+                <p>Feels Like: <span id="feelslike"></span> °F</p>
+                <p>Humidity: <span id="humidity"></span> %</p>
+                <p>Wind Speed: <span id="speed"></span> mph</p>
+                <p>Wind Chill: <span id="windchill"></span> °F</p>
+                <hr>
             </section>
 
         </div>
@@ -78,25 +81,41 @@
 
             <table class="center">
                 <tr>
+                    <caption>Temperature Forecast at 18:00:00 <br> (5 days a week)</caption>
                     <!--This is the first row of my table with my headings. Each th tag shows how many columns I will have-->
-                    <th id="one">Monday</th>
-                    <th id="two">Tuesday</th>
-                    <th id="three">Wednesday</th>
-                    <th id="four">Thursday</th>
-                    <th id="five">Friday</th>
-
+                    
+                        <th><span id="week_day1"></span></th> 
+                        <th><span id="week_day2"></span></th> 
+                        <th><span id="week_day3"></span></th> 
+                        <th><span id="week_day4"></span></th> 
+                        <th><span id="week_day5"></span></th> 
+                        
+                    
                 </tr>
 
-                <tr>
-                    <!--These are my two rows--><!--add a placeholder image here if needed-->
-                    <td><img src="https://img.icons8.com/plasticine/50/000000/sun--v1.png" alt="sun icon"></td>
-                    <td><img src="https://img.icons8.com/plasticine/50/000000/windy-weather.png" alt="wind icon"></td>
-                    <td><img src="https://img.icons8.com/plasticine/50/000000/sun--v1.png" alt="sun icon"></td>
-                    <td><img src="https://img.icons8.com/plasticine/50/000000/sun--v1.png" alt="sun icon"></td>
-                    <td><img src="https://img.icons8.com/plasticine/50/000000/windy-weather.png" alt="wind icon"></td>
+                <tr>      
+                    <td><span id="imagesrc1"></span><img id="icon1" src="#"
+                            alt="desc"></td>
+                    <td><span id="imagesrc2"></span><img id="icon2" src="#"
+                            alt="desc"></td>
+                    <td><span id="imagesrc3"></span><img id="icon3" src="#"
+                            alt="desc"></td>
+                    <td><span id="imagesrc4"></span><img id="icon4" src="#"
+                            alt="desc"></td>
+                    <td><span id="imagesrc4"></span><img id="icon5" src="#"
+                            alt="desc"></td>
                 </tr>
-
                 
+                <tr>
+                    <th ><span id="temp1"></span>°F</th> 
+                    <th ><span id="temp2"></span>°F</th> 
+                    <th ><span id="temp3"></span>°F</th> 
+                    <th ><span id="temp4"></span>°F</th> 
+                    <th ><span id="temp5"></span>°F</th> 
+                    
+                </tr>
+
+
 
 
 
@@ -104,7 +123,7 @@
 
 
 
-<hr>
+            <hr>
 
 
         </div>
@@ -163,21 +182,24 @@
 
     <footer>
         <p><span id="copy">&copy;</span> Always Ready | Alejandra Black | <a id="weathersite"
-            href="https://openweathermap.org/">Open Weather Map</a></p>
+                href="https://openweathermap.org/">Open Weather Map</a></p>
         <div><span id="currentdate"></span></div>
     </footer>
     <script src="js/pancakes.js"></script>
     <!--This is the function that creates the banner on top of my header every Friday-->
     <script src="js/currentdate.js"></script>
-
     <script src="js/toggle.js"></script>
     <!--This is the function that helps my hamburger menu open and close-->
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <!--This is the new way I will reference Google Fonts, always add this code-->
     <script src="js/webfontload.js"></script>
     <!--This is the link to the new web font load page I have to use from now on. 
-        Every time I add a new font I have to added or take it out of my function and then reference it on my css where I need it-->
+    Every time I add a new font I have to added or take it out of my function and then reference it on my css where I need it-->
     <script src="js/windchill.js"></script>
+    <script src="js/prestonweather.js"></script>
+    <script src="js/forecast.js"></script>
+    <script src="js/events.js"></script>
+    
 </body>
 
 </html>
