@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Weather Site Planning Home Page</title>
+    <meta name="description" content="This page will contain my weather site planning document Home Page.">
+
+    <link rel="shortcut icon" href="favicon/icon_32f88267bfc9b9b9540121e0394fdd15.ico">
+    <!--<a href="https://icons8.com/icon/67607/sun">Sun icon by Icons8</a>
+    <a href="https://icons8.com/icon/KXHiLGrszdFI/wind">Wind icon by Icons8</a>-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="css/prestonsmall.css" rel="stylesheet">
+    <link href="css/prestonmedium.css" rel="stylesheet">
+    <link href="css/prestonlarge.css" rel="stylesheet">
+</head>
+
+<body onload="currentDate(); pancakes()">
+    <script src="js/currentdate.js"></script>
+    <script src="js/pancakes.js"></script>
+    <div id="pan" class="cakes">"Saturday = Preston Pancakes in the Park! 9:00. Saturday at the city park pavillion."
+    </div>
+
+    <header>
+        <picture class="logo">
+            <img src="images/myicon11.png" alt="Drawing of a colorful rainbow behind a cloud.">
+        </picture>
+        <section class="heading">
+            <h1>Always Ready</h1>
+            <div class="motto">Relax...we got you covered!</div>
+        </section>
+
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <!--<li class="active"><a href="preston-5.html">Preston</a></li>-->
+            <li><a href="preston.html">Preston</a></li>
+            <li class="active"><a href="sodasprings.html">Soda Springs</a></li>
+            <li><a href="fishhaven.html">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Soda Springs</h2>
+        <hr>
+
+        <div class="banner-box">
+            <!--This is my my hero image-->
+            <picture class="myimage">
+                <source media="(min-width: 300px) and (max-width:699px)" srcset="images/sodaspringsmall400.jpg">
+                <source media="(min-width: 700px) and (max-width:1099px)" srcset="images/sodaspringsmedium600.jpg">
+                <source media="(min-width: 1100px)" srcset="images/sodaspringslarge800.jpg">
+                <img class="main-image" src="images/sodaspringslarge800.jpg" alt="image of springs">
+            </picture>
+            <hr>
+            <!--This is my weather box that is placed on my hero image-->
+            <section class="weathersummary">
+
+                <h3>Our Weather Today</h3>
+                <hr>
+                <p>Current Conditions: <span id="weather"></span></p>
+                <p>Current Temperature: <span id="temp"></span> °F</p>
+                <p>Feels Like: <span id="feelslike"></span> °F</p>
+                <p>Humidity: <span id="humidity"></span> %</p>
+                <p>Wind Speed: <span id="speed"></span> mph</p>
+                <p>Wind Chill: <span id="windchill"></span> °F</p>
+                <hr>
+            </section>
+
+        </div>
+
+
+
+        <!--This is my table-->
+        <div class="contentbox">
+
+            <table class="center">
+                <tr>
+                    <caption>Temperature Forecast at 18:00:00 <br> (5 days a week)</caption>
+                    <!--This is the first row of my table with my headings. Each th tag shows how many columns I will have-->
+
+                    <th><span id="week_day1"></span></th>
+                    <th><span id="week_day2"></span></th>
+                    <th><span id="week_day3"></span></th>
+                    <th><span id="week_day4"></span></th>
+                    <th><span id="week_day5"></span></th>
+
+
+                </tr>
+
+                <tr>
+                    <td><span id="imagesrc1"></span><img id="icon1" src="#" alt="d"></td>
+                    <td><span id="imagesrc2"></span><img id="icon2" src="#" alt="d"></td>
+                    <td><span id="imagesrc3"></span><img id="icon3" src="#" alt="d"></td>
+                    <td><span id="imagesrc4"></span><img id="icon4" src="#" alt="d"></td>
+                    <td><span id="imagesrc4"></span><img id="icon5" src="#" alt="d"></td>
+                </tr>
+
+                <tr>
+                    <th><span id="temp1"></span>°F</th>
+                    <th><span id="temp2"></span>°F</th>
+                    <th><span id="temp3"></span>°F</th>
+                    <th><span id="temp4"></span>°F</th>
+                    <th><span id="temp5"></span>°F</th>
+
+                </tr>
+
+
+
+
+
+            </table>
+
+
+
+            <hr>
+
+
+        </div>
+        <div class="contentbox">
+            <h3>Around the Corner!</h3>
+            <hr>
+            <!--This is my article-->
+
+            <img class="balloon" src="images/red.jpg" alt="red flower.">
+            <!--This is the image for my article-->
+            <p>For the past 10 years our beloved Soda Springs has been celebraring the coming of Spring with pot plants
+                give away and
+                a picnic at the main park followed by a parade. We've had a difficult last year with Covid-19 Pandemic,
+                but we are ready to bring joy and color back to our community.
+            </p>
+            <p>Families, friends, and visitors from out of town gather year after year to spend a day filled with joy
+                and entertainment. Food will be provided by our local shop owners and the City council. </p>
+            <p>Don't miss this wonderful opportunity to strengthen bonds and friendship here in Soda Springs.</p>
+            <p>This
+                activity will be held on Saturday April 3rd from 10:00am-4:00pm.The
+                weather will be fantastic to spend it outdoors, start spreading the news and
+                save the date!</p> 
+        </div>
+
+        <section class="contentbox4">
+            <!--This is my map and my Contact information, and my social icons in 2 different divisions inside a section-->
+
+            <!--<iframe class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.77385344583!2d-111.9153444655827!3d42.09974162638001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1612380696220!5m2!1sen!2sus"
+                width="600" height="450" style="border: 0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>-->
+
+            <div class="map">
+                <img src="images/map200.jpg" alt="Preston, Idaho map"></div>
+
+            <div>
+                <h3>Contact Information</h3>
+                <p><span>&#x1F4CC;</span>34 S St, Preston, ID 83263</p>
+                <p><span>&#x1F4DE;</span>(208) 844-1273</p>
+                <p><span>&#x1F4E7;</span>weather@alwaysready.info</p>
+
+                <a class="social" href="https://www.facebook.com/" target="_blank"><img src="images/facebook11.png"
+                        alt="Facebook logo"></a>
+
+                <a class="social" href="https://twitter.com/?lang=en" target="_blank"><img src="images/twiter11.png"
+                        alt="Twiter logo"></a>
+                <a class="social" href="https://www.youtube.com/" target="_blank"><img src="images/youtube11.png"
+                        alt="YouTube logo"></a>
+            </div>
+
+
+        </section>
+
+
+
+    </main>
+
+    <footer>
+        <p><span id="copy">&copy;</span> Always Ready | Alejandra Black | <a id="weathersite"
+                href="https://openweathermap.org/">Open Weather Map</a></p>
+        <div><span id="currentdate"></span></div>
+    </footer>
+    <script src="js/pancakes.js"></script>
+    <!--This is the function that creates the banner on top of my header every Friday-->
+    <script src="js/currentdate.js"></script>
+    <script src="js/toggle.js"></script>
+    <!--This is the function that helps my hamburger menu open and close-->
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <!--This is the new way I will reference Google Fonts, always add this code-->
+    <script src="js/webfontload.js"></script>
+    <!--This is the link to the new web font load page I have to use from now on. 
+    Every time I add a new font I have to added or take it out of my function and then reference it on my css where I need it-->
+    <script src="js/windchill.js"></script>
+    <script src="js/prestonweather.js"></script>
+    <script src="js/forecast.js"></script>
+
+
+</body>
+
+</html>
