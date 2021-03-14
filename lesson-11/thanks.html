@@ -1,0 +1,79 @@
+<DOCTYPE html>
+    <html lang="en-us">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Weather Site Planning Home Page</title>
+        <meta name="description" content="This page will contain my weather site planning document Home Page.">
+
+        <link rel="shortcut icon" href="favicon/icon_32f88267bfc9b9b9540121e0394fdd15.ico">
+        <!--<a href="https://icons8.com/icon/67607/sun">Sun icon by Icons8</a>
+            <a href="https://icons8.com/icon/KXHiLGrszdFI/wind">Wind icon by Icons8</a>-->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href="css/stormcentersmall.css" rel="stylesheet">
+        <link href="css/stormcentermedium.css" rel="stylesheet">
+        <link href="css/stormcenterlarge.css" rel="stylesheet">
+    </head>
+
+    <body onload="currentDate(); pancakes()">
+        <script src="js/currentdate.js"></script>
+        <script src="js/pancakes.js"></script>
+        <div id="pan" class="cakes">"Saturday = Preston Pancakes in the Park! 9:00. Saturday at the city park
+            pavillion."
+        </div>
+
+        <header>
+            <picture class="logo">
+                <img src="images/myicon11.png" alt="Drawing of a colorful rainbow behind a cloud.">
+            </picture>
+            <section class="heading">
+                <h1>Always Ready</h1>
+                <div class="motto">Relax...we got you covered!</div>
+            </section>
+
+        </header>
+        <nav>
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="index.html">Home</a></li>
+                <!--<li class="active"><a href="preston-5.html">Preston</a></li>-->
+                <li class="active"><a href="preston.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li class="active"><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+
+
+        <main class="letter">
+            <p class="thanks">Thank you!</p>
+            <p>Your submission has been received. We appreciate your opinion.<br>
+                (If needed, you will be contacted
+                shortly)</p>
+
+        </main>
+
+
+        <script src="js/pancakes.js"></script>
+        <!--This is the function that creates the banner on top of my header every Friday-->
+        <script src="js/currentdate.js"></script>
+
+        <script src="js/toggle.js"></script>
+        <!--This is the function that helps my hamburger menu open and close-->
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <!--This is the new way I will reference Google Fonts, always add this code-->
+        <script src="js/webfontload.js"></script>
+        <!--This is the link to the new web font load page I have to use from now on. 
+Every time I add a new font I have to added or take it out of my function and then reference it on my css where I need it-->
+        <footer>
+            <p><span id="copy">&copy;</span> Always Ready | Alejandra Black</p>
+            <div><span id="currentdate"></span></div>
+        </footer>
+
+
+    </body>
+
+
+    </html>

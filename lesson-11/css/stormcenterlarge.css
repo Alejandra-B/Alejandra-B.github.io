@@ -1,0 +1,31 @@
+@media only screen and (min-width: 992px) {
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+
+    header img {
+        width: 100%;
+    }
+
+    .heading h1 {
+        font-size: 30px;
+    }
+
+    .motto {
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    ul,
+    li {
+        font-size: 20px;
+    }
+
+}
