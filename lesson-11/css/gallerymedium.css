@@ -23,7 +23,7 @@
         grid-gap: 10px;
     }
     .mygallery figcaption {
-        background-color: #FFECD1;
+        background-color: lightblue;
         padding: 5px;
         text-align: center;
         font-family: 'Lato', sans-serif;

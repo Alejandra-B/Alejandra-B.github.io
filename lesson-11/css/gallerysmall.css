@@ -178,7 +178,7 @@ img[data-src] {
 }
 
 .mygallery figcaption {
-    background-color: #FFECD1;
+    background-color: lightblue;
     border: thin silver solid;
     padding: 5px;
     text-align: center;
