@@ -255,7 +255,7 @@ td {
     color: black;
     font-family: 'Yusei Magic', sans-serif;
     font-size: 15px;
-    background-color: #F5F5F5;
+    background-color: lightblue;
     box-shadow: 0 0 50px lightgray;
 }
 
@@ -293,4 +293,14 @@ td {
 
 #weathersite { /*this is the link to Open Weather Map Site*/
     color: white;
+}
+.cards{
+    background-color:lightblue; 
+    font-size:20px; 
+    padding:15px; 
+    font-family: 'Yusei Magic', sans-serif;
+
+}
+.center{
+    font-family: 'Yusei Magic', sans-serif;
 }
