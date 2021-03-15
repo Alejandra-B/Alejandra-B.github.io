@@ -218,7 +218,7 @@ form fieldset {
     margin: 20px 0;
     border: 2px solid silver;
     padding: 5px;
-    background-color: #FFECD1;
+    background-color: lightblue;
     max-width: 100%;
 }
 
@@ -268,7 +268,7 @@ label.submitButton {
 .button {
     display: grid;
     border: none;
-    background-color:lightblue;
+    background-color: #FFECD1;
     color: black;
     border-radius: 10px;
     padding: .75rem 1.5rem;
@@ -279,4 +279,13 @@ label.submitButton {
     font-size: 20px;
     max-width: 20rem;
     text-align: center;
+    border: solid black;
+}
+.nine{
+    text-align:center; 
+    font-size:20px; 
+    color:white;
+    background-color:#b22222; 
+    font-family: 'Yusei Magic', sans-serif;
+    padding: 10px; 
 }
