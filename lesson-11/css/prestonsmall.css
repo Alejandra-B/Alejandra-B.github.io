@@ -294,10 +294,11 @@ td {
     color: white;
 }
 .cards{
-    background-color:lightblue; 
+    background-color:rgb(129, 194, 216); 
     font-size:20px; 
     padding:15px; 
     font-family: 'Yusei Magic', sans-serif;
+    border-style: ridge;
 }
 .center{
     font-family: 'Yusei Magic', sans-serif;

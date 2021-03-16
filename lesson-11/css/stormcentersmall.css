@@ -270,7 +270,6 @@ label.submitButton {
     border: none;
     background-color: #FFECD1;
     color: black;
-    border-radius: 10px;
     padding: .75rem 1.5rem;
     margin: auto;
     margin-bottom: 10px;
@@ -279,7 +278,7 @@ label.submitButton {
     font-size: 20px;
     max-width: 20rem;
     text-align: center;
-    border: solid black;
+    border-style: ridge;
 }
 .nine{
     text-align:center; 

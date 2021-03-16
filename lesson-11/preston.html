@@ -48,20 +48,18 @@
     <main>
         <h2>Preston Idaho</h2>
         <hr>
-        <section>
-            <h2>Events</h2>
-            <div class="cards"></div>
-        </section>
-        
+
+
         <div class="banner-box">
             <!--This is my my hero image-->
             <picture class="myimage">
                 <source media="(min-width: 300px) and (max-width:699px)" srcset="images/prestonpagesmallview400px.jpg">
-                <source media="(min-width: 700px) and (max-width:1099px)" srcset="images/prestonpagemediumview600px.jpg">
+                <source media="(min-width: 700px) and (max-width:1099px)"
+                    srcset="images/prestonpagemediumview600px.jpg">
                 <source media="(min-width: 1100px)" srcset="images/prestonpagelargeview800px.jpg">
                 <img class="main-image" src="images/prestonpagelargeview800px.jpg" alt="image of Preston farm scene">
             </picture>
-            <hr>
+
             <!--This is my weather box that is placed on my hero image-->
             <section class="weathersummary">
 
@@ -85,49 +83,48 @@
 
             <table class="center">
                 <tr>
-                    <caption>6pm-5 Day Forecast</caption>
+                    <caption>6pm 5 Day Forecast</caption>
                     <!--This is the first row of my table with my headings. Each th tag shows how many columns I will have-->
-                    
-                        <th><span id="week_day1"></span></th> 
-                        <th><span id="week_day2"></span></th> 
-                        <th><span id="week_day3"></span></th> 
-                        <th><span id="week_day4"></span></th> 
-                        <th><span id="week_day5"></span></th> 
-                        
-                    
+
+                    <th><span id="week_day1"></span></th>
+                    <th><span id="week_day2"></span></th>
+                    <th><span id="week_day3"></span></th>
+                    <th><span id="week_day4"></span></th>
+                    <th><span id="week_day5"></span></th>
+
+
                 </tr>
 
-                <tr>      
-                    <td><span id="imagesrc1"></span><img id="icon1" src="#"
-                            alt="d"></td>
-                    <td><span id="imagesrc2"></span><img id="icon2" src="#"
-                            alt="d"></td>
-                    <td><span id="imagesrc3"></span><img id="icon3" src="#"
-                            alt="d"></td>
-                    <td><span id="imagesrc4"></span><img id="icon4" src="#"
-                            alt="d"></td>
-                    <td><span id="imagesrc4"></span><img id="icon5" src="#"
-                            alt="d"></td>
-                </tr>
-                
                 <tr>
-                    <th ><span id="temp1"></span>°F</th> 
-                    <th ><span id="temp2"></span>°F</th> 
-                    <th ><span id="temp3"></span>°F</th> 
-                    <th ><span id="temp4"></span>°F</th> 
-                    <th ><span id="temp5"></span>°F</th> 
-                    
+                    <td><img id="icon1" src="imagesrc1" alt="d"></td>
+                    <td><img id="icon2" src="imagesrc2" alt="d"></td>
+                    <td><img id="icon3" src="imagesrc3" alt="d"></td>
+                    <td><img id="icon4" src="imagesrc4" alt="d"></td>
+                    <td><img id="icon5" src="imagesrc5" alt="d"></td>
                 </tr>
 
+                <tr>
+                    <th><span id="temp1"></span>°F</th>
+                    <th><span id="temp2"></span>°F</th>
+                    <th><span id="temp3"></span>°F</th>
+                    <th><span id="temp4"></span>°F</th>
+                    <th><span id="temp5"></span>°F</th>
 
-
-
+                </tr>
 
             </table>
-            <hr>
-           
 
         </div>
+
+
+        <!--this is my events from the js-->
+        <section>
+            <h2>Events</h2>
+            <hr>
+            <div class="cards"></div>
+        </section>
+
+
         <div class="contentbox">
             <h3>Looking Forward!</h3>
             <hr>
@@ -196,12 +193,12 @@
     <script src="js/webfontload.js"></script>
     <!--This is the link to the new web font load page I have to use from now on. 
     Every time I add a new font I have to added or take it out of my function and then reference it on my css where I need it-->
-    <script src="js/windchill.js"></script>
+    <!--<script src="js/windchill.js"></script>-->
     <script src="js/prestonweatherbox.js"></script>
     <script src="js/forecast.js"></script>
     <script src="js/prestonevents.js"></script>
-    
-    
+
+
 </body>
 
 </html>
