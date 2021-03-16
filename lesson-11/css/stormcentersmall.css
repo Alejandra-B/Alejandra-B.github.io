@@ -18,10 +18,11 @@ footer {
     background-color: #001524;
     text-align: center;
 
+
 }
 
 .cakes {
-    max-width: 800px;
+
     margin: 0 auto;
     padding-top: 5px;
     text-align: center;
@@ -108,9 +109,8 @@ footer {
 
 }
 
-header,
-main,
-footer {
+
+main {
     max-width: 800px;
     margin: 0 auto;
     padding-top: 5px;
@@ -118,7 +118,7 @@ footer {
 }
 
 nav {
-    max-width: 800px;
+
     margin: 0 auto;
 }
 
@@ -150,6 +150,7 @@ nav ul li a {
     text-decoration: none;
     /* this removes the underline from every list item*/
     font-size: 1rem;
+
 }
 
 nav ul li.active a {
@@ -194,9 +195,7 @@ nav ul.hide {
 
 
 /*-----------------------FORM-------------------*/
-main,
-footer
-    {
+main {
     max-width: 100%;
     width: 800px;
     margin: 0 auto;
@@ -218,7 +217,7 @@ form fieldset {
     margin: 20px 0;
     border: 2px solid silver;
     padding: 5px;
-    background-color: lightblue;
+    background-color: rgb(241, 244, 245);
     max-width: 100%;
 }
 
@@ -280,11 +279,12 @@ label.submitButton {
     text-align: center;
     border-style: ridge;
 }
-.nine{
-    text-align:center; 
-    font-size:20px; 
-    color:white;
-    background-color:#b22222; 
+
+.nine {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background-color: #b22222;
     font-family: 'Yusei Magic', sans-serif;
-    padding: 10px; 
+    padding: 10px;
 }

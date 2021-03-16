@@ -10,6 +10,8 @@ il {
 
 nav {
     font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    width: 100%;
 }
 
 header,
@@ -17,10 +19,11 @@ footer {
     color: white;
     background-color: #001524;
     text-align: center;
+    margin: 0 auto;
+    padding: 10px;
 }
 
 .cakes {
-    max-width: 800px;
     margin: 0 auto;
     padding-top: 5px;
     text-align: center;
@@ -56,10 +59,6 @@ header {
     color: white;
 }
 
-nav {
-    font-size: 20px;
-    width: 100%;
-}
 
 nav button {
     background-color: transparent;
@@ -95,18 +94,6 @@ footer {
     font-size: 15px;
 }
 
-header,
-footer {
-    max-width: 800px;
-    margin: 0 auto;
-    padding-top: 5px;
-}
-
-nav {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
 
 main {
     padding: 10px;
@@ -117,6 +104,7 @@ nav {
     background-color: #156160;
     text-align: center;
     box-shadow: 0 5px 15px gray;
+    margin: 0 auto;
 }
 
 nav ul {
