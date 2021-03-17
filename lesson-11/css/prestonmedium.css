@@ -18,6 +18,7 @@ nav ul.hide {
 .weathersummary{
     position: absolute;
     font-size: 15px; 
+    margin-left: 15px; ;
     
 }
 }

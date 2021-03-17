@@ -59,7 +59,7 @@
         font-family: 'Lato', sans-serif;
     }
     .mygallery :hover {
-        box-shadow: 0 0 50px black;
+        box-shadow: 0 0 30px #484848;
     }
 
 }
