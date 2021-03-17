@@ -37,7 +37,7 @@
         <ul id="primaryNav" class="hide">
             <li><a href="index.html">Home</a></li>
             <!--<li class="active"><a href="preston-5.html">Preston</a></li>-->
-            <li class="active"><a href="preston.html">Preston</a></li>
+            <li><a href="preston.html">Preston</a></li>
             <li><a href="sodasprings.html">Soda Springs</a></li>
             <li><a href="fishhaven.html">Fish Haven</a></li>
             <li class="active"><a href="stormcenter.html">Storm Center</a></li>
@@ -57,7 +57,7 @@
 
                 <legend>Applicant Information</legend>
                 <!--full name-->
-                <label class="top" for="name">Full Name*
+                <label class="top" for="name">Full Name(required)
                     <input class="box" type="text" id="name" name="user_name" pattern="[A-Z a-z]{5,}" required></label>
                 <!--I need to add more here, see the requirement page-->
 
@@ -68,13 +68,13 @@
 
 
                 <!--phone number-->
-                <label class="top" for="phone">Phone Number*
+                <label class="top" for="phone">Phone Number(required)
                     <input class="box" type="tel" id="phone" name="user_phone" placeholder="###-###-####"
                         required></label>
 
 
                 <!--zip code-->
-                <label class="top" for="zip">ZIP Code*
+                <label class="top" for="zip">ZIP Code(required)
                     <input class="box" type="number" id="zip" name="zip_code" required></label>
 
             </fieldset>
@@ -85,7 +85,7 @@
             <fieldset class="form">
                 <legend>Storm Information</legend>
                 <!--strom date-->
-                <label class="middle">Storm Date
+                <label class="middle">Storm Date(required)
                     <input class="smallbox" type="date" id="storm_date" name="storm_date" required></label>
 
 

@@ -25,17 +25,15 @@ fetch(apiURL)
         humidity.textContent = jsObject.main.humidity;
 
 
+        
         var f = 35.74 + 0.6215 * temperature - 35.75 * Math.pow(speed, 0.16) + 0.4275 * temperature * Math.pow(speed, 0.16);
         
         if (temperature <= 50 && speed >= 3) {
-           F= f.toFixed(1);
+         result= f.toFixed(1);
         } 
         else {
-            F= "N/A";
+            result= "N/A";
         }
-        document.getElementById("windchill").innerHTML = F; 
-        
-       
-
+        document.getElementById("windchill").innerHTML = result; 
 
     });

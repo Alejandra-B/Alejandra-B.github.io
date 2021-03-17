@@ -7,28 +7,25 @@ il {
     font-family: 'Yusei Magic', sans-serif;
 }
 
-
-nav {
-    font-family: 'Lato', sans-serif;
-    font-size: 20px;
-    width: 100%;
-    margin: 0 auto;
-    background-color: #156160;
-    text-align: center;
-    box-shadow: 0 5px 15px gray;
+body {
+    background-color: #F8F8FF;
 }
 
-header,
-footer {
+
+
+header {
     color: white;
     background-color: #001524;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
+
+
+
 
 .cakes {
     margin: 0 auto;
-    padding-top: 5px;
+    padding-top: 15px;
     text-align: center;
     background-color: #ff7d00;
     color: black;
@@ -71,19 +68,12 @@ header img {
 }
 
 
-nav button {
-    background-color: transparent;
-    border: none;
-    font-size: 30px;
-    color: white;
-}
-
-
 h2 {
     font-size: 25px;
     text-align: center;
     text-decoration: none;
     color: black;
+    margin: 13px;
 }
 
 
@@ -96,12 +86,12 @@ li {
 footer {
     color: white;
     background-color: #001524;
-    padding: 1rem;
+    padding: 10px;
+    padding-bottom: 20px;
     display: flex;
     flex-flow: column;
-    align-items: center;
-    justify-content: center;
     font-size: 15px;
+    text-align: center;
 }
 
 
@@ -110,6 +100,17 @@ main {
     margin: 0 auto;
     padding-top: 5px;
     padding: 10px;
+}
+
+
+nav {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #156160;
+    text-align: center;
+    box-shadow: 0 5px 15px gray;
 }
 
 
@@ -126,10 +127,17 @@ nav ul li a {
     /*this places the nav in a block for the small screen view*/
     color: white;
     text-align: center;
-    padding: 9px;
+    padding: 15px;
     text-decoration: none;
     /* this removes the underline from every list item*/
     font-size: 1rem;
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    color: white;
 }
 
 nav ul li.active a {
@@ -141,9 +149,8 @@ nav ul li.active a {
 
 
 nav a:hover {
-    background-color: #ff7d00;
+    background-color: #F8F8FF;
     color: black;
-    font-family: 'Source Code Pro', monospace;
     transition: all 0.3s ease;
 
 }
@@ -177,10 +184,7 @@ h4 {
 
 }
 
-h2 {
-    margin: 13px;
 
-}
 
 .cards {
     display: grid;
@@ -221,19 +225,19 @@ h2 {
 .news {
     background-color: lightblue;
     padding: 10px;
+    margin: 5px auto 5px auto;
 }
 
 /***********************end of lesson 9***************************/
 
 .contentbox4 {
 
-    margin: 10px auto;
+    margin: auto;
     padding: 15px;
     background-color: #FFECD1;
     color: black;
     font-family: 'Yusei Magic', sans-serif;
-    font-size: 12px;
-
+    font-size: 15px;
 }
 
 .social {

@@ -12,19 +12,19 @@ nav {
     font-family: 'Lato', sans-serif;
 }
 
-header,
-footer {
+
+header {
     color: white;
     background-color: #001524;
     text-align: center;
-
-
+    padding: 20px;
 }
+
 
 .cakes {
 
     margin: 0 auto;
-    padding-top: 5px;
+    padding-top: 15px;
     text-align: center;
     background-color: #ff7d00;
     color: black;
@@ -70,10 +70,6 @@ header img {
     color: white;
 }
 
-nav {
-    font-size: 20px;
-    width: 100%;
-}
 
 nav button {
     background-color: transparent;
@@ -103,10 +99,9 @@ footer {
     padding: 1rem;
     display: flex;
     flex-flow: column;
-    align-items: center;
-    justify-content: center;
     font-size: 15px;
-
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 
@@ -117,11 +112,6 @@ main {
 
 }
 
-nav {
-
-    margin: 0 auto;
-}
-
 picture {
     padding: 5px;
 }
@@ -130,6 +120,9 @@ nav {
     background-color: #156160;
     text-align: center;
     box-shadow: 0 5px 15px gray;
+    margin: 0 auto;
+    font-size: 20px;
+    width: 100%;
 }
 
 nav ul {
@@ -146,7 +139,7 @@ nav ul li a {
     /*this places the nav in a block for the small screen view*/
     color: white;
     text-align: center;
-    padding: 9px;
+    padding: 15px;
     text-decoration: none;
     /* this removes the underline from every list item*/
     font-size: 1rem;
@@ -164,10 +157,9 @@ nav ul li.active a {
 
 
 nav a:hover {
-    background-color: #ff7d00;
+    background-color: #F8F8FF;
     color: black;
-    font-family: 'Source Code Pro', monospace;
-
+    transition: all 0.3s ease;
 }
 
 nav ul.hide {
