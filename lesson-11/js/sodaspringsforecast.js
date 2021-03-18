@@ -1,4 +1,4 @@
-const five_dayapiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=96658d9a7e75c72252f06d47773c60d7";
+const five_dayapiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&appid=96658d9a7e75c72252f06d47773c60d7";
 
 
 fetch(five_dayapiURL)
@@ -34,6 +34,3 @@ fetch(five_dayapiURL)
         });
 
     });
-
-
-    

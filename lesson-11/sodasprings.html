@@ -77,44 +77,58 @@
 
 
         
-        <div>
+        <section>
+            <h2>Forecast (6pm)</h2>
+            <div class="forecast">
+                <div class="eachday">
+                    <p><span id="week_day1"></span></p>
+                    <hr>
+                    <img id="icon1" src="imagesrc" alt="imagedescription"></img>
+                    <p><span id='current-temp1'></span> °F</p>
 
-            <table class="center">
-                <tr>
-                    <caption>6pm-5 Day Forecast</caption>
-                    <!--This is the first row of my table with my headings. Each th tag shows how many columns I will have-->
-
-                    <th><span id="week_day1"></span></th>
-                    <th><span id="week_day2"></span></th>
-                    <th><span id="week_day3"></span></th>
-                    <th><span id="week_day4"></span></th>
-                    <th><span id="week_day5"></span></th>
+                </div>
 
 
-                </tr>
 
-                <tr>
-                    <td><span id="imagesrc1"></span><img id="icon1" src="#" alt="d"></td>
-                    <td><span id="imagesrc2"></span><img id="icon2" src="#" alt="d"></td>
-                    <td><span id="imagesrc3"></span><img id="icon3" src="#" alt="d"></td>
-                    <td><span id="imagesrc4"></span><img id="icon4" src="#" alt="d"></td>
-                    <td><span id="imagesrc4"></span><img id="icon5" src="#" alt="d"></td>
-                </tr>
+                <div class="eachday">
+                    <p><span id="week_day2"></span></p>
+                    <hr>
+                    <img id="icon2" src="imagesrc" alt="imagedescription"></img>
+                    <p><span id='current-temp2'></span> °F</p>
 
-                <tr>
-                    <th><span id="temp1"></span>°F</th>
-                    <th><span id="temp2"></span>°F</th>
-                    <th><span id="temp3"></span>°F</th>
-                    <th><span id="temp4"></span>°F</th>
-                    <th><span id="temp5"></span>°F</th>
-
-                </tr>
+                </div>
 
 
-            </table>
+
+                <div class="eachday">
+                    <p><span id="week_day3"></span></p>
+                    <hr>
+                    <img id="icon3" src="imagesrc" alt="imagedescription"></img>
+                    <p><span id='current-temp3'></span> °F</p>
+                </div>
 
 
-        </div>
+
+                <div class="eachday">
+                    <p><span id="week_day4"></span></p>
+                    <hr>
+                    <img id="icon4" src="imagesrc" alt="imagedescription"></img>
+                    <p><span id='current-temp4'></span> °F</p>
+
+                </div>
+
+
+                <div class="eachday">
+                    <p><span id="week_day5"></span></p>
+                    <hr>
+                    <img id="icon5" src="imagesrc" alt="imagedescription"></img>
+                    <p><span id='current-temp5'></span> °F</p>
+
+                </div>
+            </div>
+
+        </section>
+        <hr>
 
         <section>
             <h2>Events</h2>
@@ -189,7 +203,7 @@
     <script src="js/webfontload.js"></script>
     <script src="js/windchill.js"></script>
     <script src="js/sodaspringsweatherbox.js"></script>
-    <script src="js/forecast.js"></script>
+    <script src="js/sodaspringsforecast.js"></script>
     <script src="js/sodaspringsevents.js"></script>
 
 

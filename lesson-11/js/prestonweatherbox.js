@@ -25,10 +25,9 @@ fetch(apiURL)
         humidity.textContent = jsObject.main.humidity;
 
      
-        var f = 35.74 + 0.6215 * temperature - 35.75 * Math.pow(speed, 0.16) + 0.4275 * temperature * Math.pow(speed, 0.16);
-        console.log(temperature);
-        console.log(speed);
-        if (temperature <= 50 && speed >= 3) {
+        var f = 35.74 + 0.6215 * (jsObject.main.temp)  - 35.75 * Math.pow((jsObject.wind.speed), 0.16) + 0.4275 * (jsObject.main.temp) * Math.pow((jsObject.wind.speed), 0.16);
+        
+        if ((jsObject.main.temp) <= 50 && (jsObject.wind.speed) >= 3) {
             result = f.toFixed(1);
         } else {
             result = "N/A";
