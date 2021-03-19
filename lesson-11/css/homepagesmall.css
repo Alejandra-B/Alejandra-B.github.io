@@ -161,16 +161,17 @@ nav ul.hide {
 
 /******************************lesson 9****************************/
 .banner-box {
-    /*This is for my banner Image (Idaho Farm) on my Preston page*/
+ 
     display: block;
     position: relative;
-    max-width: 100%;
-    margin: 0%;
+   
 
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
+    display: block;
+   
 }
 
 
