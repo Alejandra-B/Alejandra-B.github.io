@@ -19,36 +19,42 @@
 <body>
 
     <header>
-        <picture class="header-icon">
-            <img src="images/chamber-icon.png" alt="Drawing of a handshake.">
+        <picture>
+            <img class="header-icon" src="images/chamber-icon.png" alt="Drawing of a handshake.">
         </picture>
         <section class="heading">
             <h1>Glendale Chamber of Commerce</h1>
             <div class="motto">"Helping businesses succeed since the 1900's" </div>
         </section>
 
+
     </header>
-    <nav>
-        <button onclick="toggleMenu()">&#9776;</button>
-        <ul id="primaryNav" class="hide">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="city.html">City</a></li>
-            <li><a href="join.html">Join</a></li>
-            <li><a href="directory.html">Directory</a></li>
-            <li><a href="contact.html">Storm Center</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-        </ul>
-    </nav>
+
+
 
     <main>
-    
-        <div class="hero-image">
-          <!--add images-->
+        <section>
+            <nav>
+                <button onclick="toggleMenu()">&#9776;</button>
+                <ul id="primaryNav" class="hide">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="city.html">City</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="contact.html">Storm Center</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+
+        </section>
+        <br>
+        <div>
+            <!--add images-->
             <picture>
                 <source class="hero" media="(min-width: 300px) and (max-width:434px)" srcset="images/.jpg">
                 <source media="(min-width: 435px) and (max-width:650px)" srcset="images/.jpg">
-                <source media="(min-width: 651px)" srcset="images/.jpg">
-                <img src="images/.jpg" alt="">
+                <source media="(min-width: 651px)" srcset="images/large1900x500.jpg">
+                <img src="images/large1900x500.jpg" alt="">
             </picture>
             <hr>
         </div>
@@ -61,52 +67,57 @@
         <section class="weather">
             <h2>TODAY</h2>
             <!--ADD WEATHER HERE -->
-            
+
 
 
 
         </section>
 
-       <section>
-           <!--upcoming events-->
-       </section>
-<section>
-    <!--add images of municipality-->
-</section>
-<section>
-    <!--advertisement here-->
-</section>
+        <section>
+            <!--upcoming events-->
+        </section>
+        <section>
+            <!--add images of municipality-->
+        </section>
+        <section>
+            <!--advertisement here-->
+        </section>
 
 
     </main>
 
     <footer>
-      
-       
-            
+
+
+
+        <div>
+            <h3>Contact Information</h3>
+            <p><span>&#x1F4CC;</span>2915 Main St., Glendale, AZ 85307</p>
+            <p><span>&#x1F4DE;</span>(623) 840-1273</p>
+            <p><span>&#x1F4E7;</span>glendalechambercommerce.com</p>
+            <!--$12.00/year(Google Domains)-->
             <div>
-                <h3>Contact Information</h3>
-                <p><span>&#x1F4CC;</span>2915 Main St., Glendale, AZ 85307</p>
-                <p><span>&#x1F4DE;</span>(623) 840-1273</p>
-                <p><span>&#x1F4E7;</span>glendalechambercommerce.com</p><!--$12.00/year(Google Domains)-->
+                <a class="social" href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png"
+                        alt="Facebook logo"></a>
+                <!--add new images here in this section-->
 
-                <a class="social" href="https://www.facebook.com/" target="_blank"><img src="images/facebook11.png"
-                        alt="Facebook logo"></a><!--add new images here in this section-->
-
-                <a class="social" href="https://twitter.com/?lang=en" target="_blank"><img src="images/twiter11.png"
+                <a class="social" href="https://twitter.com/?lang=en" target="_blank"><img src="images/twitter.png"
                         alt="Twiter logo"></a>
-                <a class="social" href="https://www.youtube.com/" target="_blank"><img src="images/youtube11.png"
+                <a class="social" href="https://www.youtube.com/" target="_blank"><img src="images/youtube.png"
                         alt="YouTube logo"></a>
-                    
             </div>
-        
-        <div><span id="currentdate"></span></div>
 
-        <p><span id="copy">&copy;</span>"Glendale Chamber of Commerce" | Alejandra Black </p>
+            <div><span id="currentdate"></span></div>
+            <p><span id="copy">&copy; </span>Glendale Chamber of Commerce | Alejandra Black </p>
+        </div>
+
+
+
+
 
 
     </footer>
-    
+
     <script src="js/currentdate.js"></script>
     <script src="js/toggle.js"></script>
     <!-- hamburger menu open and close-->

@@ -2,16 +2,22 @@
 header,
 main,
 footer {
-    max-width: 1519.2px;
+    width:100%;
     margin: auto;
-    font-size: large;
     font-family: 'Poppins', sans-serif;
-    padding: 10px;
+    max-width:1600px ;
+    
+}
+main{
+    background-color:#E5E5E5E5; 
+    padding: 5px;
+  
 }
 
 header {
     display: grid;
     grid-template-columns: 250px 600px;
+    width: 100%;
 }
 
 section.heading {
@@ -28,8 +34,11 @@ div.motto {
     font-size: 25px;
 
 }
+.header-icon{
+    max-width:180px; 
+}
 
-/**********end of header***********/
+
 
 /**********navigation bar**********/
 
@@ -78,8 +87,8 @@ nav button {
 }
 
 nav ul li.active a {
-    background-color: #F8F8FF; 
-    color: #D00000; 
+    background-color: #D00000; 
+    color:#F8F8FF ; 
 }
 
 /*always place .active before "hover" so it can work properly*/
@@ -94,4 +103,29 @@ nav a:hover {
 
 nav ul.hide {
     display: none;
+}
+
+/********hero image***********/
+
+img{
+    width: 100%;
+    display: block;
+   
+   
+}
+
+/************footer************/
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+.social {
+    text-align: left;
+    display: inline-block;   
+}
+
+.social img {
+    width: 35px;
 }

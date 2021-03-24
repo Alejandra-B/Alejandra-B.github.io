@@ -2,6 +2,7 @@
 
     nav ul {
         display: flex;
+        font-size:15px; 
     }
 
     nav ul li {
