@@ -1,0 +1,97 @@
+/************header****************/
+header,
+main,
+footer {
+    max-width: 1519.2px;
+    margin: auto;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 250px 600px;
+}
+
+section.heading {
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+header h1 {
+    font-size: 30px;
+}
+
+div.motto {
+    font-size: 25px;
+
+}
+
+/**********end of header***********/
+
+/**********navigation bar**********/
+
+nav {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #0000;
+    text-align: center;
+    display:block; 
+}
+
+
+nav ul {
+    list-style-type: none;
+    /*this removes the bullet points on the side of each list item*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav li {
+    display: inline; 
+   
+    text-decoration: none;
+
+}
+
+
+
+nav ul li a {
+  display: block; 
+    /*this places the nav in a block for the small screen view*/
+    color:white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    background-color:black; 
+    /* this removes the underline from every list item*/
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+    color:#E5E5E5;
+}
+
+nav ul li.active a {
+    background-color: #F8F8FF; 
+    color: #D00000; 
+}
+
+/*always place .active before "hover" so it can work properly*/
+
+
+nav a:hover {
+    background-color: #D00000;
+    color: black;
+    transition: all 0.3s ease;
+
+}
+
+nav ul.hide {
+    display: none;
+}
