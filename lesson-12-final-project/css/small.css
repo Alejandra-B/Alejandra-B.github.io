@@ -1,22 +1,23 @@
 /************header****************/
 header,
+body, 
 main,
 footer {
     width:100%;
     margin: auto;
     font-family: 'Poppins', sans-serif;
-    max-width:1600px ;
+   
     
 }
 main{
     background-color:#E5E5E5E5; 
-    padding: 5px;
+    padding: 2px;
   
 }
 
 header {
     display: grid;
-    grid-template-columns: 250px 600px;
+    grid-template-columns: 250px 400px;
     width: 100%;
 }
 
@@ -32,10 +33,13 @@ header h1 {
 
 div.motto {
     font-size: 25px;
+    font-style: italic;
+    color:#D00000; 
 
 }
 .header-icon{
     max-width:180px; 
+    padding-left:20px; 
 }
 
 
@@ -44,7 +48,7 @@ div.motto {
 
 nav {
     font-family: 'Poppins', sans-serif;
-    font-size: 22px;
+    font-size: 18px;
     width: 100%;
     margin: 0 auto;
     background-color: #0000;
@@ -113,13 +117,26 @@ img{
    
    
 }
+/*********main area************/
+p{ 
+    font-size:16px; 
+}
+h2{
+    font-size:22px;
+}
+h3{
+    font-size:18px; 
+}
 
 /************footer************/
 footer{
     color: white;
     background-color: black;
     text-align: center;
-    padding: 20px;
+    padding-top: 10px; 
+    padding-bottom: 15px;
+    
+    
 }
 .social {
     text-align: left;
@@ -128,4 +145,5 @@ footer{
 
 .social img {
     width: 35px;
+   
 }
