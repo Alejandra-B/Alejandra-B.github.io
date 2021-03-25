@@ -2,26 +2,41 @@
 
     header {
         display: grid;
-        grid-template-columns:1fr 1fr 1fr ;
+        grid-template-columns: 1fr 1fr 1fr;
         width: 100%;
     }
 
-    nav button{
-        display:none; 
+    nav button {
+        display: none;
     }
+
     nav ul {
         display: flex;
-      
+
     }
-    
+
     nav ul li {
         flex: 1 1 100%;
         font-size: 18px;
     }
 
-.weathersummary{
-    position:absolute;   
-}
-
-
+    .weathersummary {
+        position: absolute;
     }
+
+    .mygallery :hover {
+        box-shadow: 0 0 30px #484848;
+    }
+
+    section.events-municipality {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr;
+        column-gap: 3px;
+    }
+
+    div.mygallery {
+        display: flex;
+    }
+
+}
