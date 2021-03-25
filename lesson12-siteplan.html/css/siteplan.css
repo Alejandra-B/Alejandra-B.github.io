@@ -47,7 +47,7 @@ th {
     font-family: 'Poppins', sans-serif;
     background-color: #000000;
     color: #FFFF;
-    font-size: 22px;
+    font-size: 18px;
 
 }
 
@@ -62,34 +62,39 @@ th {
     color: black;
     font-size: 23px;
 }
+.sample4-a {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 18px;
+}
 
 .sample5 {
     font-family: 'Open Sans', sans-serif;
     background-color: #D00000;
     color: white;
     font-style: bold;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .sample6 {
     font-family: 'Open Sans', sans-serif;
     color: black;
     background-color: #FCA311;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .sample7 {
     font-family: 'Open Sans', sans-serif;
     color: white;
     background-color: #465362;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .sample8 {
     font-family: 'Open Sans', sans-serif;
     font-style: bold;
     color: black;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /*<td class="primary">[#FFFF]</td><!--white-->
