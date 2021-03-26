@@ -19,7 +19,7 @@
     <link href="css/large.css" rel="stylesheet">
 </head>
 
-<body onload="currentDate()">
+<body>
 
 
 
@@ -41,7 +41,7 @@
         <nav>
             <button onclick="toggleMenu()">&#9776;</button>
             <ul id="primaryNav" class="hide">
-                <li ><a href="home.html">Home</a></li>
+                <li><a href="home.html">Home</a></li>
                 <li class="active"><a href="city.html">City</a></li>
                 <li><a href="join.html">Join</a></li>
                 <li><a href="directory.html">Directory</a></li>
@@ -56,25 +56,133 @@
 
 
 
-       
 
-        <section>
-                            
-            <h2>Glendale City</h2>
 
-            <div class="history"> 
-                
-                
+        <section class="history">
+
+            <div>
+                <h2>Glendale City</h2>
                 <img class="city" src="images/glendalecity.jpg" alt="image of a city">
-                <h3>Our History</h3></div>
-                
+            </div>
+
+            <div class="history-article">
+
+                <h3>Our History</h3>
+                <p>Glendale was founded in 1892 by William John Murphy, primarily because of the fertile land of the
+                    Salt River Valley, which
+                    was ideal for agriculture.</p>
+
+                <p>"The basis of Glendale's economic progress throughout its 100 year history as a community might be
+                    best summed up by two words: water and transportation. More than just supporting the usual needs of
+                    the city's population, water actually created Glendale's industry.
+
+                    The Arizona Jack SwillingCanal and Roosevelt Dam assured a stable water supply and freedom from the
+                    effects of droughts and floods.As a result of these water sources, Glendale became an agricultural
+                    mecca, specializing in lettuce, melons, sugar beets, and cotton.
+
+                    Phoenix's founder Jack Swilling, re-excavated a network of
+                    prehistoric Hohokam Indian canals that irrigated thousands of acres of farmland along the Salt
+                    River. His efforts also helped give birth to Southeast Valley Settlements that became the cities of
+                    Tempe and Mesa.
+
+                    Unfortunately, for the northern and western portions of the Salt River Valley, no Indian Canals were
+                    there to restore. So the lands that make up Northwest Phoenix, Glendale and Peoria today remained
+                    raw desert more than 15 years after the East Jack SwillingValley cities had already been settled.
+                    For the baren Northwest Valley to come to life, it, too, needed that all-powerful
+                    resource--water."(Article published by goglendaleaz.com)
+                    <a class="continue-reading" href="https://www.goglendaleaz.com/about/history.html">continue
+                        reading
+                    </a>
+                </p>
+                <h3>What is Glendale known for?</h3>
+                <p>The beautiful City of Glendale, Arizona is known for it's parks like: Sahuaro Ranch Park and
+                    Thunderbird Park.
+                    This last one being a great place for spending time admiring nature in it's more than 1,000 acres of
+                    desert
+                    land, which is perfect for hikes, horse back riding, and picnicking with family and friends. </p>
+                <p>Glendale is also the home of the Airforce Face where hundreds of airmans and officers live, work,
+                    train and serve our country.</p>
+                <h3>What is Glendale AZ famous for?</h3>
+                <p>Historic Downtown Glendale, recognized by USA Today as one of the country's ten best places for
+                    shopping, locally known as Arizona's Antique Capital and boasting an array of shops, boutiques,
+                    dining options is a staple for visitors coming to Arizona.</p>
+
+                <h3>Interesting Facts about Glendale</h3>
+
+                <p>Glendale, Arizona is located just 30 minutes from Phoenix, two hours south of Sedona and a five-hour
+                    drive from Los Angeles. Whether you are interested in a day trip or staying in town for a few
+                    nights, Glendale, Arizona is the perfect hub for your trip. With over 15 hotels to choose from
+                    ranging from boutique style to modern, Glendale has something for everybody. Check out these fun
+                    facts you probably didn’t know. </p>
+                <p>Historic Downtown Glendale, recognized by USA Today as one of the country’s ten best places for
+                    shopping, locally known as Arizona’s Antique Capital and boasting an array of shops, boutiques,
+                    dining options is a staple for visitors coming to Arizona.</p>
+                <p> Comprised of two neighborhoods, Caitlin
+                    Court and Old Towne, Downtown Glendale is home to Glendale Glitters, a free holiday light display
+                    illuminated by more than 1.6 million twinkling lights across 16 blocks.</p>
+                <p>Luke Air Force Base, named after Phoenix native Lieutenant Frank Luke Jr., is home to the 56th
+                    Fighter Wing, the largest fighter wing in the world and the Air Force’s primary active-duty fighter
+                    pilot training wing. With over 300 pilots graduating each year, movies such as Transformers “The
+                    Last Knight” was filmed on-site and featured some of the nation’s top pilots as extras.</p>
+                <p>State Farm Stadium, formerly known as University of Phoenix Stadium, is one of the nation’s top
+                    stadiums and is the first field in North America to include a retractable roof and a mobile grass
+                    playing field. The 63,400-seat venue has hosted two Super Bowls, in 2008 and 2018 and the upcoming
+                    Super Bowl LVII to be played in 2023. Curious to learn more? See our State Farm Stadium video on
+                    YouTube for more information.</p>
+                <p> West Wind Drive-In, the Valley’s only permanent drive-in, is the perfect location for a night out
+                    with the family. West Wind Drive, is a family-owned and operated business that offers
+                    state-of-the-art digital projectors and screens to make your movie night a memorable experience.
+                    From double features to summer concerts, there’s something for everyone.</p><br>( Written by:
+                Eveline Vanda,
+                article found in visitglendale.com)</p>
+
+
+            </div>
+
+        </section>
+        <section class="demographics">
+            <h2>Demographics</h2>
+            <h3>Glendale, Arizona Population 2021
+                257,233</h3>
+            <div id="piechart"></div>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<script type="text/javascript">
+// Load google charts
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+
+// Draw the chart and set the chart values
+function drawChart() {
+  var data = google.visualization.arrayToDataTable([
+  ['population', 'race'],
+  ['White', 191187],
+  ['Black or African American', 16769],
+  ['Other', 15260],
+  ['Asian', 10526],
+  ['Two or more ', 9580],
+  ['American Indian and Alaska Native',4052],
+  ['Native Hawaiian and other Pacific Islander',439 ]
+]);
+
+  // Optional; add a title and set the width and height of the chart
+  var options = {'title':'Population by Race', 'width':600, 'height':500};
+
+  // Display the chart inside the <div> element with id="piechart"
+  var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+  chart.draw(data, options);
+}
+</script>
+
         </section>
 
 
+
         <section class="deals"></section>
-            <h2></h2>
-            <div class="mygallery2">
-                <!--<figure>
+        <h2></h2>
+        <div class="mygallery2">
+            <!--<figure>
                     <img class="shadow" src="images/placeholder.png" data-src="images/bakery.jpg"
                         alt="image of a bakery">
                     <figcaption>Steven's Bakery is offering the best products at the best prices. Special discount
@@ -130,7 +238,7 @@
 
 
 
-            </div>
+        </div>
 
 
 
@@ -144,13 +252,13 @@
 
 
         <div>
-            
-            
 
-                
-           
+
+
+
+
             <p><span id="copy">&copy; </span>Glendale Chamber of Commerce | Alejandra Black</p>
-            
+
             <a id="weatherwarning" href="https://www.willyweather.com/az/maricopa-county/glendale.html">Willy
                 Weather</a></p>
         </div>
@@ -162,15 +270,15 @@
 
     </footer>
 
-   
+
     <script src="js/toggle.js"></script>
     <!-- hamburger menu open and close-->
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <!--This is the new way I will reference Google Fonts, always add this code-->
     <script src="js/webfontload.js"></script>
     <!--link to the web font load page  -->
-   
-   
+
+
     <script src="js/imagehandling.js"></script>
 </body>
 
