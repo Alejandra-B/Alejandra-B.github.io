@@ -286,7 +286,9 @@ figcaption {
     grid-gap: 10px;
     padding: 20px;
 }
-
+.hotdeals{
+    text-align: center;
+}
 
 
 
@@ -323,9 +325,26 @@ footer {
     max-width:400px; 
 }
 .history{
-    display:grid; 
-    grid-template-columns: 400px 1fr;
-    grid-gap:20px; 
+   display:grid; 
+   grid-template-columns: 400px 1fr;
+   grid-gap: 30px; 
+  font-size: 16px;
+  min-height: 20px; ;
 }
+.history-article{
+    padding:20px; 
+}
+img.city{
+    padding: 20px;
+}
+.continue-reading{
+    color:blue; 
+}
+
+.demographics{
+    text-align: center;
+}
+
+
 
 }
