@@ -158,23 +158,26 @@ h2 {
 h3 {
     font-size: 18px;
 }
+
 /**forecast**/
 
 
-.forecast{
+.forecast {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
-     padding: 15px; 
-  
+    padding: 15px;
+
 }
-.eachday{
+
+.eachday {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
-  
-    display: inline; 
+
+    display: inline;
 }
-.forecast-title{
+
+.forecast-title {
     text-align: center;
 }
 
@@ -191,14 +194,19 @@ h3 {
     text-align: center;
     background-color: #465362;
     color: #ffff;
-    padding:10px; 
-    font-size:16px;
+    padding: 10px;
+    font-size: 16px;
 }
-.goals{
-    background-color: #FCA311; 
-    padding:10px; 
+
+.goals {
+    background-color: #FCA311;
+    padding: 10px;
     text-align: left;
     font-weight: bold;
+}
+
+.goals-title {
+    text-align: center;
 }
 
 /**call to action button**/
@@ -225,16 +233,18 @@ h3 {
 
 /**municipality images**/
 
-.mygallery {
+.mygallery .mygallery2 {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr;
     grid-auto-rows: 230px;
     justify-content: center;
-    grid-row-gap: 10px;
+    grid-row-gap: 8px;
     padding: 10px;
     margin-bottom: auto;
+
 }
+
 
 figure {
     margin: 0 auto;
@@ -251,15 +261,31 @@ img[data-src] {
     max-width: 100%;
 }
 
-.events-municipality{
-  
-    padding:20px; 
+.events-municipality {
+
+    padding: 20px;
 }
 
+.shadow {
+    max-width: 200px;
+}
 
+.deals {
+    display: inline;
+}
 
+figcaption {
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+}
 
-
+.mygallery2 {
+    display: grid;
+    grid-template-columns: 200px;
+    grid-gap: 10px;
+    padding: 20px;
+}
 
 
 
@@ -292,6 +318,14 @@ footer {
 }
 
 
-
+/**************city page**************/
+.city{
+    max-width:400px; 
+}
+.history{
+    display:grid; 
+    grid-template-columns: 400px 1fr;
+    grid-gap:20px; 
+}
 
 }

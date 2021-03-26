@@ -28,6 +28,10 @@
         box-shadow: 0 0 30px #484848;
     }
 
+.mygallery2 :hover{
+    box-shadow: 0 0 30px #484848;
+}
+
     section.events-municipality {
         display: grid;
         grid-template-columns: 1fr 2fr;
@@ -35,8 +39,14 @@
         column-gap: 3px;
     }
 
-    div.mygallery {
+    div.mygallery  {
         display: flex;
     }
+    .mygallery2{
+        display:grid; 
+        grid-template-columns: 200px 200px 200px 200px 200px 200px 200px; 
+        grid-gap: 15px;  
+     }
+   
 
 }
