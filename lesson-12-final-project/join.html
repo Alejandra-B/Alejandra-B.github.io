@@ -53,57 +53,131 @@
     <main>
         <div class="why-join">
             <h1>Why Join?</h1>
-            <p><h2>Joining Glendale Chamber of Commerce have many benefits:</h2><br>
-<br>
-               <ol>
-                   <ul>Make business contacts</ul>
-                   <ul>Receive chamber newsletters</ul>
-                   <ul>Acquire customer referrals</ul>
-                   <ul>Bring credibility to your business</ul>
-                   <ul>Increase your visibility in the community</ul>
-                   <ul>Networking opportunities</ul>
-                   <ul>Gain a voice in government</ul>
+            <p>
+                <h2>Joining Glendale Chamber of Commerce have many benefits:</h2><br>
+                <br>
+                <ol>
+                    <ul>Make business contacts</ul>
+                    <ul>Receive chamber newsletters</ul>
+                    <ul>Acquire customer referrals</ul>
+                    <ul>Bring credibility to your business</ul>
+                    <ul>Increase your visibility in the community</ul>
+                    <ul>Networking opportunities</ul>
+                    <ul>Gain a voice in government</ul>
                 </ol>
 
             </p>
             <p>Benefits list posted by <a class="members-benefits-site"
                     href="https://public.websteronline.com/articles/blog-business-insights/great-reasons-to-join-your-local-chamber-of-commerce">public.websteronline.com</a>
-                    
+
             </p>
         </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         <section>
-            <div>
-                <figure>
-                    <img class="shadow" src="images/placeholder.png" data-src="images/city-hall.jpg"
-                        alt="image of Glendale City Hall">
-                    <figcaption>City Hall</figcaption>
-                </figure>
-            </div>
+            <h2>APPLICATION FORM</h2>
+
+            <hr>
+
+
+            <form method="get" action="thanks.html">
+
+                <div>
+                    <fieldset class="form">
+
+                        <legend>Applicant Information</legend>
+                        <!--first name-->
+                        <label class="top" for="name">First Name(required)
+                            <input class="box" type="text" id="name" name="user_name" pattern="[A-Z a-z]{5,}"
+                                required></label>
+
+                        <!--last name-->
+                        <label class="top" for="name">Last Name(required)
+                            <input class="box" type="text" id="last-name" name="user_name" pattern="[A-Z a-z]{5,}"
+                                required></label>
+
+                        <!--title-->
+                        <label class="top" for="name">Title
+                            <input class="box" type="text" id="title" name="title"></label>
+
+                        <!--address-->
+                        <label class="top" for="mail">E-mail Address
+                            <input class="box" type="email" id="mail" name="user_email"
+                                placeholder="user@email.com"></label>
+
+                        <!--cell number-->
+                        <label class="top" for="phone">Cellphone Number
+                            <input class="box" type="tel" id="phone" name="user_phone"
+                                placeholder="###-###-####"></label>
+
+                        <!--zip code-->
+                        <label class="top" for="zip">ZIP Code
+                            <input class="box" type="number" id="zip" name="zip_code" required></label>
+
+                    </fieldset>
+
+                </div>
+
+
+                <fieldset class="form">
+                    <legend>Business Information</legend>
+
+                    <!--business name-->
+                    <label class="top" for="business">Business Name(required)
+                        <input class="box" type="text" id="business" name="business_name" pattern="[A-Z a-z]{5,}"
+                            required>
+                    </label>
+                    <!--business address-->
+                    <label class="top" for="address">Address
+                        <input class="box" type="mail" id="adress" name="user_address">
+                    </label>
+
+                    <!--business website-->
+
+
+                    <label class="top" for="website">Business Website
+                        <input class="box" type="website" id="website" name="user_website">
+                    </label>
+
+
+                    <!--business description-->
+                    <label class="top" for="description">Business Description</label>
+                    <textarea class="descriptionBox" id="msg" name="user_description"></textarea>
+
+
+                    <!--select region-->
+                    <label class="middle">Membership Level
+                        <select class="smallbox" name="region" onchange="selectResponse()">
+                            <option value="select" disabled selected>Select One</option>
+                            <option value="Non-Profit($100)">Non-Profit($100)</option>
+                            <option value="Bronze($200)">Bronze($200)</option>
+                            <option value="Silver($400)">Silver($400)</option>
+                            <option value="Gold($1000)">Gold($1000)</option>
+                        </select>
+                    </label>
+
+
+                </fieldset>
+
+
+                <!--Additional information or comments-->
+                <fieldset>
+                    <legend>Additional Information</legend>
+                    <label class="submitButton" for="msg">Comments</label>
+                    <textarea class="commentsBox" id="msg" name="user_message"></textarea>
+                </fieldset>
+
+                <!--form submission button-->
+                <input class="button" type="submit" value="CLICK to send!">
+
+
+            </form>
+            <!--end of form-->
         </section>
 
 
     </main>
 
     <footer>
-
-
 
         <div>
             <h3>Contact Information</h3>
