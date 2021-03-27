@@ -28,9 +28,9 @@
         box-shadow: 0 0 30px #484848;
     }
 
-.mygallery2 :hover{
-    box-shadow: 0 0 30px #484848;
-}
+    .mygallery2 :hover {
+        box-shadow: 0 0 30px #484848;
+    }
 
     section.events-municipality {
         display: grid;
@@ -39,14 +39,27 @@
         column-gap: 3px;
     }
 
-    div.mygallery  {
+    div.mygallery {
         display: flex;
     }
-    .mygallery2{
-        display:grid; 
-        grid-template-columns: 200px 200px 200px 200px 200px 200px 200px; 
-        grid-gap: 15px;  
-     }
+
+    .mygallery2 {
+        display: grid;
+        grid-template-columns: 200px 200px 200px 200px 200px 200px 200px;
+        grid-gap: 15px;
+    }
+
+    /**city page**/
+
+    .history {
+        display: grid;
+        grid-template-columns: 400px 1fr;
+        grid-gap: 30px;
+        font-size: 16px;
+        min-height: 20px;
+    }
    
+    
+
 
 }

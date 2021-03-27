@@ -40,7 +40,7 @@ div.motto {
 image.header-icon {
     max-width: 100%;
     padding: 10px;
-    margin: 0px;
+    margin: auto;
 }
 
 picture {
@@ -92,6 +92,7 @@ nav button {
     background-color: transparent;
     border: none;
     color: black;
+    font-size: 40px;
 }
 
 nav ul li.active a {
@@ -289,6 +290,94 @@ figcaption {
 .hotdeals{
     text-align: center;
 }
+/**city**/
+.history-title{
+    text-align:center;
+}
+section.demographics {
+    margin:auto;
+    text-align:left;
+    padding:10px; 
+}
+.city-events {
+    margin:auto;
+  
+    padding:10px; 
+
+}
+.city-events{
+    text-align: center;
+}
+.shadow{
+    margin:auto; 
+}/*this class belongs to the image on the events section on the city page*/
+
+.events-title{
+    background-color:#FcA311; 
+    padding:25px; 
+    border:1px solid black; 
+
+    
+}
+
+/**************city page**************/
+
+
+.city{
+    max-width:400px; 
+}
+.history{
+   display:grid; 
+   grid-template-columns: 1fr;
+   grid-gap: 30px; 
+  font-size: 16px;
+  min-height: 20px; ;
+}
+.history-article{
+    padding:20px; 
+}
+img.city{
+    padding: 5px;
+    border-radius:75%; 
+    max-width:300px; 
+    margin:auto; 
+}
+.continue-reading{
+    color:blue; 
+}
+
+.demographics{
+    text-align: left;
+}
+img.city{
+    width:100%; 
+}
+/**join page**/
+.why-join{
+    background-color: #464646;
+    color: white; 
+    padding:10px; 
+    text-align: left;
+    border:1px solid #FCA311; 
+    
+}
+.members-benefits-site{
+    color:white; 
+}
+  ul{
+    font-size:20px; 
+    text-align: left;
+    padding:2px; 
+}
+ ol{
+     padding-left:5px; 
+ }
+
+
+
+
+
+
 
 
 
@@ -319,31 +408,6 @@ footer {
 
 }
 
-
-/**************city page**************/
-.city{
-    max-width:400px; 
-}
-.history{
-   display:grid; 
-   grid-template-columns: 400px 1fr;
-   grid-gap: 30px; 
-  font-size: 16px;
-  min-height: 20px; ;
-}
-.history-article{
-    padding:20px; 
-}
-img.city{
-    padding: 20px;
-}
-.continue-reading{
-    color:blue; 
-}
-
-.demographics{
-    text-align: center;
-}
 
 
 

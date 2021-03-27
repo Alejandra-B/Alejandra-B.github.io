@@ -11,8 +11,6 @@
     <meta name="description" content="This page contains the City Page of Glendale Chamber of Commerce.">
 
     <link rel="shortcut icon" href="favicon/icon_32f88267bfc9b9b9540121e0394fdd15.ico">
-    <!--<a href="https://icons8.com/icon/67607/sun">Sun icon by Icons8</a>
-    <a href="https://icons8.com/icon/KXHiLGrszdFI/wind">Wind icon by Icons8</a>-->
     <link rel="stylesheet" href="css/normalize.css">
     <link href="css/small.css" rel="stylesheet">
     <link href="css/medium.css" rel="stylesheet">
@@ -35,8 +33,6 @@
     </header>
 
 
-
-
     <section>
         <nav>
             <button onclick="toggleMenu()">&#9776;</button>
@@ -45,29 +41,27 @@
                 <li class="active"><a href="city.html">City</a></li>
                 <li><a href="join.html">Join</a></li>
                 <li><a href="directory.html">Directory</a></li>
-                <li><a href="contact.html">Storm Center</a></li>
+                <li><a href="contact.html">Contact</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
             </ul>
         </nav>
 
     </section>
+
     <br>
+
     <main>
-
-
-
-
 
         <section class="history">
 
             <div>
-                <h2>Glendale City</h2>
+                <h1 class="history-title">Glendale City</h1>
                 <img class="city" src="images/glendalecity.jpg" alt="image of a city">
             </div>
 
             <div class="history-article">
 
-                <h3>Our History</h3>
+                <h2>Our History</h2>
                 <p>Glendale was founded in 1892 by William John Murphy, primarily because of the fertile land of the
                     Salt River Valley, which
                     was ideal for agriculture.</p>
@@ -142,143 +136,122 @@
         </section>
         <section class="demographics">
             <h2>Demographics</h2>
-            <h3>Glendale, Arizona Population 2021
+            <h3>Glendale, Arizona
+                <hr> Population 2021<br>
                 257,233</h3>
             <div id="piechart"></div>
 
-<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+            <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 
-<script type="text/javascript">
-// Load google charts
-google.charts.load('current', {'packages':['corechart']});
-google.charts.setOnLoadCallback(drawChart);
+            <script type="text/javascript">
+                // Load google charts
+                google.charts.load('current', {
+                    'packages': ['corechart']
+                });
+                google.charts.setOnLoadCallback(drawChart);
 
-// Draw the chart and set the chart values
-function drawChart() {
-  var data = google.visualization.arrayToDataTable([
-  ['population', 'race'],
-  ['White', 191187],
-  ['Black or African American', 16769],
-  ['Other', 15260],
-  ['Asian', 10526],
-  ['Two or more ', 9580],
-  ['American Indian and Alaska Native',4052],
-  ['Native Hawaiian and other Pacific Islander',439 ]
-]);
+                // Draw the chart and set the chart values
+                function drawChart() {
+                    var data = google.visualization.arrayToDataTable([
+                        ['population', 'race'],
+                        ['White', 191187],
+                        ['Black or African American', 16769],
+                        ['Other', 15260],
+                        ['Asian', 10526],
+                        ['Two or more ', 9580],
+                        ['American Indian and Alaska Native', 4052],
+                        ['Native Hawaiian and other Pacific Islander', 439]
+                    ]);
 
-  // Optional; add a title and set the width and height of the chart
-  var options = {'title':'Population by Race', 'width':600, 'height':500};
+                    // Optional; add a title and set the width and height of the chart
+                    var options = {
+                        'title': 'Population by Race',
+                        'width': 320,
+                        'height': 200,
+                    };
 
-  // Display the chart inside the <div> element with id="piechart"
-  var chart = new google.visualization.PieChart(document.getElementById('piechart'));
-  chart.draw(data, options);
-}
-</script>
-
-        </section>
-
-
-
-        <section class="deals"></section>
-        <h2></h2>
-        <div class="mygallery2">
-            <!--<figure>
-                    <img class="shadow" src="images/placeholder.png" data-src="images/bakery.jpg"
-                        alt="image of a bakery">
-                    <figcaption>Steven's Bakery is offering the best products at the best prices. Special discount
-                        coupons offered to all members. Visit Cindy and Lucy on Litchfield Rd and Wigman.</figcaption>
-                </figure>
-
-
-                <figure>
-                    <img class="shadow" src="images/placeholder.png" data-src="images/bookstore.jpg"
-                        alt="image of woman and books">
-                    <figcaption>Looking for a good book to read? Visit Peter at "Captain Bookstore" 50% for members
-                        (623)857-1832.<br> You can find his shop @ Indian Rd. and Dysart.</figcaption>
-                </figure>
-
-
-                <figure>
-                    <img class="shadow" src="images/placeholder.png" data-src="images/icecreamshop.jpg"
-                        alt="image of a small ice-cream shop">
-                    <figcaption>Lucy's Ice Cream Shop is ready for the Summer! You can find new flavors and a variety of
-                        toppings. <br>Stop by the main Plaza for a buy one get
-                        one free super deal.</figcaption>
-                </figure>
-
-
-                <figure>
-                    <img class="shadow" src="images/placeholder.png" data-src="images/car.jpg"
-                        alt="image of a red car in a shop">
-                    <figcaption>Do you want to make sure your car is ready for that long road trip? Call John for this
-                        month's
-                        special @ (623)332-4789.<br>He will make sure everything is running smoothly!</figcaption>
-                </figure>
-
-                <figure>
-                    <img class="shadow" src="images/placeholder.png" data-src="images/pizza.jpg" alt="image of pizza">
-                    <figcaption>Barro's Pizza is celebrating the opening of their new store with specials for members
-                        and their referrals. New variety of delicious desserts offered. Visit them @ the Litchfield
-                        Plaza.</figcaption>
-                </figure>
-                <figure>
-                    <img class="shadow" src="images/placeholder.png" data-src="images/bakegoods.jpg"
-                        alt="image of two ladies holding caramel apples">
-                    <figcaption>Come and meet our new members Ale and Jenny @ "Sweet Creations", where you will find the
-                        most delicious caramel apples in town. <br>Dysart Rd. and Camel Back. </figcaption>
-                </figure>
-                <figure>
-                    <img class="shadow" src="images/placeholder.png" data-src="images/Simon's.jpg"
-                        alt="image of a mother, father, son, and daugther">
-                    <figcaption>Stop by Simon's Veterinary Clinic for a free consultation for your farm animals and
-                        domestic pets. Free vaccinations for new patients.<br> 6698 Bethany Home Rd.(623)775-1211
-                    </figcaption>
-                </figure>-->
-
-
-
-
-        </div>
-
-
+                    // Display the chart inside the <div> element with id="piechart"
+                    var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+                    chart.draw(data, options);
+                }
+            </script>
 
         </section>
 
+
+
+        <section class="city-events">
+            <h2 class="events-title">Events</h2>
+            <p>For events list please visit <a
+                    href="https://visitglendale.com/events/list/?tribe-bar-date=2021-03-26">visitglendale.com/events</a>
+            </p>
+            <h3><span style="color:blue">Watch the Arizona Coyotes take on the San Jose Sharks on Friday, March
+                    26.</span></h3><br>
+            <img class="shadow" src="images/placeholder.png" data-src="images/coyote.jpg"
+                alt="image of a coyote from the Arizona Hockey team">
+            <p> Date:<br>
+                MARCH 26<br>
+                Time:<br>
+                7:00 pm - 10:30 pm<br>
+                VENUE<br>
+                Gila River Arena<br>
+                9400 West Maryland Avenue, Arizona<br>
+                Glendale, AZ 85305 United States</p>
+
+            <h3><span style="color:blue">Watch the Arizona Coyotes take on the St.Louis Blues on Thursday, April
+                    15.</span></h3>
+            <br>
+            <img class="shadow" src="images/placeholder.png" data-src="images/coyote.jpg"
+                alt="image of a coyote from the Arizona Hockey team">
+            <p>Date:<br>
+                APRIL 15<br>
+                Time:<br>
+                7:00 pm - 10:30 pm<br>
+                VENUE<br>
+                Gila River Arena<br>
+                9400 West Maryland Avenue, Arizona<br>
+                Glendale, AZ 85305 United States<br></p>
+
+            <h3><span style="color:blue">Watch the Arizona Coyotes take on the Minnesota Wild on Monday, April 19.
+
+                </span></h3><br>
+            <img class="shadow" src="images/placeholder.png" data-src="images/coyote.jpg"
+                alt="image of a coyote from the Arizona Hockey team">
+            <p>Date:<br>
+                APRIL 19<br>
+                Time:<br>
+                6:00 pm - 9:30 pm<br>
+                VENUE<br>
+                Gila River Arena<br>
+                9400 West Maryland Avenue, Arizona<br>
+                Glendale, AZ 85305 United States<br>
+            </p>
+            <h3><span style="color:blue">GLENDALE FAMILY BIKE RIDE (APRIL 10-17)</span><br>
+            </h3>
+            <img class="shadow" src="images/placeholder.png" data-src="images/bike.jpg"
+                alt="image of a family bike race">
+            <div>
+                <p>For more details or to register</p>
+                <a href="https://visitglendale.com/event/glendale-family-bike-ride-april-10-17/">CLICK HERE</a>
+            </div>
+        </section>
 
     </main>
 
     <footer>
-
-
-
         <div>
-
-
-
-
-
             <p><span id="copy">&copy; </span>Glendale Chamber of Commerce | Alejandra Black</p>
 
             <a id="weatherwarning" href="https://www.willyweather.com/az/maricopa-county/glendale.html">Willy
                 Weather</a></p>
         </div>
-
-
-
-
-
-
     </footer>
-
-
     <script src="js/toggle.js"></script>
     <!-- hamburger menu open and close-->
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <!--This is the new way I will reference Google Fonts, always add this code-->
     <script src="js/webfontload.js"></script>
     <!--link to the web font load page  -->
-
-
     <script src="js/imagehandling.js"></script>
 </body>
 

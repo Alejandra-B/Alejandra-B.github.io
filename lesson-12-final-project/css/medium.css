@@ -24,7 +24,7 @@
     nav ul.hide {
         display: flex;
     }
-
+/**home page**/
     div.mygallery {
         display: flex;
     }
@@ -34,5 +34,23 @@
         grid-gap: 65px; 
         padding: 15px; 
      }
+     /**city page**/
+     img.city{
+        margin:auto;
+    }
+    /**join page**/
+    .why-join{
+        background-color: #464646;
+        color: white; 
+        padding:20px; 
+        text-align: center;
+        border:2px solid #FCA311; 
+    }
+    ol ul{
+        font-size:30px; 
+        text-align:center; 
 
+    }
+   
+   
 }
