@@ -499,7 +499,21 @@ padding:20px;
     grid-template-columns: 350px ; 
     grid-gap:20px; 
 }
-
+/*********gallery page *********/
+.mySlides {display:none;
+width:100%;
+}
+ .images{
+     max-width:600px; 
+     margin:auto; 
+ }
+ .last-gallery{
+     padding:20px;
+     text-align:center;
+     max-width:900px; 
+     margin:auto;
+ }
+ 
 /************footer************/
 footer {
     color: white;
