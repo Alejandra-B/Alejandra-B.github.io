@@ -491,8 +491,14 @@ input.button {
 .contact-heading{
     text-align:center; 
 }
-
-
+.board-background{ 
+padding:20px; 
+}
+.board-of-directors{
+    display: grid;
+    grid-template-columns: 350px ; 
+    grid-gap:20px; 
+}
 
 /************footer************/
 footer {

@@ -56,6 +56,12 @@
         float:right; 
         padding:5px; 
     }
+    /**contact form**/
+    .board-of-directors{
+        display: grid;
+        grid-template-columns: 350px 350px; 
+        grid-gap:20px; 
+    }
    
    
 }
