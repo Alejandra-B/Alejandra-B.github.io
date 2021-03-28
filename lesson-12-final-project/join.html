@@ -10,7 +10,7 @@
     <title>Glendale Chamber of Commerce Join Page</title>
     <meta name="description" content="This page contains the City Page of Glendale Chamber of Commerce.">
 
-    <link rel="shortcut icon" href="favicon/icon_32f88267bfc9b9b9540121e0394fdd15.ico">
+    <link rel="shortcut icon" href="favicon/favicon.ico">
     <link rel="stylesheet" href="css/normalize.css">
     <link href="css/small.css" rel="stylesheet">
     <link href="css/medium.css" rel="stylesheet">
@@ -41,7 +41,7 @@
             <ul id="primaryNav" class="hide">
                 <li><a href="home.html">Home</a></li>
                 <li><a href="city.html">City</a></li>
-                <li class="active"><a href="join.html">Join</a></li>
+                <li><a href="join.html">Join</a></li>
                 <li><a href="directory.html">Directory</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
@@ -78,7 +78,8 @@
 
                 <img class="mother-daugther" src="images/mother-daugther.jpg" alt="image of a mother and daugther">
                 <!--This is the image for testimony-->
-                <p>We have been a business owner for the past 20 years. My daugther and I run our family bakery that has
+                <p class="testimonial">We have been business owners for the past 20 years. My daugther and I run our
+                    family bakery that has
                     been
                     pass to us for generations. We love being part of Glendale Chamber of Commerce. It has been a
                     fantastic
@@ -92,29 +93,29 @@
             </div>
         </section>
 
-        <section>
-            <h2>Membership Benefits by Level</h2><!--change all this-->
+        <section class="membership">
+            <h2>Membership Benefits by Level</h2>
+            <!--change all this-->
             <p>
-                $100 - Entrepreneur Level
-                Ideal for start-up businesses, home-based businesses, or sole-proprietor without employees.
-
-                $200 - Business Level
-                Ideal for businesses with 25 or fewer employees.
-
-                $400 - Corporate Level
+                $100 - Non-profit Level
+                Ideal for new businesses, home-based businesses, or sole-proprietor without employees.
+                <br><br>
+                $200 - Bronze Level
+                Ideal for businesses with 30 or fewer employees.
+                <br><br>
+                $400 - Silver Level
                 Recommended for businesses with 200 or fewer employees.
-
-                $1,000 - Premier Level
-                Recommended for businesses with more than 200 employees. This level is ideal for those planning to
+                <br><br>
+                $1,000 - Gold Level
+                Recommended for businesses with more than 200 employees. Ideal for those planning to
                 attend multiple Signature events and prefer to be billed for all events and benefits only once per year.
 
-
-
+                <br><br>
+                <img src="images/table.png" alt="image of benefits">
 
 
             </p>
         </section>
-
 
 
         <section class="form">
@@ -123,7 +124,7 @@
             <hr>
 
 
-            <form method="get" action="thanks.html">
+            <form method="get" action="thank-you-letter.html">
 
                 <div>
                     <fieldset class="form">
@@ -167,7 +168,7 @@
 
                     <!--business name-->
                     <label class="top" for="business">Business Name(required)
-                        <input class="box" type="text" id="business" name="business_name" pattern="[A-Z a-z]{5,}"
+                        <input class="box" type="text" id="business" name="business_name" 
                             required>
                     </label>
                     <!--business address-->
@@ -241,7 +242,7 @@
             </div>
             <br>
             <div><span id="currentdate"></span></div>
-            <p><span id="copy">&copy; </span>Glendale Chamber of Commerce | Alejandra Black</p>
+            <p><span id="copy">&copy; </span>Glendale City Chamber of Commerce | Alejandra Black</p>
             <a id="weathersite" href="https://openweathermap.org/">Open Weather Map</a> |
             <a id="weatherwarning" href="https://www.willyweather.com/az/maricopa-county/glendale.html">Willy
                 Weather</a></p>

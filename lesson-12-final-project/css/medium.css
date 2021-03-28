@@ -51,6 +51,11 @@
         text-align:center; 
 
     }
+    .mother-daugther{
+        max-width: 280px;
+        float:right; 
+        padding:5px; 
+    }
    
    
 }
