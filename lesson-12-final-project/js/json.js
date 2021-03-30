@@ -1,5 +1,5 @@
 const requestURL = 'https://raw.githubusercontent.com/Alejandra-B/Alejandra-B.github.io/master/lesson-12-final-project/file.json';
-console.log(requestURL); 
+
 
 fetch(requestURL)
     .then(function (response) {
@@ -25,7 +25,7 @@ fetch(requestURL)
                 name.textContent = businesses[i].name;
                 address.textContent = "Address:" + '' + businesses[i].address;
                 city.textContent = "City:" + '' + businesses[i].city;
-                website.textContent = "Website:" + '' + businesses[i].website;;
+                website.textContent = "Website:" + '' + businesses[i].website;
 
 
                 //this is how to append the element to the card and paragraph
@@ -33,6 +33,7 @@ fetch(requestURL)
                 p.appendChild(address);
                 p.appendChild(city);
                 p.appendChild(website);
+                card.appendChild(p);
                 
 
                 document.querySelector('div.cards').appendChild(card);

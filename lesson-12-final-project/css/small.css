@@ -180,11 +180,6 @@ h3 {
     text-align: center;
 }
 
-
-
-
-
-
 /**purpose and goals**/
 
 .purpose {
@@ -241,7 +236,6 @@ h3 {
     grid-row-gap: 8px;
     padding: 10px;
     margin-bottom: auto;
-
 }
 
 
@@ -268,8 +262,9 @@ img[data-src] {
 
 .shadow {
     max-width: 200px;
-    margin:auto; 
+    margin: auto;
 }
+
 /**advertisement**/
 .deals {
     display: inline;
@@ -287,83 +282,95 @@ figcaption {
     grid-gap: 10px;
     padding: 20px;
 }
-.hotdeals{
+
+.hotdeals {
     text-align: center;
 }
+
 /**city**/
-.history-title{
-    text-align:center;
-}
-section.demographics {
-    margin:auto;
-    text-align:left;
-    padding:10px; 
-}
-.city-events {
-    margin:auto;
+.history-title {
     text-align: center;
-    padding:10px; 
-
 }
 
-.shadow{
-    margin:auto; 
-}/*this class belongs to the image on the events section on the city page*/
-
-.events-title{
-    background-color:#FcA311; 
-    padding:25px; 
-    border:1px solid black;  
+section.demographics {
+    margin: auto;
+    text-align: left;
+    padding: 10px;
 }
 
-.city{
-    max-width:400px; 
+.city-events {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
 }
-.history{
-   display:grid; 
-   grid-template-columns: 1fr;
-   grid-gap: 30px; 
-  font-size: 16px;
-  min-height: 20px; ;
+
+.shadow {
+    margin: auto;
 }
-.history-article{
-    padding:20px; 
+
+/*this class belongs to the image on the events section on the city page*/
+
+.events-title {
+    background-color: #FcA311;
+    padding: 25px;
+    border: 1px solid black;
 }
-img.city{
+
+.city {
+    max-width: 400px;
+}
+
+.history {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+    font-size: 16px;
+    min-height: 20px;
+}
+
+.history-article {
+    padding: 20px;
+}
+
+img.city {
     padding: 5px;
-    border-radius:75%; 
-    max-width:300px; 
-    margin:auto; 
-    width:100%; 
-}
-.continue-reading{
-    color:blue; 
+    border-radius: 75%;
+    max-width: 300px;
+    margin: auto;
+    width: 100%;
 }
 
-.demographics{
+.continue-reading {
+    color: blue;
+}
+
+.demographics {
     text-align: left;
 }
 
 /***********join page***************/
-.why-join{
+.why-join {
     background-color: #464646;
-    color: white; 
-    padding:10px; 
+    color: white;
+    padding: 10px;
     text-align: left;
-    border:1px solid #FCA311; 
-    
+    border: 1px solid #FCA311;
+
 }
-.members-benefits-site{
-    color:white; 
+
+.members-benefits-site {
+    color: white;
 }
-  ul{
-    font-size:18px; 
+
+ul {
+    font-size: 18px;
     text-align: left;
-    padding:2px; 
+    padding: 2px;
 }
- ol{
-     padding-left:5px; 
- }
+
+ol {
+    padding-left: 5px;
+}
 
 /**join page form**/
 
@@ -421,14 +428,16 @@ label.submitButton {
 
 
 
-section.form{
+section.form {
     max-width: 600px;
-    margin:auto; 
+    margin: auto;
     padding: 15px;
 }
-textarea#msg.descriptionBox{
-    margin: 0px 0px 0px 12px; 
+
+textarea#msg.descriptionBox {
+    margin: 0px 0px 0px 12px;
 }
+
 input.button {
     display: grid;
     border: none;
@@ -444,138 +453,95 @@ input.button {
     text-align: center;
     border-style: ridge;
 }
-/**testimonial section**/
-.contentbox{
-    padding: 20px;
-    font-family: 'Open Sans', sans-serif; 
-    max-width:700px; 
-    text-align: left;
-    margin:auto; 
-}
-.mother-daugther{
-    max-width: 200px;
-   margin: auto; 
 
-  
+/**testimonial section**/
+.contentbox {
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 700px;
+    text-align: left;
+    margin: auto;
 }
-.testimonial{
-    border-left: 2px solid#FCA311 ;
-  height: 200px;
-  padding:10px; 
+
+.mother-daugther {
+    max-width: 200px;
+    margin: auto;
 }
+
+.testimonial {
+    border-left: 2px solid#FCA311;
+    height: 200px;
+    padding: 10px;
+}
+
 /**membership benefits**/
-.membership{
-  max-width:700px;
-  margin:auto; 
+.membership {
+    max-width: 700px;
+    margin: auto;
 }
+
+.table {
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.2);
+    border: solid 2px orange;
+}
+
+
+
 /**thank you letter**/
-.thank-you-letter{
-    margin:auto; 
-    text-align:center; 
-    padding:50px; 
+.thank-you-letter {
+    margin: auto;
+    text-align: center;
+    padding: 50px;
 }
 
 /**************contact page****************/
-.contact-page{
-    margin:auto; 
-    text-align:center; 
-}
-.contact-form{
-   max-width:700px;  
-   margin:auto; 
-   width:100%; 
-    
-}
-.contact-heading{
-    text-align:center; 
-}
-.board-background{ 
-padding:20px; 
-}
-.board-of-directors{
-    display: grid;
-    grid-template-columns: 350px ; 
-    grid-gap:20px; 
-}
-/*************Directory*************/
-
-.filter-buttons {
-    display: flex;
-    margin-bottom: 20px;
-  }
-  
-  .list-view-button,
-  .grid-view-button {
-    color: black;
-    border: 2px solid black;
-    padding: 5px;
-    font-size: 17px;
-    cursor: pointer;
-    border-radius: 3px;
-  }
-  
-  .list-view-button:hover,
-  .grid-view-button:hover {
-    background: white;
-    color: #0e2439;
-  }
-  
-  .list-view-button {
-    margin-right: 10px;
-  }
-  
-  .list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  li {
-   
-    color: black;
-    border-radius: 3px;
-    margin-bottom: 10px;
-    transition: 0.3s;
-  }
-  
-  
-  .list.list-view-filter {
-    flex-direction: column;
-  }
-  
-  .list.list-view-filter li {
-    padding: 10px;
-  }
-  
-  .list.grid-view-filter {
-    flex-flow: row wrap;
-  }
-  
-  .list.grid-view-filter li {
-    width: calc(50% - 210px);
-    padding: 100px;
-    margin-right: 10px;
+.contact-page {
+    margin: auto;
     text-align: center;
-  }
+}
+
+.contact-form {
+    max-width: 700px;
+    margin: auto;
+    width: 100%;
+}
+
+.contact-heading {
+    text-align: center;
+}
+
+.board-background {
+    padding: 20px;
+}
+
+.board-of-directors {
+    display: grid;
+    grid-template-columns: 350px;
+    grid-gap: 20px;
+}
+
+/*************Directory*************/
 
 
 
 /*********gallery page *********/
-.mySlides {display:none;
-width:100%;
+.mySlides {
+    display: none;
+    width: 100%;
 }
- .images{
-     max-width:600px; 
-     margin:auto; 
- }
- .last-gallery{
-     padding:20px;
-     text-align:center;
-     max-width:900px; 
-     margin:auto;
- }
- 
+
+.images {
+    max-width: 600px;
+    margin: auto;
+}
+
+.last-gallery {
+    padding: 20px;
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+}
+
 /************footer************/
 footer {
     color: white;
@@ -583,8 +549,6 @@ footer {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 15px;
-
-
 }
 
 .social {
@@ -604,7 +568,3 @@ footer {
 
 }
 
-
-
-
-}
