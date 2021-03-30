@@ -1,5 +1,5 @@
-const requestURL = 'file.json';
-
+const requestURL = 'https://raw.githubusercontent.com/Alejandra-B/Alejandra-B.github.io/master/lesson-12-final-project/file.json';
+console.log(requestURL); 
 
 fetch(requestURL)
     .then(function (response) {
