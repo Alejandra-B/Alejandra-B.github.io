@@ -1,0 +1,48 @@
+{
+    "businesses": [
+        {
+            "name": "Yogurtini",
+            "address": "14175 W Indian School Rd",
+            "city": "Goodyear,AZ",
+            "website": "yogurtini.com"
+        },
+        {
+            "name": "Crumbl Cookies",
+            "address": "9390 W. Hanna Ln. Unit B-103",
+            "city": "Glendale,AZ",
+            "website": "crumblcookies.com",
+        }
+    
+    {
+            "name": "Fry's Market Place",
+            "address": "13730 W Camelback Rd.",
+            "city": "Glendale,AZ",
+            "website": "frysfood.com",
+        }
+    {
+            "name": "Goodwill Retail Stores",
+            "address": "Dysart and Camelback",
+            "city": "Glendale,AZ",
+            "website": "goodwillaz.org",
+        }
+    {
+            "name": "Domino's Pizza",
+            "address": "Indian Road and Litchfield Rd.",
+            "city": "Goodyear,Az",
+            "website": "dominos.com",
+        }
+    
+    {
+            "name": "Commissary",
+            "address": "7175 N.138th Ave.",
+            "city": "Glendale,AZ",
+            "website": "commissaries.com",
+        }
+    {
+            "name": "Sun Coast Dental",
+            "address": "Camelback and Litchfield Rd",
+            "city": "Glendale,AZ",
+            "website": "suncoastdentalaz.com",
+        }
+    ]
+}
