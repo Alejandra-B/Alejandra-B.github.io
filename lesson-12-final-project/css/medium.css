@@ -24,44 +24,49 @@
     nav ul.hide {
         display: flex;
     }
-/**home page**/
+
+    /**home page**/
     div.mygallery {
         display: flex;
     }
-    .mygallery2{
-        display:grid; 
-        grid-template-columns: 200px 200px 200px ; 
-        grid-gap: 65px; 
-        padding: 15px; 
-     }
-     /**city page**/
-     img.city{
-        margin:auto;
+
+    .mygallery2 {
+        display: grid;
+        grid-template-columns: 200px 200px 200px;
+        grid-gap: 65px;
+        padding: 15px;
     }
+
+    /**city page**/
+    img.city {
+        margin: auto;
+    }
+
     /**join page**/
-    .why-join{
+    .why-join {
         background-color: #464646;
-        color: white; 
-        padding:20px; 
+        color: white;
+        padding: 20px;
         text-align: center;
-        border:2px solid #FCA311; 
+        border: 2px solid #FCA311;
     }
-    ol ul{
-        font-size:18px; 
-        text-align:center; 
+
+    ol ul {
+        font-size: 18px;
+        text-align: center;
 
     }
-    .mother-daugther{
+
+    .mother-daugther {
         max-width: 280px;
-        float:right; 
-        padding:5px; 
+        float: right;
+        padding: 5px;
     }
+
     /**contact form**/
-    .board-of-directors{
+    .board-of-directors {
         display: grid;
-        grid-template-columns: 350px 350px; 
-        grid-gap:20px; 
+        grid-template-columns: 350px 350px;
+        grid-gap: 20px;
     }
-   
-   
 }
