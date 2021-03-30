@@ -58,6 +58,7 @@ nav {
     background-color: #0000;
     text-align: center;
     display: block;
+    box-shadow: 0 0 15px rgb(92, 90, 90);
 }
 
 
@@ -72,10 +73,7 @@ nav ul {
 nav li {
     display: inline;
     text-decoration: none;
-
 }
-
-
 
 nav ul li a {
     display: block;
@@ -499,6 +497,70 @@ padding:20px;
     grid-template-columns: 350px ; 
     grid-gap:20px; 
 }
+/*************Directory*************/
+
+.filter-buttons {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .list-view-button,
+  .grid-view-button {
+    color: black;
+    border: 2px solid black;
+    padding: 5px;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .list-view-button:hover,
+  .grid-view-button:hover {
+    background: white;
+    color: #0e2439;
+  }
+  
+  .list-view-button {
+    margin-right: 10px;
+  }
+  
+  .list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  li {
+   
+    color: black;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+  }
+  
+  
+  .list.list-view-filter {
+    flex-direction: column;
+  }
+  
+  .list.list-view-filter li {
+    padding: 10px;
+  }
+  
+  .list.grid-view-filter {
+    flex-flow: row wrap;
+  }
+  
+  .list.grid-view-filter li {
+    width: calc(50% - 210px);
+    padding: 100px;
+    margin-right: 10px;
+    text-align: center;
+  }
+
+
+
 /*********gallery page *********/
 .mySlides {display:none;
 width:100%;
