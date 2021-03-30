@@ -1,4 +1,4 @@
-const apiURL = "https://api.openweathermap.org/data/2.5/onecall?lat=33.548264&lon=-112.191696&exclude=current&appid=96658d9a7e75c72252f06d47773c60d7";
+const apiURL = "https://api.openweathermap.org/data/2.5/onecall?lat=33.548264&lon=-112.191696&exclude=hourly,daily,minutely&units=imperial&appid=7af5ae2353444deccd098462eae9a156";
 console.log(apiURL);
 //weather box
 
@@ -25,3 +25,5 @@ fetch(apiURL)
 
 
     });
+
+    

@@ -1,5 +1,5 @@
-const five_dayapiURL = "https://api.openweathermap.org/data/2.5/onecall?lat=33.548264&lon=-112.191696&exclude=current&appid=96658d9a7e75c72252f06d47773c60d7";
-
+const five_dayapiURL = "https://api.openweathermap.org/data/2.5/onecall?lat=33.548264&lon=-112.191696&appid=96658d9a7e75c72252f06d47773c60d7";
+console.log(five_dayapiURL);
 
 fetch(five_dayapiURL)
     .then((response) => response.json())
@@ -9,7 +9,7 @@ fetch(five_dayapiURL)
         //variables:
         let weekday = ['Sun', 'Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat'];
         let this_day = 0; //the current day will be on 0 index
-        let five_days = jsObject.list.filter(x => x.dt_txt.includes('18:00:00')); //x:object, x.dt_text:category, 18:00:00:value
+        let five_days = jsObject.list.filter(x => x.dt.includes('daily.temp.day')); 
         console.log(five_days); 
         //loop through each of the forecast days
         five_days.forEach(jsObject => { // the api will loop for every day of the week 
