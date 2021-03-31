@@ -42,6 +42,15 @@
         margin: auto;
     }
 
+    .pie-chart {
+        margin: auto;
+    }
+
+    section.demographics {
+        text-align: center;
+    }
+
+
     /**join page**/
     .why-join {
         background-color: #464646;

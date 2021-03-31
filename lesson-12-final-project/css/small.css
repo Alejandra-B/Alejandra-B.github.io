@@ -348,6 +348,13 @@ img.city {
     text-align: left;
 }
 
+.pie-chart {
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.2);
+    margin: auto;
+}
+
 /***********join page***************/
 .why-join {
     background-color: #464646;
@@ -567,4 +574,3 @@ footer {
     color: white;
 
 }
-
