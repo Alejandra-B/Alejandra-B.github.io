@@ -47,6 +47,7 @@
         display: grid;
         grid-template-columns: 200px 200px 200px 200px 200px 200px 200px;
         grid-gap: 15px;
+        padding:20px; 
     }
 
     /**city page**/
