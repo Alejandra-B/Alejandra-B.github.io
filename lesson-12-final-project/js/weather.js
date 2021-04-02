@@ -19,9 +19,9 @@ fetch(apiURL)
 
 
         current_conditions.textContent = jsObject.weather[0].description;
-        temperature.textContent = jsObject.main.temp;
-        feels_like.textContent = jsObject.main.feels_like;
-        humidity.textContent = jsObject.main.humidity;
+        temperature.textContent = jsObject.current.temp;
+        feels_like.textContent = jsObject.current.feels_like;
+        humidity.textContent = jsObject.current.humidity;
 
 
     });
