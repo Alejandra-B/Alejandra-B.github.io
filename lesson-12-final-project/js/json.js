@@ -41,4 +41,4 @@ fetch(requestURL)
             }
         }
 
-    });
+    ,);
