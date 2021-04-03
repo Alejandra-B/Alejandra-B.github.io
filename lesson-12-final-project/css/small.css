@@ -330,6 +330,9 @@ section.demographics {
     line-height: 20px;
     margin:10px; 
 }
+ol.events-list{
+    padding:20px; 
+}
 
 /*this class belongs to the image on the events section on the city page*/0
 
