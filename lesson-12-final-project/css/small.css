@@ -294,6 +294,12 @@ figcaption {
 .history-title {
     text-align: center;
 }
+#us{
+    text-align: center;
+    line-height: 20px;
+    font-size:20px; 
+    padding: 10px;
+}
 
 section.demographics {
     margin: auto;
@@ -306,18 +312,26 @@ section.demographics {
     text-align: center;
     padding: 10px;
 }
+.city-background{
+    background-color:#FCA311; 
+}
 
 .shadow {
     margin: auto;
+    border: 1px solid white;  
+}
+.events-back{
+    background-color:#465362; 
+    max-width:300px; 
+    display: inline-block;
+    color:white; 
+    padding:20px; 
+    border-radius:20px; 
+    line-height: 20px;
+    margin:10px; 
 }
 
-/*this class belongs to the image on the events section on the city page*/
-
-.events-title {
-    background-color: #FcA311;
-    padding: 25px;
-    border: 1px solid black;
-}
+/*this class belongs to the image on the events section on the city page*/0
 
 .city {
     max-width: 400px;
