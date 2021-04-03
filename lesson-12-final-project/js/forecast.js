@@ -15,7 +15,7 @@ fetch(five_dayapiURL)
     console.log(five_days); 
     //loop through each of the forecast days
     five_days(jsObject => { // the api will loop for every day of the week 
-        let day = new Date(jsObject.current); //this is the new day that is created from the api list
+        let day = new Date(five_days); //this is the new day that is created from the api list
         let imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon +'.png';
         let imagedescription = jsObject.weather[0].description; //  reference the weather array image source description
         let currentday= 'week_day'+ (this_day+1); 
