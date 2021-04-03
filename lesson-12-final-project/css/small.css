@@ -146,9 +146,14 @@ p {
     font-family: 'Open Sans', sans-serif;
 }
 
-ol li {
+ul li {
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
+   
+}
+li{
+    text-decoration: none;
+    list-style-type: none;
 }
 
 h2 {
