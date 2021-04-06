@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-    
+
 
 <head>
     <meta charset="UTF-8">
@@ -18,7 +18,7 @@
 
 <body onload="currentDate()">
 
-    <script src="https://cdnres.willyweather.com/widget/warning/loadView.html?id=134538" ></script>
+    <script src="https://cdnres.willyweather.com/widget/warning/loadView.html?id=134538"></script>
 
     <header>
         <picture>
@@ -77,49 +77,47 @@
 
         </section>
 
-        <section class="contact-form">
+        <div class="contact-form">
             <h2 class="contact-heading">If you have any questions or concerns please contact us by filling the following
                 form:</h2>
-            <form method="get" action="thanks.html">
+            <form method="get" action="thanks.html"></form>
 
-                <fieldset class="form">
+            <fieldset class="form">
 
-                    <legend>Applicant Information</legend>
-                    <!--full name-->
-                    <label class="top" for="name">Full Name(required)
-                        <input class="box" type="text" id="name" name="user_name" pattern="[A-Z a-z]{5,}"
-                            required></label>
-                    <!--I need to add more here, see the requirement page-->
-
-
-                    <!--email-->
-                    <label class="top" for="mail">E-mail Address
-                        <input class="box" type="email" id="mail" name="user_email"
-                            placeholder="user@email.com"></label>
+                <legend>Applicant Information</legend>
+                <!--full name-->
+                <label class="top" for="name">Full Name(required)
+                    <input class="box" type="text" id="name" name="user_name" pattern="[A-Z a-z]{5,}" required></label>
+                <!--I need to add more here, see the requirement page-->
 
 
-                    <!--phone number-->
-                    <label class="top" for="phone">Phone Number(required)
-                        <input class="box" type="tel" id="phone" name="user_phone" placeholder="###-###-####"
-                            required></label>
+                <!--email-->
+                <label class="top" for="mail">E-mail Address
+                    <input class="box" type="email" id="mail" name="user_email" placeholder="user@email.com"></label>
 
 
-                    <!--zip code-->
-                    <label class="top" for="zip">ZIP Code(required)
-                        <input class="box" type="number" id="zip" name="zip_code" required></label>
+                <!--phone number-->
+                <label class="top" for="phone">Phone Number(required)
+                    <input class="box" type="tel" id="phone" name="user_phone" placeholder="###-###-####"
+                        required></label>
 
-                </fieldset>
 
-                <fieldset>
-                    <legend>Additional Information</legend>
-                    <label class="submitButton" for="msg">Comments</label>
-                    <textarea class="commentsBox" id="msg" name="user_message"></textarea>
-                </fieldset>
+                <!--zip code-->
+                <label class="top" for="zip">ZIP Code(required)
+                    <input class="box" type="number" id="zip" name="zip_code" required></label>
 
-                <!--form submission button-->
-                <input class="button" type="submit" value="Send Form">
+            </fieldset>
 
-        </section>
+            <fieldset>
+                <legend>Additional Information</legend>
+                <label class="submitButton" for="msg">Comments</label>
+                <textarea class="commentsBox" id="msg" name="user_message"></textarea>
+            </fieldset>
+
+            <!--form submission button-->
+            <input class="button" type="submit" value="Send Form">
+
+        </div>
 
 
 
@@ -182,12 +180,6 @@
             </div>
         </section>
 
-
-
-
-
-
-
     </main>
 
     <footer>
@@ -199,10 +191,11 @@
             <div><span id="currentdate"></span></div>
             <p><span id="copy">&copy; </span>Glendale City Chamber of Commerce | Alejandra Black</p>
             <p><a id="weathersite" href="https://openweathermap.org/">Open Weather Map</a> |
-            <a id="weatherwarning" href="https://www.willyweather.com/az/maricopa-county/glendale.html">Willy
-                Weather</a></p>
+                <a id="weatherwarning" href="https://www.willyweather.com/az/maricopa-county/glendale.html">Willy
+                    Weather</a></p>
             <a id="attribution" href="attribution.html">Attribution Page
-            </a></p>
+            </a>
+            </p>
         </div>
 
 
