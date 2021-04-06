@@ -464,6 +464,9 @@ section.form {
 textarea#msg.descriptionBox {
     margin: 0px 0px 0px 12px;
 }
+textarea#description.descriptionBox{
+    margin-left: 12px; 
+}
 
 input.button {
     display: grid;
@@ -480,6 +483,12 @@ input.button {
     text-align: center;
     border-style: ridge;
 }
+input.button-1 {
+    border-style: ridge;
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+}
+
 
 /**testimonial section**/
 .contentbox {

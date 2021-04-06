@@ -172,16 +172,18 @@
                         <input class="box" type="text" id="business" name="business_name" required>
                     </label>
                     <!--business address-->
-                    <label class="top" for="business-address">Address
-                        <input class="box" type="mail" id="business-address" name="user_address">
+                    <label class="top" for="business_address">Address
+                        <input class="box" type="business-address" id="business_address" name="business_address-address"
+                            name="user_address">
                     </label>
 
                     <!--business website-->
 
 
-                    <label class="top" for="website">Business Website
-                        <input class="box" type="website" id="website" name="user_website">
-                    </label>
+
+                    <label>Enter your website URL: </label>
+                    <input type="url" name="website" placeholder="http://example.com"><br>
+                    <input type="submit" value="send data">
 
 
                     <!--business description-->
@@ -213,7 +215,7 @@
 
                 <!--form submission button-->
                 <input class="button" type="submit" value="Send Form">
-
+                <input class="button-1" type="reset" value="Reset">
 
             </form>
             <!--end of form-->
