@@ -26,6 +26,7 @@
              document.getElementById('current-temp' + (this_day + 1)).textContent = jsObject.current.temp;
              document.getElementById('icon' + (this_day + 1)).setAttribute('src', imagesrc);
              document.getElementById('icon' + (this_day + 1)).setAttribute('alt', imagedescription);
+             this_day++; //increments 1
 
 
 
