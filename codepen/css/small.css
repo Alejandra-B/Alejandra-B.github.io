@@ -64,7 +64,7 @@ body {
 
 div.post-date {
     color: #808080;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 section.post-content a {
@@ -81,14 +81,14 @@ section.post-content a:active {
     text-decoration: none;
 }
 
-p .a {
+p a {
     /*this is not working*/
     color: blue;
 }
 
 article {
     background-color: #ffffff;
-    padding: 20px;
+    padding: 40px;
     text-align: left;
     max-width: 500px;
     box-shadow: 5px 5px #d3d3d3;
