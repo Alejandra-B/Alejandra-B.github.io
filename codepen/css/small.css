@@ -68,7 +68,7 @@ section.post-content a:active {
   color: #deb887;
   text-decoration: none;
 }
-p .a {
+p a {
   /*this is not working*/
   color: blue;
 }
